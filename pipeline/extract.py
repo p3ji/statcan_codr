@@ -72,9 +72,19 @@ def fetch_abs_sdmx(series_id: str) -> pd.DataFrame:
     if df.empty:
         raise RuntimeError(f"ABS SDMX returned no rows for {series_id}")
     df = df.rename(columns={"TIME_PERIOD": "ref_date", "OBS_VALUE": "value"})
-    df["ref_date"] = pd.to_datetime(df["ref_date"])
+    df["ref_date"] = df["ref_date"].apply(_parse_abs_period)
     df["value"] = pd.to_numeric(df["value"], errors="coerce")
     return df.dropna(subset=["value"])[["ref_date", "value"]].sort_values("ref_date")
+
+
+def _parse_abs_period(period: str) -> pd.Timestamp:
+    period = str(period)
+    if "-Q" in period:
+        year, q = period.split("-Q")
+        return pd.Timestamp(int(year), (int(q) - 1) * 3 + 1, 1)
+    if len(period) == 4 and period.isdigit():
+        return pd.Timestamp(int(period), 1, 1)
+    return pd.to_datetime(period, format="%Y-%m")
 
 
 def fetch_pxweb(series_id: str) -> pd.DataFrame:
@@ -147,6 +157,9 @@ def resolve_cell(city: str, indicator_id: str, cell: dict) -> pd.DataFrame:
         df = fetcher(cell["source_series_id"])
 
     df = df.copy()
+    multiplier = cell.get("unit_multiplier")
+    if multiplier:
+        df["value"] = df["value"] * multiplier
     df["city"] = city
     df["indicator"] = indicator_id
     df["unit"] = cell.get("unit")

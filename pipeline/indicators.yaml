@@ -13,10 +13,16 @@
 #                Remaining todo: postsecondary_attainment_rate (all cities — Phase 6,
 #                census-sourced, deliberately out of scope for this MVP), Adelaide
 #                tech_sector_employment_share, Helsinki tech_sector_employment_share
-#                and shelter_cpi, Austin participation_rate (no MSA-level source exists).
+#                and shelter_cpi, Austin participation_rate (no MSA-level source exists),
+#                employment_rate and new_housing_price_index peer cells (Ottawa-only so
+#                far — added 2026-07-10 alongside `population`, which has full 4-city
+#                coverage).
 #
 # `derived: true` + `derived_from` = this indicator isn't a single vector — extract.py
 # must compute it from multiple source series (e.g. a share = numerator/denominator).
+# `unit_multiplier` (optional, default 1) = extract.py multiplies the fetched value by
+# this after resolving the cell — use when a source reports in different units than the
+# other cities for the same indicator (e.g. FRED population series in thousands).
 
 indicators:
 
@@ -109,6 +115,44 @@ indicators:
         source: pxweb
         source_series_id: "StatFin/tyti/137i.px?region=SA1&content=tyti-tyovoimaosuus"
         geo_note: "SA1 Helsinki-Uusimaa proxy, same table as unemployment_rate."
+
+  - id: employment_rate
+    unit: percent
+    comparability: trend
+    comparability_note: >
+      Employment rate (employed / working-age population) is a distinct
+      concept from unemployment_rate's complement — don't assume
+      employment_rate = 100 - unemployment_rate, the denominators differ
+      (population vs. labour force).
+    cities:
+      ottawa:
+        status: confirmed
+        source: statcan_wds
+        source_series_id: v1643278958
+        geo_note: >
+          Ottawa–Gatineau, Ontario/Quebec (combined CMA) — same Table
+          14-10-0459 as unemployment_rate/participation_rate, coordinate
+          19.7.1.1 (Employment rate; Estimate; Seasonally adjusted). UOM:
+          percent.
+      austin:
+        status: todo
+        source: fred
+        source_series_id: null
+        discovery_note: "Not yet searched — likely derivable from LAUS employed persons / civilian labor force (AUST448LF), or a direct employment-to-population ratio series if one exists at MSA level."
+      adelaide:
+        status: todo
+        source: abs_sdmx
+        source_series_id: null
+        discovery_note: >
+          ABS LF dataflow has MEASURE=M16 "Employment to population ratio" —
+          same state-level (REGION=4, South Australia) caveat as
+          unemployment_rate/participation_rate. Not yet wired up, but the
+          measure code is already known from Phase 1 discovery.
+      helsinki:
+        status: todo
+        source: pxweb
+        source_series_id: null
+        discovery_note: "StatFin table 137i has content code 'Tyollisyysaste_15_64' (Employment rate, persons aged 15-64, %) — same SA1 Helsinki-Uusimaa region as the other Helsinki labour indicators. Not yet wired up."
 
   - id: tech_sector_employment_share
     unit: percent
@@ -229,6 +273,97 @@ indicators:
           every table's variable list) — worth one more look, but budget
           expectations accordingly; may end up in the same boat as tech share
           (needs Helsinki's own open-data portal, not national StatFin).
+
+  - id: new_housing_price_index
+    unit: index
+    comparability: trend
+    comparability_note: >
+      This is a house-PRICE index (new-construction transaction prices), a
+      different concept from shelter_cpi (a cost-of-living/rental-inclusive
+      index). Don't plot the two on the same axis expecting them to agree —
+      they measure different things and are two separate indicators for a
+      reason.
+    cities:
+      ottawa:
+        status: confirmed
+        source: statcan_wds
+        source_series_id: v111955493
+        geo_note: >
+          Ottawa–Gatineau, Ontario part, Ontario/Quebec — Table 18-10-0205
+          ("New housing price index, monthly"), coordinate 18.1 (Total —
+          house and land). Same Ontario-part-only caveat as shelter_cpi (no
+          combined bi-provincial CMA member in this table). UOM: index,
+          2016=100.
+      austin:
+        status: todo
+        source: fred
+        source_series_id: null
+        discovery_note: "Austin's shelter_cpi entry already substitutes FHFA's House Price Index (ATNHPIUS12420Q) — a conceptually similar series. Decide whether to reuse it here too or find a distinct new-construction-specific series before wiring this up, to avoid the two Austin indicators being near-duplicates."
+      adelaide:
+        status: todo
+        source: abs_sdmx
+        source_series_id: null
+        discovery_note: "Not yet searched. ABS publishes a Residential Property Price Index (dataflow likely RPPI or similar) with capital-city breakdown — worth checking for true Adelaide-city granularity, unlike the CPI substitute used for shelter_cpi."
+      helsinki:
+        status: todo
+        source: pxweb
+        source_series_id: null
+        discovery_note: "Not yet searched. Statistics Finland publishes 'Prices of dwellings in housing companies' (asuntojen hinnat) with regional/municipality breakdown — worth checking, would likely give better-than-Uusimaa-level granularity given the pattern seen with population (KU091 = Helsinki) and unemployment (tyonv register data)."
+
+  # ── Population & Demographics ─────────────────────────────────
+  - id: population
+    unit: persons
+    frequency: annual
+    comparability: trend
+    comparability_note: >
+      All four cities resolved at genuinely comparable metro-area
+      granularity this time (unlike the labour-force indicators, which hit
+      geography caveats for Adelaide and Helsinki) — see per-city geo_notes,
+      but this is the strongest like-for-like indicator in the manifest.
+      Still trend-only rather than level-comparable: metro-area boundary
+      definitions (CMA/MSA/GCCSA/municipality) aren't identical in what they
+      include even when each is the "best available" city-level figure.
+    cities:
+      ottawa:
+        status: confirmed
+        source: statcan_wds
+        source_series_id: v1589930472
+        geo_note: >
+          Ottawa–Gatineau (CMA), Ontario/Quebec (combined) — Table 17-10-0148
+          ("Population estimates, July 1, by census metropolitan area and
+          census agglomeration, 2021 boundaries"), coordinate 15.1.1 (Total —
+          gender, All ages). Supersedes the now-inactive Table 17-10-0135.
+          UOM: persons, annual (July 1 estimate).
+      austin:
+        status: confirmed
+        source: fred
+        source_series_id: AUSPOP
+        unit_multiplier: 1000
+        geo_note: >
+          Austin-Round Rock, TX (MSA), U.S. Census Bureau resident population
+          estimate via FRED. Reported by FRED in thousands of persons —
+          extract.py multiplies by 1000 to match the other three cities' raw
+          person counts.
+      adelaide:
+        status: confirmed
+        source: abs_sdmx
+        source_series_id: "ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.GCCSA.4GADE.A"
+        geo_note: >
+          Greater Adelaide (GCCSA, ASGS 2021 boundaries) — TRUE city-level
+          granularity, unlike the state-level (South Australia) proxy used
+          for unemployment_rate/participation_rate. ABS does publish
+          GCCSA-level annual Estimated Resident Population even though it
+          doesn't publish GCCSA-level monthly labour force data.
+      helsinki:
+        status: confirmed
+        source: pxweb
+        source_series_id: "StatFin/vaerak/11ra.px?region=KU091&content=vaerak-vaesto"
+        geo_note: >
+          Helsinki (municipality code KU091) — TRUE single-city granularity
+          from StatFin table 11ra ("Key figures on population"), unlike the
+          SA1 Helsinki-Uusimaa major-region proxy used for the labour-force
+          indicators. This is the only indicator where Helsinki resolves to
+          the actual city rather than a broader region.
 
   # ── Demographics (census-sourced — static, not a monthly series) ─
   - id: postsecondary_attainment_rate

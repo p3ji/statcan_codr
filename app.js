@@ -7,8 +7,11 @@
 const INDICATOR_LABELS = {
   unemployment_rate: 'Unemployment Rate',
   participation_rate: 'Participation Rate',
+  employment_rate: 'Employment Rate',
   tech_sector_employment_share: 'Tech Sector Employment Share (NAICS 54 / equivalent)',
   shelter_cpi: 'Shelter / Housing Cost Index',
+  new_housing_price_index: 'New Housing Price Index',
+  population: 'Population',
 };
 
 const CITY_LABELS = { ottawa: 'Ottawa', austin: 'Austin', adelaide: 'Adelaide', helsinki: 'Helsinki' };
