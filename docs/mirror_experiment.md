@@ -44,13 +44,18 @@ table markup, one headline sentence with the key figure, schema.org/Dataset JSON
 (`sameAs`/`isBasedOn` → canonical table; `creator` = Statistics Canada; Open Licence),
 prominent "Source: Statistics Canada, Table …" attribution, explicit not-affiliated notice.
 Discovery: `sitemap.xml` at site root + footer link from the dashboard index, plus
-(as of 2026-07-19) manual sitemap submission to **Bing Webmaster Tools** for
-`https://p3ji.github.io/stats/` — site verified via HTML meta tag
-(`msvalidate.01`, added to `index.html`), sitemap submitted at
-`https://p3ji.github.io/stats/sitemap.xml`. This is a deliberate crawl-discovery
-nudge and is part of the treatment (not a passive-discovery-only design); no
-other promotion (no aggregator submissions, no backlink building, no Google
-Search Console at this time) — record here if that changes.
+(as of 2026-07-19) manual sitemap submission to **both Bing Webmaster Tools and
+Google Search Console** for `https://p3ji.github.io/stats/` — site verified via
+HTML meta tag in each (`msvalidate.01` and `google-site-verification`, both in
+`index.html`), sitemap submitted at `https://p3ji.github.io/stats/sitemap.xml`
+in each console. This is a deliberate, symmetric crawl-discovery nudge and is
+part of the treatment (not a passive-discovery-only design) — applied equally
+to both engines, so it doesn't bias the Bing-vs-Google comparison. No other
+promotion (no aggregator submissions, no backlink building) — record here if
+that changes. Google's sitemap status showed "Couldn't fetch" immediately
+after submission (2026-07-19); confirmed the sitemap itself returns 200 with
+correct `Content-Type: application/xml` and no blocking `robots.txt` — likely
+a normal first-attempt lag, watch for it to resolve on its own.
 
 **Treatment URL change (2026-07-19):** the site was renamed from
 `p3ji.github.io/statcan_codr/` to `p3ji.github.io/stats/` (repo `statcan_codr` → `stats`,
@@ -125,12 +130,12 @@ Secondary: does the mirror page itself get indexed (site: queries) and crawled
 ## Threats / caveats
 
 - New domain-path with zero authority; 12 weeks may undercount Google-side effects.
-- **Asymmetric discovery push**: Bing Webmaster Tools got a verified, submitted sitemap
-  (2026-07-19); Google Search Console has not (as of this writing). Since Bing Copilot
-  Search is the primary re-audit surface and shares Bing's index, this asymmetry likely
-  *helps* the Bing-side outcome relative to a pure "just crawl it naturally" design —
-  note this when interpreting Bing results, and submit to Google Search Console too if a
-  same-treatment comparison across engines becomes a goal.
+- **Discovery push is deliberate, not passive**: both Bing Webmaster Tools and Google
+  Search Console got a verified site + submitted sitemap (2026-07-19). This is uniform
+  across the two consoles, so it doesn't bias a Bing-vs-Google comparison, but it does
+  mean the design measures "crawlable + actively submitted," not "crawlable and left to
+  be found naturally." Note this distinction if the experiment is ever generalized to
+  "would this work with zero outreach."
 - The dashboard site itself is low-traffic; discovery depends on sitemap + crawl, which
   is the mechanism under test (crawlability, not popularity).
 - Bing Copilot Search answers are nondeterministic; single-shot per re-audit (same as
