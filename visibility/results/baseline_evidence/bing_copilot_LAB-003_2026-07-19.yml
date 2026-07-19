@@ -1,0 +1,159 @@
+- generic [active] [ref=f35e1]:
+  - generic [ref=f35e2]:
+    - link [ref=f35e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f35e4]
+    - navigation "Search Filter" [ref=f35e5]:
+      - list [ref=f35e6]:
+        - listitem [ref=f35e7]:
+          - link "All" [ref=f35e8] [cursor=pointer]:
+            - /url: /search?q=average%20salary%20in%20canada%20by%20province&FORM=HDRSC1
+        - link "Search" [ref=f35e9] [cursor=pointer]
+        - listitem [ref=f35e17]:
+          - link "Images" [ref=f35e18] [cursor=pointer]:
+            - /url: /images/search?q=average%20salary%20in%20canada%20by%20province&FORM=HDRSC3
+        - listitem [ref=f35e19]:
+          - link "Videos" [ref=f35e20] [cursor=pointer]:
+            - /url: /videos/search?q=average%20salary%20in%20canada%20by%20province&FORM=HDRSC4
+        - listitem [ref=f35e21]:
+          - link "Maps" [ref=f35e22] [cursor=pointer]:
+            - /url: /maps?q=average%20salary%20in%20canada%20by%20province&FORM=HDRSC6
+        - listitem [ref=f35e23]:
+          - link "News" [ref=f35e24] [cursor=pointer]:
+            - /url: /news/search?q=average%20salary%20in%20canada%20by%20province&FORM=HDRSC7
+        - listitem [ref=f35e25]:
+          - link "Shopping" [ref=f35e26] [cursor=pointer]:
+            - /url: /shop/topics?q=average%20salary%20in%20canada%20by%20province&FORM=SHOPTB
+      - button "More" [ref=f35e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f35e32]:
+      - button "Microsoft Rewards" [ref=f35e58] [cursor=pointer]:
+        - generic [ref=f35e59]: Rewards
+      - link [ref=f35e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f35e36]
+  - generic [ref=f35e38]:
+    - generic [ref=f35e39]:
+      - generic [ref=f35e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f35e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f35e42]:
+        - listitem [ref=f35e43]:
+          - generic [ref=f35e44]:
+            - generic "Sent by you. average salary in canada by province" [ref=f35e45]: average salary in canada by province
+            - generic [ref=f35e78]:
+              - button "Like" [ref=f35e79]
+              - button "Dislike" [ref=f35e82]
+          - iframe [ref=f35e86]:
+            - main "Search Results" [ref=f48e3]:
+              - generic [ref=f48e4]:
+                - list [ref=f48e5]:
+                  - listitem [ref=f48e6]:
+                    - region "Copilot Search" [ref=f48e10]:
+                      - list
+                      - generic [ref=f48e11]:
+                        - heading "Search results" [level=2] [ref=f48e13]
+                        - list [ref=f48e19]:
+                          - listitem [ref=f48e20]:
+                            - link "Global Web Icon wealthnorth.ca https://wealthnorth.ca/income/average-income/average-salary-canada Average Salary in Canada 2026 | By Province, Age, Occupation ... Use the salary calculator to model take-home pay for any province." [ref=f48e22] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=8159b59cf9c038a273a9cf4a51c0da67c77d1681bb93735f0e5c300a8e8ab050JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93ZWFsdGhub3J0aC5jYS9pbmNvbWUvYXZlcmFnZS1pbmNvbWUvYXZlcmFnZS1zYWxhcnktY2FuYWRhLw&ntb=1
+                              - generic [ref=f48e23]:
+                                - img "Global Web Icon" [ref=f48e26]
+                                - generic [ref=f48e27]:
+                                  - generic [ref=f48e28]: wealthnorth.ca
+                                  - generic [ref=f48e29]:
+                                    - text: https://wealthnorth.ca/income/
+                                    - strong [ref=f48e30]: average
+                                    - text: "-income/"
+                                    - strong [ref=f48e31]: average-salary
+                                    - text: "-"
+                                    - strong [ref=f48e32]: canada
+                              - generic [ref=f48e33]: Average Salary in Canada 2026 | By Province, Age, Occupation ...
+                              - generic [ref=f48e34]:
+                                - text: Use the
+                                - strong [ref=f48e35]: salary
+                                - text: calculator to model take-home
+                                - strong [ref=f48e36]: pay
+                                - text: for any
+                                - strong [ref=f48e37]: province
+                                - text: .
+                            - 'link "Global Web Icon canadianow.com https://canadianow.com/average-salary-in-canada Average Salary in Canada (2026): Province-by-Province Breakdown Figures rounded from Statistics Canada Survey of Employment, Payroll and Hours, late 2025. The most recent reference month available at publication is December 2025; the average for 2026 is expected to track similar levels." [ref=f48e39] [cursor=pointer]':
+                              - /url: https://www.bing.com/ck/a?!&&p=56018a4c9745cb03d521f2f2e222232b83b202f9b02035fbfd5dff03f05cb42bJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9jYW5hZGlhbm93LmNvbS9hdmVyYWdlLXNhbGFyeS1pbi1jYW5hZGEv&ntb=1
+                              - generic [ref=f48e40]:
+                                - img "Global Web Icon" [ref=f48e43]
+                                - generic [ref=f48e44]:
+                                  - generic [ref=f48e45]: canadianow.com
+                                  - generic [ref=f48e46]:
+                                    - text: https://canadianow.com/
+                                    - strong [ref=f48e47]: average-salary
+                                    - text: "-"
+                                    - strong [ref=f48e48]: in-canada
+                              - generic [ref=f48e49]: "Average Salary in Canada (2026): Province-by-Province Breakdown"
+                              - generic [ref=f48e50]:
+                                - text: Figures rounded from Statistics
+                                - strong [ref=f48e51]: Canada
+                                - text: Survey of Employment, Payroll and Hours, late 2025. The most recent reference month available at publication is December 2025; the
+                                - strong [ref=f48e52]: average
+                                - text: for 2026 is expected to track similar levels.
+                          - listitem [ref=f48e53]:
+                            - generic [ref=f48e55]:
+                              - 'link "Global Web Icon jobqoo.com • https://jobqoo.com/average-salary-in-canada Average Salary in Canada (2026): Province-by-Province Breakdown We’ll break down the average salaries in every Canadian province, explain why wages differ across the country, compare salaries with the cost of living, …" [ref=f48e56] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=bbe7c9cf5ea8fe3f3754b228ac04ca956ab1f0999b3dd2e3d4e22009ca4bd13fJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9qb2Jxb28uY29tL2F2ZXJhZ2Utc2FsYXJ5LWluLWNhbmFkYS8&ntb=1
+                                - generic [ref=f48e57]:
+                                  - img "Global Web Icon" [ref=f48e60]
+                                  - generic [ref=f48e61]:
+                                    - generic [ref=f48e62]: jobqoo.com •
+                                    - generic [ref=f48e63]:
+                                      - text: https://jobqoo.com/
+                                      - strong [ref=f48e64]: average-salary
+                                      - text: "-"
+                                      - strong [ref=f48e65]: in-canada
+                                - 'heading "Average Salary in Canada (2026): Province-by-Province Breakdown" [level=1] [ref=f48e66]'
+                                - generic [ref=f48e67]:
+                                  - text: We’ll break down the
+                                  - strong [ref=f48e68]: average salaries
+                                  - text: in every
+                                  - strong [ref=f48e69]: Canadian province
+                                  - text: ", explain why wages differ across the country, compare"
+                                  - strong [ref=f48e70]: salaries
+                                  - text: with the cost of living, …
+                              - link "Statistics Canada • https://www150.statcan.gc.ca/n1/daily-quotidien/250603/cg-a002-eng.htm Average annual salaries, Canada, provinces and territories, 2023 This is a bar clustered chart. Table 36-10-0654-01." [ref=f48e71] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=785175c42280a1e68bcd2ce2ea3772a33b4f99a9fc161e106b2323b4d73e0f3fJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cxNTAuc3RhdGNhbi5nYy5jYS9uMS9kYWlseS1xdW90aWRpZW4vMjUwNjAzL2NnLWEwMDItZW5nLmh0bQ&ntb=1
+                                - generic [ref=f48e75]:
+                                  - generic [ref=f48e76]: Statistics Canada •
+                                  - generic [ref=f48e77]: https://www150.statcan.gc.ca/n1/daily-quotidien/250603/cg-a002-eng.htm
+                                - heading "Average annual salaries, Canada, provinces and territories, 2023" [level=1] [ref=f48e78]
+                                - generic [ref=f48e79]: This is a bar clustered chart. Table 36-10-0654-01.
+                              - link "Global Web Icon Narcity • https://www.narcity.com/average-salaries-canada-august-2025 Here's what an 'average' salary looks like in every Canadian province ... What constitutes an \"average\" salary in Canada varies widely depending on where you live. Cost of living, industry mix and regional economic factors all p…" [ref=f48e80] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=1c7c17e3399390b6989d704b5dfc563cbc4618e5fc57bb3dd9ff21aaf8ee3861JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cubmFyY2l0eS5jb20vYXZlcmFnZS1zYWxhcmllcy1jYW5hZGEtYXVndXN0LTIwMjU&ntb=1
+                                - generic [ref=f48e81]:
+                                  - img "Global Web Icon" [ref=f48e84]
+                                  - generic [ref=f48e85]:
+                                    - generic [ref=f48e86]: Narcity •
+                                    - generic [ref=f48e87]:
+                                      - text: https://www.narcity.com/
+                                      - strong [ref=f48e88]: average
+                                      - text: "-"
+                                      - strong [ref=f48e89]: salaries
+                                      - text: "-"
+                                      - strong [ref=f48e90]: canada
+                                      - text: "-august-2025"
+                                - heading "Here's what an 'average' salary looks like in every Canadian province ..." [level=1] [ref=f48e91]
+                                - generic [ref=f48e92]:
+                                  - text: What constitutes an "
+                                  - strong [ref=f48e93]: average
+                                  - text: "\""
+                                  - strong [ref=f48e94]: salary
+                                  - text: in
+                                  - strong [ref=f48e95]: Canada
+                                  - text: varies widely depending on where you live. Cost of living, industry mix and regional economic factors all p…
+                - list
+                - complementary "Additional Results" [ref=f48e96]:
+                  - list
+    - generic [ref=f35e47]:
+      - status [ref=f35e76]
+      - generic [ref=f35e49]:
+        - textbox "Ask a follow-up" [ref=f35e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f35e55] [cursor=pointer]

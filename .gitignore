@@ -9,3 +9,6 @@ __pycache__/
 .vscode/
 .idea/
 .claude/settings.local.json
+visibility/cache/
+.playwright-mcp/
+.codex/

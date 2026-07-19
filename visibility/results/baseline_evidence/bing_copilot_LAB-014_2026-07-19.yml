@@ -1,0 +1,153 @@
+- generic [active] [ref=f105e1]:
+  - generic [ref=f105e2]:
+    - link [ref=f105e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f105e4]
+    - navigation "Search Filter" [ref=f105e5]:
+      - list [ref=f105e6]:
+        - listitem [ref=f105e7]:
+          - link "All" [ref=f105e8] [cursor=pointer]:
+            - /url: /search?q=how%20many%20canadians%20work%20in%20the%20public%20sector&FORM=HDRSC1
+        - link "Search" [ref=f105e9] [cursor=pointer]
+        - listitem [ref=f105e17]:
+          - link "Images" [ref=f105e18] [cursor=pointer]:
+            - /url: /images/search?q=how%20many%20canadians%20work%20in%20the%20public%20sector&FORM=HDRSC3
+        - listitem [ref=f105e19]:
+          - link "Videos" [ref=f105e20] [cursor=pointer]:
+            - /url: /videos/search?q=how%20many%20canadians%20work%20in%20the%20public%20sector&FORM=HDRSC4
+        - listitem [ref=f105e21]:
+          - link "Maps" [ref=f105e22] [cursor=pointer]:
+            - /url: /maps?q=how%20many%20canadians%20work%20in%20the%20public%20sector&FORM=HDRSC6
+        - listitem [ref=f105e23]:
+          - link "News" [ref=f105e24] [cursor=pointer]:
+            - /url: /news/search?q=how%20many%20canadians%20work%20in%20the%20public%20sector&FORM=HDRSC7
+        - listitem [ref=f105e25]:
+          - link "Shopping" [ref=f105e26] [cursor=pointer]:
+            - /url: /shop/topics?q=how%20many%20canadians%20work%20in%20the%20public%20sector&FORM=SHOPTB
+      - button "More" [ref=f105e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f105e32]:
+      - button "Microsoft Rewards" [ref=f105e58] [cursor=pointer]:
+        - generic [ref=f105e59]: Rewards
+      - link [ref=f105e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f105e36]
+  - generic [ref=f105e38]:
+    - generic [ref=f105e39]:
+      - generic [ref=f105e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f105e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f105e42]:
+        - listitem [ref=f105e43]:
+          - generic [ref=f105e44]:
+            - generic "Sent by you. how many canadians work in the public sector" [ref=f105e45]: how many canadians work in the public sector
+            - generic [ref=f105e78]:
+              - button "Like" [ref=f105e79]
+              - button "Dislike" [ref=f105e82]
+          - iframe [ref=f105e86]:
+            - main "Search Results" [ref=f118e3]:
+              - generic [ref=f118e4]:
+                - list [ref=f118e5]:
+                  - listitem [ref=f118e6]:
+                    - region "Copilot Search" [ref=f118e10]:
+                      - list
+                      - generic [ref=f118e11]:
+                        - heading "Search results" [level=2] [ref=f118e13]
+                        - list [ref=f118e19]:
+                          - listitem [ref=f118e20]:
+                            - link "Global Web Icon canadavisuals.ca https://www.canadavisuals.ca/p/how-many-canadians-work-in-the-public-sector How Many Canadians Work in the Public Sector? Of those, 4.55 million worked in the public sector, representing 21.6% of all employed Canadians. The private sector accounted for 13.77 million workers, or 65.5%, while another 2.71 million Canadians were self-employed." [ref=f118e22] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=7ad1bc5f6c848f2d7dc94f972cedae8ecbb42a5a120a810b54f3fcd5e7df3912JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuY2FuYWRhdmlzdWFscy5jYS9wL2hvdy1tYW55LWNhbmFkaWFucy13b3JrLWluLXRoZS1wdWJsaWMtc2VjdG9y&ntb=1
+                              - generic [ref=f118e23]:
+                                - img "Global Web Icon" [ref=f118e25]
+                                - generic [ref=f118e26]:
+                                  - generic [ref=f118e27]: canadavisuals.ca
+                                  - generic [ref=f118e28]:
+                                    - text: https://www.
+                                    - strong [ref=f118e29]: canada
+                                    - text: visuals.ca/p/
+                                    - strong [ref=f118e30]: how-many-canadians-work-in-the-public-sector
+                              - generic [ref=f118e31]: How Many Canadians Work in the Public Sector?
+                              - generic [ref=f118e32]:
+                                - text: Of those,
+                                - strong [ref=f118e33]: 4.55 million
+                                - text: worked in the public sector, representing 21.6% of all employed Canadians. The private sector accounted for 13.77 million workers, or 65.5%, while another 2.71 million Canadians were self-employed.
+                            - link "Global Web Icon Canada.ca https://www.canada.ca/.../demographic-snapshot-federal-public-service-2024.html Demographic Snapshot of Canada’s Public Service, 2024 Over the last 10 years, the size of the federal public service in relation to the Canadian population fluctuated, but it now represents a greater proportion of the Canadian population than in 2010, when it represented 0.83%." [ref=f118e35] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=7d801d90da08908227f17f992e9a4ffbb8c504b6d3d104fa5b2c1f0c17ea84aeJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuY2FuYWRhLmNhL2VuL3RyZWFzdXJ5LWJvYXJkLXNlY3JldGFyaWF0L3NlcnZpY2VzL2lubm92YXRpb24vaHVtYW4tcmVzb3VyY2VzLXN0YXRpc3RpY3MvZGVtb2dyYXBoaWMtc25hcHNob3QtZmVkZXJhbC1wdWJsaWMtc2VydmljZS0yMDI0Lmh0bWw&ntb=1
+                              - generic [ref=f118e36]:
+                                - img "Global Web Icon" [ref=f118e39]
+                                - generic [ref=f118e40]:
+                                  - generic [ref=f118e41]: Canada.ca
+                                  - generic [ref=f118e42]:
+                                    - text: https://www.
+                                    - strong [ref=f118e43]: canada
+                                    - text: .ca/.../demographic-snapshot-federal-
+                                    - strong [ref=f118e44]: public
+                                    - text: "-service-2024.html"
+                              - generic [ref=f118e45]: Demographic Snapshot of Canada’s Public Service, 2024
+                              - generic [ref=f118e46]:
+                                - text: Over the last 10 years, the size of the federal
+                                - strong [ref=f118e47]: public service
+                                - text: in relation to the
+                                - strong [ref=f118e48]: Canadian
+                                - text: population fluctuated, but it now represents a greater proportion of the
+                                - strong [ref=f118e49]: Canadian
+                                - text: population than in 2010, when it represented 0.83%.
+                          - listitem [ref=f118e50]:
+                            - generic [ref=f118e52]:
+                              - link "Global Web Icon The Hub • https://thehub.ca/2026/02/20/more-than-one-in-five-canadians-now-works-for-government... More than 1 in 5 Canadians now works for government—and the share is ... As of January 2026, 21.8 percent of employed Canadians worked in the public sector, a figure that has been steadily rising over the past five years. This tren…" [ref=f118e53] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=884ee96e28117f83c06df8c98d2d2b0559499209e3ba831e56f9ca2b2b5931b1JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly90aGVodWIuY2EvMjAyNi8wMi8yMC9tb3JlLXRoYW4tb25lLWluLWZpdmUtY2FuYWRpYW5zLW5vdy13b3Jrcy1mb3ItZ292ZXJubWVudC1hbmQtdGhlLXNoYXJlLWlzLXJpc2luZy8&ntb=1
+                                - generic [ref=f118e54]:
+                                  - img "Global Web Icon" [ref=f118e57]
+                                  - generic [ref=f118e58]:
+                                    - generic [ref=f118e59]: The Hub •
+                                    - generic [ref=f118e60]:
+                                      - text: https://thehub.ca/2026/02/20/more-than-one-in-five-
+                                      - strong [ref=f118e61]: canadians
+                                      - text: "-now-"
+                                      - strong [ref=f118e62]: works
+                                      - text: "-for-government..."
+                                - heading "More than 1 in 5 Canadians now works for government—and the share is ..." [level=1] [ref=f118e63]
+                                - generic [ref=f118e64]:
+                                  - text: As of January 2026,
+                                  - strong [ref=f118e65]: 21.8 percent
+                                  - text: of employed Canadians worked in the public sector, a figure that has been steadily rising over the past five years. This tren…
+                              - link "Global Web Icon Canada.ca • https://www.canada.ca/en/treasury-board-secretariat/services/innovation/human-resources... Human resources statistics - Canada.ca Access the latest statistical information on diversity and inclusion in Canada’s public service. Statistics on the federal public service which includes both th…" [ref=f118e66] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=c529c3a78dbd46a59902897908f17a36848dc4d9a07662ad6c879ab4bc2d914cJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuY2FuYWRhLmNhL2VuL3RyZWFzdXJ5LWJvYXJkLXNlY3JldGFyaWF0L3NlcnZpY2VzL2lubm92YXRpb24vaHVtYW4tcmVzb3VyY2VzLXN0YXRpc3RpY3MuaHRtbA&ntb=1
+                                - generic [ref=f118e67]:
+                                  - img "Global Web Icon" [ref=f118e70]
+                                  - generic [ref=f118e71]:
+                                    - generic [ref=f118e72]: Canada.ca •
+                                    - generic [ref=f118e73]:
+                                      - text: https://www.
+                                      - strong [ref=f118e74]: canada
+                                      - text: .ca/en/treasury-board-secretariat/services/innovation/human-resources...
+                                - heading "Human resources statistics - Canada.ca" [level=1] [ref=f118e75]
+                                - generic [ref=f118e76]:
+                                  - text: Access the latest statistical information on diversity and inclusion in
+                                  - strong [ref=f118e77]: Canada
+                                  - text: ’
+                                  - strong [ref=f118e78]: s public service
+                                  - text: . Statistics on the federal
+                                  - strong [ref=f118e79]: public
+                                  - text: service which includes both th…
+                              - link "Statistics Canada • https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028802 Employment by class of worker, monthly, seasonally adjusted Number of employees by class of worker and gender. Data are presented for 12 months earlier, previous month and current month, as well as year-over-ye…" [ref=f118e80] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=03784f5778e605348e91e1206b6006a45110894510ba686fa8de502d6be200caJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cxNTAuc3RhdGNhbi5nYy5jYS90MS90YmwxL2VuL3R2LmFjdGlvbj9waWQ9MTQxMDAyODgwMg&ntb=1
+                                - generic [ref=f118e84]:
+                                  - generic [ref=f118e85]: Statistics Canada •
+                                  - generic [ref=f118e86]: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028802
+                                - heading "Employment by class of worker, monthly, seasonally adjusted" [level=1] [ref=f118e87]
+                                - generic [ref=f118e88]:
+                                  - strong [ref=f118e89]: Number
+                                  - text: of
+                                  - strong [ref=f118e90]: employees
+                                  - text: by class of worker and gender. Data are presented for 12 months earlier, previous month and current month, as well as year-over-ye…
+                - list
+                - complementary "Additional Results" [ref=f118e91]:
+                  - list
+    - generic [ref=f105e47]:
+      - status [ref=f105e76]
+      - generic [ref=f105e49]:
+        - textbox "Ask a follow-up" [ref=f105e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f105e55] [cursor=pointer]

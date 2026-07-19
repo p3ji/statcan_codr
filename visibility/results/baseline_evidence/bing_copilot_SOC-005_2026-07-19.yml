@@ -1,0 +1,147 @@
+- generic [active] [ref=f147e1]:
+  - generic [ref=f147e2]:
+    - link [ref=f147e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f147e4]
+    - navigation "Search Filter" [ref=f147e5]:
+      - list [ref=f147e6]:
+        - listitem [ref=f147e7]:
+          - link "All" [ref=f147e8] [cursor=pointer]:
+            - /url: /search?q=loneliness%20in%20canada%20statistics&FORM=HDRSC1
+        - link "Search" [ref=f147e9] [cursor=pointer]
+        - listitem [ref=f147e17]:
+          - link "Images" [ref=f147e18] [cursor=pointer]:
+            - /url: /images/search?q=loneliness%20in%20canada%20statistics&FORM=HDRSC3
+        - listitem [ref=f147e19]:
+          - link "Videos" [ref=f147e20] [cursor=pointer]:
+            - /url: /videos/search?q=loneliness%20in%20canada%20statistics&FORM=HDRSC4
+        - listitem [ref=f147e21]:
+          - link "Maps" [ref=f147e22] [cursor=pointer]:
+            - /url: /maps?q=loneliness%20in%20canada%20statistics&FORM=HDRSC6
+        - listitem [ref=f147e23]:
+          - link "News" [ref=f147e24] [cursor=pointer]:
+            - /url: /news/search?q=loneliness%20in%20canada%20statistics&FORM=HDRSC7
+        - listitem [ref=f147e25]:
+          - link "Shopping" [ref=f147e26] [cursor=pointer]:
+            - /url: /shop/topics?q=loneliness%20in%20canada%20statistics&FORM=SHOPTB
+      - button "More" [ref=f147e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f147e32]:
+      - button "Microsoft Rewards" [ref=f147e58] [cursor=pointer]:
+        - generic [ref=f147e59]: Rewards
+      - link [ref=f147e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f147e36]
+  - generic [ref=f147e38]:
+    - generic [ref=f147e39]:
+      - generic [ref=f147e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f147e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f147e42]:
+        - listitem [ref=f147e43]:
+          - generic [ref=f147e44]:
+            - generic "Sent by you. loneliness in canada statistics" [ref=f147e45]: loneliness in canada statistics
+            - generic [ref=f147e78]:
+              - button "Like" [ref=f147e79]
+              - button "Dislike" [ref=f147e82]
+          - iframe [ref=f147e86]:
+            - main "Search Results" [ref=f160e3]:
+              - generic [ref=f160e4]:
+                - list [ref=f160e5]:
+                  - listitem [ref=f160e6]:
+                    - region "Copilot Search" [ref=f160e10]:
+                      - list
+                      - generic [ref=f160e11]:
+                        - heading "Search results" [level=2] [ref=f160e13]
+                        - list [ref=f160e19]:
+                          - listitem [ref=f160e20]:
+                            - link "Global Web Icon Statistics Canada https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4510004801 Loneliness by gender and province - Statistics Canada Percentage of persons aged 15 years and over by frequency with which they feel lonely, by gender, for Canada, regions and provinces." [ref=f160e22] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=78c01d66d9560b2125bba731faf31e079b020753a1418efee575e7369af4a241JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cxNTAuc3RhdGNhbi5nYy5jYS90MS90YmwxL2VuL3R2LmFjdGlvbj9waWQ9NDUxMDAwNDgwMQ&ntb=1
+                              - generic [ref=f160e23]:
+                                - img "Global Web Icon" [ref=f160e25]
+                                - generic [ref=f160e26]:
+                                  - generic [ref=f160e27]: Statistics Canada
+                                  - generic [ref=f160e28]: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4510004801
+                              - generic [ref=f160e29]: Loneliness by gender and province - Statistics Canada
+                              - generic [ref=f160e30]:
+                                - text: Percentage of persons aged 15 years and over by frequency with which they feel
+                                - strong [ref=f160e31]: lonely
+                                - text: ", by gender, for"
+                                - strong [ref=f160e32]: Canada
+                                - text: ", regions and provinces."
+                            - link "Global Web Icon Canadian Mental Health Association - National https://cmha.ca/.../uploads/2026/04/CMHA-MHW-2026-Factsheet-Fast-Facts-on-Loneliness.pdf Fast Facts on Loneliness in Canada - cmha.ca Overall, 10% of Canadian seniors (65+) report feeling lonely. Opportunities for social contact and connection are often reduced when people experience physical mobility limitations, discrimination and stigma, and physical and mental health challenges." [ref=f160e34] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=6c43c6d5da9bc363429760b0645fe9013b5424df07e6ff541ba67edb3a4c4839JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9jbWhhLmNhL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDI2LzA0L0NNSEEtTUhXLTIwMjYtRmFjdHNoZWV0LUZhc3QtRmFjdHMtb24tTG9uZWxpbmVzcy5wZGY&ntb=1
+                              - generic [ref=f160e35]:
+                                - img "Global Web Icon" [ref=f160e38]
+                                - generic [ref=f160e39]:
+                                  - generic [ref=f160e40]: Canadian Mental Health Association - National
+                                  - generic [ref=f160e41]:
+                                    - text: https://cmha.ca/.../uploads/2026/04/CMHA-MHW-2026-Factsheet-Fast-Facts-on-
+                                    - strong [ref=f160e42]: Loneliness
+                                    - text: .pdf
+                              - generic [ref=f160e43]: Fast Facts on Loneliness in Canada - cmha.ca
+                              - generic [ref=f160e44]:
+                                - text: Overall, 10% of Canadian seniors (65+) report feeling
+                                - strong [ref=f160e45]: lonely
+                                - text: . Opportunities for social contact and connection are often reduced when people experience physical mobility limitations, discrimination and stigma, and physical and mental health challenges.
+                          - listitem [ref=f160e46]:
+                            - generic [ref=f160e48]:
+                              - link "Global Web Icon Open Government • https://open.canada.ca/data/dataset/5f294de2-91af-4bc8-9e19-8ae8dc8ef6f4 Loneliness by gender and province - Open Government Portal Percentage of persons aged 15 years and over by frequency with which they feel lonely, by gender, for Canada, regions and provinces." [ref=f160e49] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=77f67f242d3630247312bd6a4c23124722da2a68a44b8dfe7bbae2e4807c556cJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9vcGVuLmNhbmFkYS5jYS9kYXRhL2RhdGFzZXQvNWYyOTRkZTItOTFhZi00YmM4LTllMTktOGFlOGRjOGVmNmY0&ntb=1
+                                - generic [ref=f160e50]:
+                                  - img "Global Web Icon" [ref=f160e53]
+                                  - generic [ref=f160e54]:
+                                    - generic [ref=f160e55]: Open Government •
+                                    - generic [ref=f160e56]:
+                                      - text: https://open.
+                                      - strong [ref=f160e57]: canada
+                                      - text: .ca/data/dataset/5f294de2-91af-4bc8-9e19-8ae8dc8ef6f4
+                                - heading "Loneliness by gender and province - Open Government Portal" [level=1] [ref=f160e58]
+                                - generic [ref=f160e59]:
+                                  - text: Percentage of persons aged 15 years and over by frequency with which they feel
+                                  - strong [ref=f160e60]: lonely
+                                  - text: ", by gender, for"
+                                  - strong [ref=f160e61]: Canada
+                                  - text: ", regions and provinces."
+                              - link "Statistics Canada • https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2021090-eng.htm Loneliness in Canada - Statistics Canada This infographic uses data from the Canadian Social Survey to look at loneliness. It shows that loneliness is prevalent across Canada and that th…" [ref=f160e62] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=07813dd9003c2ff4b7245df702b1ea1f10e17c6c70b908d7acac78b032a0a58eJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cxNTAuc3RhdGNhbi5nYy5jYS9uMS9wdWIvMTEtNjI3LW0vMTEtNjI3LW0yMDIxMDkwLWVuZy5odG0&ntb=1
+                                - generic [ref=f160e66]:
+                                  - generic [ref=f160e67]: Statistics Canada •
+                                  - generic [ref=f160e68]: https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2021090-eng.htm
+                                - heading "Loneliness in Canada - Statistics Canada" [level=1] [ref=f160e69]
+                                - generic [ref=f160e70]:
+                                  - text: This infographic uses data from the Canadian Social Survey to look at
+                                  - strong [ref=f160e71]: loneliness
+                                  - text: . It shows that
+                                  - strong [ref=f160e72]: loneliness
+                                  - text: is prevalent across
+                                  - strong [ref=f160e73]: Canada
+                                  - text: and that th…
+                              - 'link "Global Web Icon theralist.ca • https://blog.theralist.ca/the-hidden-health-crisis-understanding-loneliness-in-canada The Hidden Health Crisis: Understanding Loneliness in Canada Explore Canada''s loneliness epidemic affecting 40% of the population. Learn about health impacts, vulnerable groups, and solutions to combat social isolat…" [ref=f160e74] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=f3749bd294cd59977e276badcb52a95b455bc5ccb0acd960f86d3d6a66dd9065JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9ibG9nLnRoZXJhbGlzdC5jYS90aGUtaGlkZGVuLWhlYWx0aC1jcmlzaXMtdW5kZXJzdGFuZGluZy1sb25lbGluZXNzLWluLWNhbmFkYS8&ntb=1
+                                - generic [ref=f160e75]:
+                                  - img "Global Web Icon" [ref=f160e78]
+                                  - generic [ref=f160e79]:
+                                    - generic [ref=f160e80]: theralist.ca •
+                                    - generic [ref=f160e81]:
+                                      - text: https://blog.theralist.ca/the-hidden-health-crisis-understanding-
+                                      - strong [ref=f160e82]: loneliness
+                                      - text: "-"
+                                      - strong [ref=f160e83]: in-canada
+                                - 'heading "The Hidden Health Crisis: Understanding Loneliness in Canada" [level=1] [ref=f160e84]'
+                                - generic [ref=f160e85]:
+                                  - text: Explore
+                                  - strong [ref=f160e86]: Canada
+                                  - text: "'s"
+                                  - strong [ref=f160e87]: loneliness
+                                  - text: epidemic affecting 40% of the population. Learn about health impacts, vulnerable groups, and solutions to combat social isolat…
+                - list
+                - complementary "Additional Results" [ref=f160e88]:
+                  - list
+    - generic [ref=f147e47]:
+      - status [ref=f147e76]
+      - generic [ref=f147e49]:
+        - textbox "Ask a follow-up" [ref=f147e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f147e55] [cursor=pointer]

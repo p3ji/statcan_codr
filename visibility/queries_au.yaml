@@ -1,0 +1,199 @@
+# ABS AI/Search Visibility Study — Australia mirror query bank
+#
+# Purpose: a 1:1 Australian localization of visibility/queries.yaml (the Canada /
+# StatCan bank), so the visibility of Australian Bureau of Statistics (ABS) data
+# through chatbots and search can be compared apples-to-apples against Statistics
+# Canada. IDs match the Canada bank (LAB-001 here mirrors LAB-001 there); the
+# `query` text is localized (ABS, states/territories, Sydney/Melbourne, Australian
+# institution owners) but the intent, source (autocomplete vs curated) and probe
+# tags are kept identical to preserve comparability.
+#
+# ANSWERABILITY CODING CAVEAT: unlike the Canada bank — coded against a fetched
+# WDS cube list (getAllCubesListLite, 8,212 cubes) — this AU coding is pilot-grade
+# from ABS-catalogue knowledge, NOT a fetched ABS catalogue. `candidate_ref` gives
+# the ABS collection / catalogue number or the non-ABS owner. Re-verify against
+# the live ABS catalogue (abs.gov.au) before publishing. Codes:
+#   fully          — current published ABS release at the needed granularity
+#   partially      — ABS indicator exists but stale, discontinued, wrong
+#                    granularity, or split across sources
+#   microdata_only — ABS collects it but publishes only in analysis / TableBuilder
+#                    microdata, no standing release
+#   not_collected  — not an ABS product; another org owns it (Fair Work Commission,
+#                    Home Affairs, ACMA, ACCC, eSafety, WGEA, academic panels…)
+#
+# Key structural differences from Canada worth watching in the results:
+#   - ABS is STRONGER on demography: Marriages & Divorces is current (Canada's
+#     stalled at 2020); a dedicated Characteristics of Recent Migrants labour
+#     survey and Personal Income of Migrants exist; ERP is quarterly.
+#   - ABS is WEAKER on society/community: loneliness, life satisfaction, trust and
+#     social cohesion are largely owned by academic/NGO panels (HILDA, Scanlon
+#     Foundation, Ending Loneliness Together) rather than a flagship ABS survey
+#     like Canada's Canadian Social Survey.
+#   - Digital economy is a collapse zone in BOTH: ABS discontinued Household Use
+#     of Information Technology (8146.0) after 2016-17; ACMA/eSafety/commercial
+#     now own most of the answer space.
+
+country: australia
+nso: Australian Bureau of Statistics
+nso_domain: abs.gov.au
+
+subjects:
+  labour:
+    - {id: LAB-001, query: "average salary in australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ABS Average Weekly Earnings (6302.0), biannual"}
+    - {id: LAB-002, query: "average salary in australia by age", source: autocomplete, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_ref: "AWE has no age split; Employee Earnings & Hours (6306.0) biennial partial"}
+    - {id: LAB-003, query: "average salary in australia by state", source: autocomplete, intent: disaggregated, answerable: fully, candidate_ref: "AWE 6302.0 by state/territory"}
+    - {id: LAB-004, query: "average hourly wage in australia", source: autocomplete, intent: point, answerable: partially, candidate_ref: "EEH 6306.0 hourly, biennial lag"}
+    - {id: LAB-005, query: "unemployment rate australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ABS Labour Force (6202.0), monthly"}
+    - {id: LAB-006, query: "unemployment rate australia by state", source: autocomplete, intent: disaggregated, answerable: fully, candidate_ref: "Labour Force 6202.0 by state"}
+    - {id: LAB-007, query: "unemployment rate australia by city", source: autocomplete, intent: disaggregated, answerable: fully, candidate_ref: "Labour Force by GCCSA (capital cities); SA4 via Jobs and Skills Australia"}
+    - {id: LAB-008, query: "unemployment rate australia vs usa", source: autocomplete, intent: comparison, answerable: partially, candidate_ref: "comparison needs US BLS; ABS covers concept differences in analysis"}
+    - {id: LAB-009, query: "unemployment rate australia by year", source: autocomplete, intent: trend, answerable: fully, candidate_ref: "Labour Force 6202.0, monthly since 1978"}
+    - {id: LAB-010, query: "gender pay gap australia", source: autocomplete, intent: point, answerable: partially, candidate_ref: "headline gap is WGEA (regulator), derived from ABS AWE 6302.0"}
+    - {id: LAB-011, query: "adjusted gender pay gap australia", source: autocomplete, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_ref: "regression-adjusted gap in WGEA/academic papers, no standing ABS release"}
+    - {id: LAB-012, query: "how many australians work for the federal government", source: autocomplete, intent: point, answerable: partially, candidate_ref: "ABS Public Sector Employment & Earnings (6248.0) all public sector; Commonwealth headcount is APSC"}
+    - {id: LAB-013, query: "how many australians work full time", source: autocomplete, intent: point, answerable: fully, candidate_ref: "Labour Force 6202.0"}
+    - {id: LAB-014, query: "how many australians work in the public sector", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ABS 6248.0"}
+    - {id: LAB-015, query: "minimum wage in australia by state", source: autocomplete, intent: disaggregated, answerable: not_collected, candidate_ref: "national minimum wage set by Fair Work Commission, not ABS (and it is national, not per-state)"}
+    - {id: LAB-016, query: "minimum wage in australia in 1970", source: autocomplete, intent: trend, answerable: not_collected, candidate_ref: "Fair Work Commission / historical award data"}
+    - {id: LAB-017, query: "youth unemployment rate australia", source: curated, intent: disaggregated, answerable: fully, candidate_ref: "Labour Force 6202.0 by age (15-24)"}
+    - {id: LAB-018, query: "how many job vacancies are there in australia right now", source: curated, intent: point, answerable: fully, candidate_ref: "ABS Job Vacancies (6354.0), quarterly"}
+    - {id: LAB-019, query: "what percentage of australian workers are in a union", source: curated, intent: point, answerable: partially, candidate_ref: "Characteristics of Employment (6333.0); dedicated Trade Union survey discontinued"}
+    - {id: LAB-020, query: "how many australians do gig work", source: curated, intent: point, probe: unpublished_indicator, answerable: partially, candidate_ref: "COE independent contractors; platform-specific gig work not a standing ABS series"}
+    - {id: LAB-021, query: "what percentage of australians work from home", source: curated, intent: point, answerable: partially, candidate_ref: "COE 6333.0 + Census 2021 method of travel to work; no continuous headline"}
+    - {id: LAB-022, query: "average retirement age in australia", source: curated, intent: point, answerable: fully, candidate_ref: "ABS Retirement and Retirement Intentions (6238.0)"}
+    - {id: LAB-023, query: "employment rate of recent migrants in australia", source: curated, intent: disaggregated, answerable: fully, candidate_ref: "ABS Characteristics of Recent Migrants (6250.0) — dedicated survey, current"}
+    - {id: LAB-024, query: "unemployment rate for recent migrants in sydney", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_ref: "6250.0 is national/state; no city-by-migrant-status crossing"}
+    - {id: LAB-025, query: "average hours worked per week australia", source: curated, intent: point, answerable: fully, candidate_ref: "Labour Force 6202.0 hours worked"}
+    - {id: LAB-026, query: "self-employment rate australia", source: curated, intent: point, answerable: fully, candidate_ref: "COE 6333.0 / Labour Force status of workers"}
+    - {id: LAB-027, query: "how many young people in australia are not in employment or education", source: curated, intent: point, answerable: partially, candidate_ref: "ABS Education and Work (6227.0); NEET reported irregularly"}
+    - {id: LAB-028, query: "indigenous employment rate australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "Census + NATSISS; no monthly LFS series for Aboriginal and Torres Strait Islander people"}
+    - {id: LAB-029, query: "employment rate of people with disability in australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "Survey of Disability, Ageing and Carers (4430.0), ~every 3-4 years"}
+    - {id: LAB-030, query: "average salary software engineer australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "EEH 6306.0 broad ANZSCO occupation; detailed pay is SEEK/commercial"}
+    - {id: LAB-031, query: "how many nurses are there in australia", source: curated, intent: point, answerable: partially, candidate_ref: "Census occupation counts + AIHW / AHPRA registration data (authoritative)"}
+    - {id: LAB-032, query: "labour force participation of mothers with young children australia", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_ref: "ABS Labour Force Status of Families (6224.0), annual"}
+    - {id: LAB-033, query: "do migrants earn less than australian-born workers with the same education", source: curated, intent: integration, probe: no_integration, answerable: partially, candidate_ref: "ACMID / Census cross-tabs; no annual adjusted product"}
+    - {id: LAB-034, query: "is youth unemployment worse now than in the 1990s", source: curated, intent: trend, answerable: fully, candidate_ref: "Labour Force 6202.0 monthly since 1978"}
+
+  digital_economy_and_society:
+    - {id: DIG-001, query: "percentage of internet users in australia", source: autocomplete, intent: point, answerable: partially, candidate_ref: "ABS Household Use of IT (8146.0) DISCONTINUED after 2016-17; ACMA Communications report is current"}
+    - {id: DIG-002, query: "average screen time australia", source: autocomplete, intent: point, probe: unpublished_indicator, answerable: partially, candidate_ref: "no ABS screen-time series; ACMA / commercial surveys dominate"}
+    - {id: DIG-003, query: "screen time kids australia", source: autocomplete, intent: disaggregated, answerable: microdata_only, candidate_ref: "AIFS Growing Up in Australia / eSafety; ABS none"}
+    - {id: DIG-004, query: "online shopping australia statistics", source: autocomplete, intent: point, answerable: partially, candidate_ref: "ABS Retail Trade (8501.0) online component; Australia Post commercial reports"}
+    - {id: DIG-005, query: "online grocery shopping statistics australia", source: autocomplete, intent: point, answerable: microdata_only, candidate_ref: "commercial (Aus Post, IBISWorld); not an ABS release"}
+    - {id: DIG-006, query: "cyberbullying australia statistics", source: autocomplete, intent: point, answerable: microdata_only, candidate_ref: "eSafety Commissioner owns this; no ABS cube"}
+    - {id: DIG-007, query: "cyberbullying statistics australia 2025", source: autocomplete, intent: trend, answerable: microdata_only, candidate_ref: "eSafety Commissioner"}
+    - {id: DIG-008, query: "how many australians have a smartphone", source: curated, intent: point, answerable: partially, candidate_ref: "ACMA Communications and media report; ABS HUIT discontinued"}
+    - {id: DIG-009, query: "social media use in australia by age", source: curated, intent: disaggregated, answerable: microdata_only, candidate_ref: "ACMA / Yellow Social Media Report; ABS does not publish"}
+    - {id: DIG-010, query: "internet use among seniors in australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "ABS HUIT (old, 2016-17); ACMA / Australian Digital Inclusion Index current"}
+    - {id: DIG-011, query: "rural internet access australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "ACMA / Dept of Infrastructure (Regional Telecommunications Review); ABS regional limited"}
+    - {id: DIG-012, query: "e-commerce sales australia", source: curated, intent: point, answerable: partially, candidate_ref: "ABS Retail online turnover; NAB Online Retail Sales Index; Australia Post"}
+    - {id: DIG-013, query: "how many australians use ai chatbots", source: curated, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_ref: "no standing ABS series; ad-hoc academic/commercial surveys"}
+    - {id: DIG-014, query: "how many businesses in australia use artificial intelligence", source: curated, intent: point, answerable: partially, candidate_ref: "ABS Business Characteristics Survey / Business Condition and Sentiments (AI module recent, limited)"}
+    - {id: DIG-015, query: "how much money do australians lose to online scams", source: curated, intent: point, answerable: not_collected, candidate_ref: "ACCC Scamwatch / Targeting Scams report; ABS covers victimisation rates only"}
+    - {id: DIG-016, query: "what percentage of australians subscribe to streaming services", source: curated, intent: point, answerable: partially, candidate_ref: "ACMA; Roy Morgan commercial; no standing ABS release"}
+    - {id: DIG-017, query: "where do australians get their news", source: curated, intent: point, answerable: not_collected, candidate_ref: "Digital News Report (University of Canberra); ABS none"}
+    - {id: DIG-018, query: "how many australians play video games", source: curated, intent: point, answerable: microdata_only, candidate_ref: "IGEA Digital Australia report (industry); ABS none"}
+    - {id: DIG-019, query: "digital divide in australia by income", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_ref: "Australian Digital Inclusion Index (RMIT/Telstra); ABS HUIT discontinued"}
+    - {id: DIG-020, query: "how many australians have been exposed to misinformation online", source: curated, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_ref: "ACMA / academic; no ABS product"}
+    - {id: DIG-021, query: "australians concerned about online privacy statistics", source: curated, intent: point, answerable: microdata_only, candidate_ref: "OAIC Australian Community Attitudes to Privacy Survey; ABS none"}
+    - {id: DIG-022, query: "how many australian households have no internet at home", source: curated, intent: point, answerable: partially, candidate_ref: "Census 2021 has an internet-connection question; HUIT discontinued"}
+    - {id: DIG-023, query: "teens social media use australia", source: curated, intent: disaggregated, answerable: microdata_only, candidate_ref: "eSafety / academic; ABS none"}
+    - {id: DIG-024, query: "online dating statistics australia", source: curated, intent: point, probe: unpublished_indicator, answerable: not_collected, candidate_ref: "commercial (RSVP/Bumble); ABS none"}
+    - {id: DIG-025, query: "cryptocurrency ownership australia", source: curated, intent: point, answerable: not_collected, candidate_ref: "ASIC / RBA / commercial (Independent Reserve); ABS none"}
+    - {id: DIG-026, query: "how many australians earn money through online platforms", source: curated, intent: point, answerable: partially, candidate_ref: "ABS digital economy work; limited household-side gig estimates"}
+    - {id: DIG-027, query: "average internet speed australia", source: curated, intent: point, answerable: not_collected, candidate_ref: "ACCC Measuring Broadband Australia / Ookla"}
+    - {id: DIG-028, query: "e-commerce share of retail sales australia", source: curated, intent: point, answerable: partially, candidate_ref: "ABS Retail Trade online share of turnover"}
+    - {id: DIG-029, query: "online harassment of women in australia", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_ref: "eSafety; ABS Personal Safety Survey (4906.0) has some technology-facilitated abuse"}
+    - {id: DIG-030, query: "is screen time linked to worse mental health in australian teens", source: curated, intent: integration, probe: no_integration, answerable: microdata_only, candidate_ref: "academic / AIFS longitudinal only; no ABS product"}
+    - {id: DIG-031, query: "do low-income australian kids have less access to computers for school", source: curated, intent: integration, probe: no_integration, answerable: partially, candidate_ref: "Australian Digital Inclusion Index / Census; no direct ABS product"}
+    - {id: DIG-032, query: "internet use australia urban vs rural", source: curated, intent: comparison, answerable: partially, candidate_ref: "ADII / ACMA; ABS HUIT discontinued"}
+    - {id: DIG-033, query: "how has online shopping changed since the pandemic in australia", source: curated, intent: trend, answerable: partially, candidate_ref: "ABS Retail online turnover trend; NAB/Aus Post commercial"}
+
+  society_and_community:
+    - {id: SOC-001, query: "volunteering in australia statistics", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ABS General Social Survey (4159.0) + Census 2021 volunteering question"}
+    - {id: SOC-002, query: "what percentage of australians volunteer", source: curated, intent: point, answerable: fully, candidate_ref: "GSS 4159.0 / Census"}
+    - {id: SOC-003, query: "charitable donations australia average", source: autocomplete, intent: point, answerable: partially, candidate_ref: "ATO Taxation Statistics (deductible gifts); ABS GSS giving items limited"}
+    - {id: SOC-004, query: "are charitable donations declining in australia", source: curated, intent: trend, answerable: partially, candidate_ref: "ATO tax-stats series; no continuous ABS product"}
+    - {id: SOC-005, query: "loneliness in australia statistics", source: autocomplete, intent: point, answerable: partially, candidate_ref: "ABS GSS / National Study of Mental Health & Wellbeing items; headline owned by academic (Ending Loneliness Together, HILDA)"}
+    - {id: SOC-006, query: "loneliness in seniors australia", source: autocomplete, intent: disaggregated, answerable: partially, candidate_ref: "GSS limited age detail; academic panels"}
+    - {id: SOC-007, query: "loneliness in australia for migrants", source: autocomplete, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_ref: "GSS limited crossing; Scanlon social cohesion"}
+    - {id: SOC-008, query: "life satisfaction australia", source: autocomplete, intent: point, answerable: partially, candidate_ref: "ABS GSS life-satisfaction item; flagship wellbeing panel is HILDA (Melbourne Institute)"}
+    - {id: SOC-009, query: "life satisfaction by state australia", source: autocomplete, intent: disaggregated, answerable: partially, candidate_ref: "GSS limited state detail"}
+    - {id: SOC-010, query: "do australians trust the government", source: curated, intent: point, answerable: partially, candidate_ref: "ABS GSS trust items; headline owned by Scanlon (Mapping Social Cohesion) / OECD / ANU"}
+    - {id: SOC-011, query: "trust in media australia statistics", source: curated, intent: point, answerable: not_collected, candidate_ref: "Digital News Report (Univ. Canberra); ABS none"}
+    - {id: SOC-012, query: "how many australians feel a sense of belonging to their community", source: curated, intent: point, answerable: partially, candidate_ref: "GSS 4159.0 belonging item; Scanlon"}
+    - {id: SOC-013, query: "discrimination statistics australia", source: curated, intent: point, answerable: partially, candidate_ref: "ABS GSS experience-of-discrimination item; Scanlon / Australian Human Rights Commission"}
+    - {id: SOC-014, query: "racism experienced by first nations australians statistics", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_ref: "NATSISS / GSS discrimination items; Reconciliation Australia barometer"}
+    - {id: SOC-015, query: "food bank use australia statistics", source: curated, intent: trend, answerable: partially, candidate_ref: "Foodbank Australia Hunger Report; ABS measures food security in National Health Survey"}
+    - {id: SOC-016, query: "how religious is australia", source: curated, intent: point, answerable: fully, candidate_ref: "Census 2021 religion"}
+    - {id: SOC-017, query: "church attendance australia statistics", source: curated, intent: trend, answerable: partially, candidate_ref: "National Church Life Survey (NCLS); ABS Census counts affiliation not attendance"}
+    - {id: SOC-018, query: "social isolation young adults australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "GSS social contact items; HILDA"}
+    - {id: SOC-019, query: "how much time do australians spend with friends", source: curated, intent: point, probe: unpublished_indicator, answerable: partially, candidate_ref: "ABS Time Use Survey (4159.0.55.001) 2020-21 socialising time"}
+    - {id: SOC-020, query: "are australians happier than americans", source: curated, intent: comparison, answerable: partially, candidate_ref: "Australia side only; comparison needs Gallup / World Happiness Report"}
+    - {id: SOC-021, query: "do australians feel safe walking alone at night", source: curated, intent: point, answerable: partially, candidate_ref: "ABS GSS / Crime Victimisation (4530.0) perception items"}
+    - {id: SOC-022, query: "how many close friends does the average australian have", source: curated, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_ref: "GSS social-connection items; no headline count published"}
+    - {id: SOC-023, query: "unpaid caregiving statistics australia", source: curated, intent: point, answerable: partially, candidate_ref: "ABS Survey of Disability, Ageing and Carers (4430.0) carers; GSS"}
+    - {id: SOC-024, query: "who does more housework men or women australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "ABS Time Use Survey 2020-21 unpaid domestic work by sex"}
+    - {id: SOC-025, query: "how well do refugees integrate in australia", source: curated, intent: integration, probe: no_integration, answerable: partially, candidate_ref: "Building a New Life in Australia (AIFS/DSS longitudinal) / ACMID; no multi-domain ABS product"}
+    - {id: SOC-026, query: "lgbtiq wellbeing australia statistics", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_ref: "Census 2021 same-sex couples; wellbeing scattered / academic (Private Lives)"}
+    - {id: SOC-027, query: "is life satisfaction declining among young australians", source: curated, intent: trend, answerable: partially, candidate_ref: "GSS / HILDA wellbeing trend"}
+    - {id: SOC-028, query: "how many australians live alone", source: curated, intent: point, answerable: fully, candidate_ref: "Census 2021 household composition; ERP-based household projections (3236.0)"}
+    - {id: SOC-029, query: "do people trust their neighbours in australia", source: curated, intent: point, answerable: partially, candidate_ref: "GSS 4159.0 trust battery; Scanlon"}
+    - {id: SOC-030, query: "civic engagement youth australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "GSS social & civic participation; academic"}
+    - {id: SOC-031, query: "is loneliness worse in big cities australia", source: curated, intent: integration, probe: no_integration, answerable: partially, candidate_ref: "GSS limited geography; academic panels"}
+    - {id: SOC-032, query: "sense of meaning and purpose australia statistics", source: curated, intent: point, answerable: partially, candidate_ref: "GSS / HILDA wellbeing modules"}
+    - {id: SOC-033, query: "migrants sense of belonging australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "GSS belonging by country of birth; Scanlon"}
+
+  immigration_and_ethnocultural_diversity:
+    - {id: IMM-001, query: "how many migrants in australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ABS Migration, Australia (3412.0) overseas-born + Census 2021 country of birth"}
+    - {id: IMM-002, query: "how many migrants come to australia per year", source: autocomplete, intent: trend, answerable: fully, candidate_ref: "ABS Net Overseas Migration (3412.0), annual"}
+    - {id: IMM-003, query: "migration to australia statistics by country", source: autocomplete, intent: disaggregated, answerable: fully, candidate_ref: "ABS Migration 3412.0 NOM by country of birth + Census"}
+    - {id: IMM-004, query: "how many refugees in australia", source: autocomplete, intent: point, answerable: partially, candidate_ref: "Home Affairs Humanitarian Program intake; ABS NOM humanitarian category limited"}
+    - {id: IMM-005, query: "how many international students in australia", source: autocomplete, intent: point, answerable: partially, candidate_ref: "Dept of Education / Home Affairs visa data; ABS NOM includes students but is not the headline"}
+    - {id: IMM-006, query: "australia immigration rate over time", source: autocomplete, intent: trend, answerable: fully, candidate_ref: "ABS NOM (3412.0)"}
+    - {id: IMM-007, query: "cultural diversity in australia percentage", source: autocomplete, intent: point, answerable: fully, candidate_ref: "Census 2021 country of birth / ancestry (Australia has no 'visible minority' concept)"}
+    - {id: IMM-008, query: "largest ancestry in australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "Census 2021 ancestry"}
+    - {id: IMM-009, query: "how many muslims in australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "Census 2021 religion"}
+    - {id: IMM-010, query: "ethnic groups in australia percentages", source: autocomplete, intent: point, answerable: fully, candidate_ref: "Census 2021 ancestry"}
+    - {id: IMM-011, query: "how many people speak mandarin in australia", source: autocomplete, intent: disaggregated, answerable: fully, candidate_ref: "Census 2021 language used at home"}
+    - {id: IMM-012, query: "how many migrants in australia are on welfare", source: autocomplete, intent: integration, probe: no_integration, answerable: partially, candidate_ref: "DSS payment demographics + ABS; no clean migrant-status-by-payment crossing"}
+    - {id: IMM-013, query: "what percentage of australia's population is born overseas", source: curated, intent: point, answerable: fully, candidate_ref: "ABS Migration 3412.0 / Census (~30%)"}
+    - {id: IMM-014, query: "which cities do most migrants settle in australia", source: curated, intent: disaggregated, answerable: fully, candidate_ref: "Census / ABS Migration by state and capital city"}
+    - {id: IMM-015, query: "second generation migrants in australia statistics", source: curated, intent: point, answerable: fully, candidate_ref: "Census 2021 (parents' country of birth)"}
+    - {id: IMM-016, query: "how many temporary visa holders in australia", source: curated, intent: point, answerable: fully, candidate_ref: "ABS Temporary visa holders in Australia (from 3412.0); Home Affairs visa stats"}
+    - {id: IMM-017, query: "how many asylum seekers in australia", source: curated, intent: point, answerable: partially, candidate_ref: "Home Affairs onshore/offshore protection stats; ABS limited"}
+    - {id: IMM-018, query: "how many undocumented migrants in australia", source: curated, intent: point, probe: unpublished_indicator, answerable: not_collected, candidate_ref: "Home Affairs overstayer estimate (~visa overstayers); not an ABS product"}
+    - {id: IMM-019, query: "do migrants commit more crime in australia", source: curated, intent: integration, probe: no_integration, answerable: microdata_only, candidate_ref: "crime data does not record visa/migrant status; academic linkage studies only"}
+    - {id: IMM-020, query: "how much do migrants earn compared to australian born workers", source: curated, intent: comparison, answerable: fully, candidate_ref: "ABS Personal Income of Migrants (3418.0) + ACMID"}
+    - {id: IMM-021, query: "what percentage of migrants become australian citizens", source: curated, intent: point, answerable: partially, candidate_ref: "Home Affairs citizenship conferrals; ABS Census citizenship stock"}
+    - {id: IMM-022, query: "how many interracial couples in australia", source: curated, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_ref: "Census-based intermarriage analysis; no standing ABS release"}
+    - {id: IMM-023, query: "discrimination against migrants in australia statistics", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "ABS GSS discrimination items; Scanlon Mapping Social Cohesion"}
+    - {id: IMM-024, query: "how many migrants leave australia after arriving", source: curated, intent: trend, probe: unpublished_indicator, answerable: partially, candidate_ref: "ABS NOM departures / emigration component (3412.0)"}
+    - {id: IMM-025, query: "how do refugees do economically in australia", source: curated, intent: disaggregated, answerable: partially, candidate_ref: "Building a New Life in Australia (AIFS) / ACMID / Personal Income of Migrants"}
+
+  population_and_demography:
+    - {id: POP-001, query: "population of australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ABS National, state and territory population / ERP (3101.0), quarterly"}
+    - {id: POP-002, query: "population of australia by state", source: autocomplete, intent: disaggregated, answerable: fully, candidate_ref: "ERP 3101.0"}
+    - {id: POP-003, query: "population of australia by ancestry", source: autocomplete, intent: disaggregated, answerable: fully, candidate_ref: "Census 2021 ancestry (Australia has no 'by race' classification)"}
+    - {id: POP-004, query: "population of sydney", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ABS Regional Population (3218.0), annual"}
+    - {id: POP-005, query: "population of sydney vs melbourne", source: autocomplete, intent: comparison, answerable: fully, candidate_ref: "Regional Population 3218.0"}
+    - {id: POP-006, query: "australia population growth rate", source: autocomplete, intent: trend, answerable: fully, candidate_ref: "ERP 3101.0"}
+    - {id: POP-007, query: "australia population growth projections", source: autocomplete, intent: trend, answerable: fully, candidate_ref: "ABS Population Projections (3222.0)"}
+    - {id: POP-008, query: "australia birth rate", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ABS Births, Australia (3301.0)"}
+    - {id: POP-009, query: "australia birth rate by state", source: autocomplete, intent: disaggregated, answerable: fully, candidate_ref: "Births 3301.0"}
+    - {id: POP-010, query: "australia death rate by year", source: autocomplete, intent: trend, answerable: fully, candidate_ref: "ABS Deaths, Australia (3302.0)"}
+    - {id: POP-011, query: "life expectancy australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ABS Life Tables (3302.0.55.001)"}
+    - {id: POP-012, query: "life expectancy australia by state", source: autocomplete, intent: disaggregated, answerable: fully, candidate_ref: "Life Tables by state"}
+    - {id: POP-013, query: "life expectancy australia vs us", source: autocomplete, intent: comparison, answerable: partially, candidate_ref: "comparison needs US CDC/NCHS; ABS Australia side only"}
+    - {id: POP-014, query: "fertility rate australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "Births 3301.0 total fertility rate"}
+    - {id: POP-015, query: "average age in australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ERP median age (3101.0) / Census 2021"}
+    - {id: POP-016, query: "average age in australia to have a baby", source: autocomplete, intent: point, answerable: fully, candidate_ref: "Births 3301.0 median age of mother"}
+    - {id: POP-017, query: "how many seniors in australia", source: autocomplete, intent: point, answerable: fully, candidate_ref: "ERP by age (3101.0)"}
+    - {id: POP-018, query: "how many seniors in australia live alone", source: autocomplete, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_ref: "Census 2021 living arrangements; no standing single-figure release"}
+    - {id: POP-019, query: "how many people live in melbourne", source: autocomplete, intent: point, answerable: fully, candidate_ref: "Regional Population 3218.0"}
+    - {id: POP-020, query: "population of australia vs usa", source: autocomplete, intent: comparison, answerable: partially, candidate_ref: "comparison needs US Census Bureau"}
+    - {id: POP-021, query: "marriage rate australia", source: curated, intent: point, probe: unpublished_indicator, answerable: fully, candidate_ref: "ABS Marriages and Divorces, Australia (3310.0), annual & current — probe REFUTED (Canada's equivalent stalled at 2020)"}
+    - {id: POP-022, query: "divorce rate australia", source: curated, intent: point, answerable: fully, candidate_ref: "ABS Marriages and Divorces (3310.0), current"}
+    - {id: POP-023, query: "which state are people moving to in australia", source: curated, intent: disaggregated, answerable: fully, candidate_ref: "ABS Migration 3412.0 internal migration / net interstate migration, quarterly"}
+    - {id: POP-024, query: "how many people immigrate to australia vs leave", source: curated, intent: comparison, answerable: fully, candidate_ref: "ABS NOM arrivals and departures (3412.0)"}
+    - {id: POP-025, query: "what percentage of australians live in cities", source: curated, intent: point, answerable: fully, candidate_ref: "ERP / Census Section of State (capital cities vs rest)"}

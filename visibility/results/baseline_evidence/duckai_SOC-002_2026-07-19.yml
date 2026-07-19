@@ -1,0 +1,135 @@
+- generic [ref=e1]:
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - strong [ref=e44]: Duck.ai
+        - button "Hide sidebar, CTRL + ⇧ + S" [ref=e45] [cursor=pointer]
+      - button "New Chat CTRL + ⇧ + O" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: New Chat
+        - generic [ref=e56]: CTRL + ⇧ + O
+      - generic [ref=e58]:
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+          - button "New Image CTRL + ⇧ + I" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: New Image
+            - generic [ref=e71]: CTRL + ⇧ + I
+        - generic [ref=e345]:
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Chats
+            - button [ref=e351] [cursor=pointer]
+            - button "Search chats" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - generic "Volunteer rate in Canada" [ref=e1597]:
+              - generic [ref=e1598]:
+                - paragraph [ref=e1600]: Volunteer rate in Canada
+                - button "menu" [ref=e1602] [cursor=pointer]
+            - generic "Canada volunteering statistics" [ref=e1304] [cursor=pointer]:
+              - paragraph [ref=e1307]: Canada volunteering statistics
+            - generic "Salary by province (Canada)" [ref=e1097] [cursor=pointer]:
+              - paragraph [ref=e969]: Salary by province (Canada)
+            - generic "Canada salary by age" [ref=e764] [cursor=pointer]:
+              - paragraph [ref=e641]: Canada salary by age
+            - generic "Donations in Canada decline? sources" [ref=e359] [cursor=pointer]:
+              - paragraph [ref=e362]: Donations in Canada decline? sources
+      - generic [ref=e72]:
+        - button "Settings & More" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - strong [ref=e81]: Settings & More
+            - generic [ref=e82]: Free
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - text: by
+            - link "DuckDuckGo" [ref=e88] [cursor=pointer]:
+              - /url: https://duckduckgo.com/about
+          - generic [ref=e89]: "|"
+          - link "Get the App" [ref=e90] [cursor=pointer]:
+            - /url: https://duck.ai/browser
+    - generic [ref=e91]:
+      - generic:
+        - generic:
+          - paragraph: Drop your photos or PDF files
+      - generic [ref=e94]:
+        - generic [ref=e1605]:
+          - generic [ref=e1608]:
+            - text: Anonymized by DuckDuckGo. Zero data retention for this chat. No AI training.
+            - button "Learn more" [ref=e1609] [cursor=pointer]
+          - generic [ref=e1610]:
+            - paragraph [ref=e1613]: What percentage of Canadians volunteer? What's the source?
+            - generic [ref=e1617]:
+              - button [ref=e1619] [cursor=pointer]
+              - button "Edit" [ref=e1624] [cursor=pointer]
+          - generic [ref=e1629]:
+            - strong [ref=e1641]:
+              - strong [ref=e1643]: GPT-5.4
+              - text: nano
+            - generic [ref=e1647]:
+              - generic [ref=e1649]:
+                - generic [ref=e1650]: Searching the web
+                - generic [ref=e1655]:
+                  - paragraph [ref=e1656]: percentage of Canadians who volunteer Statistics Canada volunteer rate percentage
+                  - list [ref=e1657]:
+                    - listitem [ref=e1658]:
+                      - link "www150.statcan.gc.ca" [ref=e1659] [cursor=pointer]:
+                        - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4510004001
+                    - listitem [ref=e1660]:
+                      - link "imaginecanada.ca" [ref=e1661] [cursor=pointer]:
+                        - /url: https://imaginecanada.ca/en/360/new-results-statistics-canadas-survey-giving-volunteering-and-participating
+                    - listitem [ref=e1662]:
+                      - link "bc.healthyagingcore.ca" [ref=e1663] [cursor=pointer]:
+                        - /url: https://bc.healthyagingcore.ca/news/news-new-results-from-statistics-canadas-survey-of-giving-volunteering-and-participating
+              - button "Hide Reasoning" [ref=e1664] [cursor=pointer]
+            - generic [ref=e1671]:
+              - paragraph [ref=e1672]:
+                - text: In 2023,
+                - generic [ref=e1673]: 73% of Canadians (age 15+) volunteered
+                - text: (including both
+                - generic [ref=e1674]: formal and informal
+                - text: volunteering).
+                - link "Statistics Canada" [ref=e1675] [cursor=pointer]:
+                  - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/250623/dq250623b-eng.htm
+              - paragraph [ref=e1677]:
+                - generic [ref=e1678]: "Source:"
+                - text: Statistics Canada,
+                - emphasis [ref=e1679]: “Volunteering and charitable giving in Canada, 2018 to 2023”
+                - text: (Daily release).
+                - link "Statistics Canada" [ref=e1680] [cursor=pointer]:
+                  - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/250623/dq250623b-eng.htm
+            - generic [ref=e1683]:
+              - heading "Search Results" [level=4] [ref=e1684]
+              - list [ref=e1686]:
+                - listitem [ref=e1687]:
+                  - link "Volunteering and charitable giving in Canada, 2018 to 2023 statcan.gc.ca" [ref=e1688]:
+                    - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/250623/dq250623b-eng.htm
+                    - generic [ref=e1690]:
+                      - text: Volunteering and charitable giving in Canada, 2018 to 2023
+                      - generic [ref=e1691]: statcan.gc.ca
+            - generic [ref=e1692]:
+              - generic [ref=e1694]:
+                - button "Positive feedback" [ref=e1696] [cursor=pointer]
+                - button "Negative feedback" [ref=e1701] [cursor=pointer]
+              - button [ref=e1706] [cursor=pointer]
+              - button "Switch model" [ref=e1711] [cursor=pointer]
+              - button [ref=e1716] [cursor=pointer]
+              - button [ref=e1722] [cursor=pointer]
+        - generic [ref=e1728]:
+          - button "Delete chat" [ref=e1730] [cursor=pointer]
+          - generic [ref=e1735]:
+            - generic [ref=e1736]:
+              - textbox "Reply..." [active] [ref=e1737]
+              - button "Dictate" [ref=e1738] [cursor=pointer]
+            - generic [ref=e1742]:
+              - generic [ref=e1743]:
+                - button "Add images or PDFs" [ref=e1746] [cursor=pointer]
+                - button [ref=e1752] [cursor=pointer]:
+                  - strong [ref=e1757]: Tools
+              - button "Reasoning mode" [ref=e1761] [cursor=pointer]:
+                - generic [ref=e1762]: Fast
+              - button "Send" [disabled] [ref=e1768]
+              - generic:
+                - button "Stop generating" [disabled]
+        - paragraph [ref=e1772]:
+          - text: All chats are
+          - button "private" [ref=e1773] [cursor=pointer]
+          - text: . AI can make mistakes.
+  - iframe [ref=e193]:
+    

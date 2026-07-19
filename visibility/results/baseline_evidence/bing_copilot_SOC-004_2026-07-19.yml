@@ -1,0 +1,171 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - link [ref=f7e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f7e4]
+    - navigation "Search Filter" [ref=f7e5]:
+      - list [ref=f7e6]:
+        - listitem [ref=f7e7]:
+          - link "All" [ref=f7e8] [cursor=pointer]:
+            - /url: /search?q=are%20charitable%20donations%20declining%20in%20canada&FORM=HDRSC1
+        - link "Search" [ref=f7e9] [cursor=pointer]
+        - listitem [ref=f7e17]:
+          - link "Images" [ref=f7e18] [cursor=pointer]:
+            - /url: /images/search?q=are%20charitable%20donations%20declining%20in%20canada&FORM=HDRSC3
+        - listitem [ref=f7e19]:
+          - link "Videos" [ref=f7e20] [cursor=pointer]:
+            - /url: /videos/search?q=are%20charitable%20donations%20declining%20in%20canada&FORM=HDRSC4
+        - listitem [ref=f7e21]:
+          - link "Maps" [ref=f7e22] [cursor=pointer]:
+            - /url: /maps?q=are%20charitable%20donations%20declining%20in%20canada&FORM=HDRSC6
+        - listitem [ref=f7e23]:
+          - link "News" [ref=f7e24] [cursor=pointer]:
+            - /url: /news/search?q=are%20charitable%20donations%20declining%20in%20canada&FORM=HDRSC7
+        - listitem [ref=f7e25]:
+          - link "Shopping" [ref=f7e26] [cursor=pointer]:
+            - /url: /shop/topics?q=are%20charitable%20donations%20declining%20in%20canada&FORM=SHOPTB
+      - button "More" [ref=f7e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f7e32]:
+      - button "Microsoft Rewards" [ref=f7e58] [cursor=pointer]:
+        - generic [ref=f7e59]: Rewards
+      - link [ref=f7e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f7e36]
+  - generic [ref=f7e38]:
+    - generic [ref=f7e39]:
+      - generic [ref=f7e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f7e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f7e42]:
+        - listitem [ref=f7e43]:
+          - generic [ref=f7e44]:
+            - generic "Sent by you. are charitable donations declining in canada" [ref=f7e45]: are charitable donations declining in canada
+            - generic [ref=f7e78]:
+              - button "Like" [ref=f7e79]
+              - button "Dislike" [ref=f7e82]
+          - iframe [ref=f7e86]:
+            - main "Search Results" [ref=f20e3]:
+              - generic [ref=f20e4]:
+                - list [ref=f20e5]:
+                  - listitem [ref=f20e6]:
+                    - region "Copilot Search" [ref=f20e10]:
+                      - list
+                      - generic [ref=f20e11]:
+                        - heading "Search results" [level=2] [ref=f20e13]
+                        - list [ref=f20e19]:
+                          - listitem [ref=f20e20]:
+                            - 'link "Global Web Icon canadiandebtrelief.ca https://canadiandebtrelief.ca/canadas-charitable-giving-crisis-understanding-the... Canada’s Charitable Giving: Why Donations Are Down—and Real Ways ... Charitable giving is declining in Canada, but compassion remains strong. See why donations are down and discover practical, budget-friendly ways to contribute." [ref=f20e22] [cursor=pointer]':
+                              - /url: https://www.bing.com/ck/a?!&&p=359b74cf45c719a8ea37def6443b2e2c3f066a9ac10ee38b5a545de985ed2929JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9jYW5hZGlhbmRlYnRyZWxpZWYuY2EvY2FuYWRhcy1jaGFyaXRhYmxlLWdpdmluZy1jcmlzaXMtdW5kZXJzdGFuZGluZy10aGUtZGVjbGluZS1hbmQtZmluZGluZy1uZXctd2F5cy10by1jb250cmlidXRlLw&ntb=1
+                              - generic [ref=f20e23]:
+                                - img "Global Web Icon" [ref=f20e26]
+                                - generic [ref=f20e27]:
+                                  - generic [ref=f20e28]: canadiandebtrelief.ca
+                                  - generic [ref=f20e29]:
+                                    - text: https://canadiandebtrelief.ca/
+                                    - strong [ref=f20e30]: canada
+                                    - text: s-
+                                    - strong [ref=f20e31]: charitable
+                                    - text: "-"
+                                    - strong [ref=f20e32]: giving
+                                    - text: "-crisis-understanding-the..."
+                              - generic [ref=f20e33]: "Canada’s Charitable Giving: Why Donations Are Down—and Real Ways ..."
+                              - generic [ref=f20e34]:
+                                - strong [ref=f20e35]: Charitable giving is declining
+                                - text: in Canada, but compassion remains strong. See why donations are down and discover practical, budget-friendly ways to contribute.
+                            - 'link "Global Web Icon Carleton University https://carleton.ca/profbrouard/wp-content/uploads/articleAyer202405Philanthropy25... PHILANTHROPY | 25 Years of Decline: Assessing the State of Charitable ... This year, the downward trend continues, with only 17.1% of Canadian tax filers claiming charitable donations, down from 17.7% last year and significantly lower than the 20.0% figure from five years ago." [ref=f20e37] [cursor=pointer]':
+                              - /url: https://www.bing.com/ck/a?!&&p=8c138c18fce03205d1e36e0a16578049b43e224f8abddf0b6651616cc735b422JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9jYXJsZXRvbi5jYS9wcm9mYnJvdWFyZC93cC1jb250ZW50L3VwbG9hZHMvYXJ0aWNsZUF5ZXIyMDI0MDVQaGlsYW50aHJvcHkyNVllYXJzb2ZEZWNsaW5lQXNzZXNzaW5nU3RhdGVDaGFyaXRhYmxlR2l2aW5nQ2FuYWRhLnBkZg&ntb=1
+                              - generic [ref=f20e38]:
+                                - img "Global Web Icon" [ref=f20e41]
+                                - generic [ref=f20e42]:
+                                  - generic [ref=f20e43]: Carleton University
+                                  - generic [ref=f20e44]: https://carleton.ca/profbrouard/wp-content/uploads/articleAyer202405Philanthropy25...
+                              - generic [ref=f20e45]: "PHILANTHROPY | 25 Years of Decline: Assessing the State of Charitable ..."
+                              - generic [ref=f20e46]:
+                                - text: This year, the downward trend continues, with only 17.1% of
+                                - strong [ref=f20e47]: Canadian
+                                - text: tax filers claiming
+                                - strong [ref=f20e48]: charitable donations
+                                - text: ", down from 17.7% last year and significantly lower than the 20.0% figure from five years ago."
+                          - listitem [ref=f20e49]:
+                            - generic [ref=f20e51]:
+                              - 'link "Global Web Icon CTV News • https://www.ctvnews.ca/canada/article/canadian-donations-to-charity-take-a-hit-drop-to... Canadian donations to charity have taken a hit: Study - CTV News A new study from the Fraser Institute on Canadian generosity has found that the number of Canadians donating to charity dropped to the lowest point in …" [ref=f20e52] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=1757d54669fd1935efbb38acc1847cd9c16edde12fa78a91dd7cdcb3674617d9JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuY3R2bmV3cy5jYS9jYW5hZGEvYXJ0aWNsZS9jYW5hZGlhbi1kb25hdGlvbnMtdG8tY2hhcml0eS10YWtlLWEtaGl0LWRyb3AtdG8tYWxsLXRpbWUtbG93LXN0dWR5LXNob3dzLw&ntb=1
+                                - generic [ref=f20e53]:
+                                  - img "Global Web Icon" [ref=f20e56]
+                                  - generic [ref=f20e57]:
+                                    - generic [ref=f20e58]: CTV News •
+                                    - generic [ref=f20e59]:
+                                      - text: https://
+                                      - strong [ref=f20e60]: www.ctvnews.ca
+                                      - text: /
+                                      - strong [ref=f20e61]: canada
+                                      - text: /article/canadian-
+                                      - strong [ref=f20e62]: donations
+                                      - text: "-to-"
+                                      - strong [ref=f20e63]: charity
+                                      - text: "-take-a-hit-drop-to..."
+                                - 'heading "Canadian donations to charity have taken a hit: Study - CTV News" [level=1] [ref=f20e64]'
+                                - generic [ref=f20e65]:
+                                  - text: A new study from the Fraser Institute on
+                                  - strong [ref=f20e66]: Canadian
+                                  - text: generosity has found that the number of
+                                  - strong [ref=f20e67]: Canadians donating
+                                  - text: to
+                                  - strong [ref=f20e68]: charity
+                                  - text: dropped to the lowest point in …
+                              - 'link "Global Web Icon CTV News • https://www.ctvnews.ca/canada/article/number-of-canadians-making-donations-declines-as... Giving Tuesday: Number of Canadian donations declining Last year, CanadaHelps — the country’s largest online donation and fundraising platform — raised more than $16 million in for charities on Givin…" [ref=f20e69] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=4a714a6c8d20c58ed137771e68563aa282d9e193ad7ee036903e82a7aa7f069aJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuY3R2bmV3cy5jYS9jYW5hZGEvYXJ0aWNsZS9udW1iZXItb2YtY2FuYWRpYW5zLW1ha2luZy1kb25hdGlvbnMtZGVjbGluZXMtYXMtY2hhcml0aWVzLW1ha2UtbW9zdC1vZi1naXZpbmctdHVlc2RheS8&ntb=1
+                                - generic [ref=f20e70]:
+                                  - img "Global Web Icon" [ref=f20e73]
+                                  - generic [ref=f20e74]:
+                                    - generic [ref=f20e75]: CTV News •
+                                    - generic [ref=f20e76]:
+                                      - text: https://
+                                      - strong [ref=f20e77]: www.ctvnews.ca
+                                      - text: /
+                                      - strong [ref=f20e78]: canada
+                                      - text: /article/number-of-canadians-making-
+                                      - strong [ref=f20e79]: donations
+                                      - text: "-"
+                                      - strong [ref=f20e80]: declines
+                                      - text: "-as..."
+                                - 'heading "Giving Tuesday: Number of Canadian donations declining" [level=1] [ref=f20e81]'
+                                - generic [ref=f20e82]:
+                                  - text: Last year, CanadaHelps — the country’s largest online
+                                  - strong [ref=f20e83]: donation
+                                  - text: and fundraising platform — raised more than $16 million in for
+                                  - strong [ref=f20e84]: charities
+                                  - text: on Givin…
+                              - 'link "Global Web Icon canadahelps.org • https://www.canadahelps.org/en/charity-life/2025-the-giving-report-insights-for-charities A Look Back at Canadian Generosity: The Giving Report Insights for ... Economic issues continue to have ripple effects on the charitable sector – increasing demand for services and resulting in declining donations as Can…" [ref=f20e85] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=9584ae8db6d2983392f717bd3a9856c74273b01fd42d76409c860657c280edc5JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuY2FuYWRhaGVscHMub3JnL2VuL2NoYXJpdHktbGlmZS8yMDI1LXRoZS1naXZpbmctcmVwb3J0LWluc2lnaHRzLWZvci1jaGFyaXRpZXMv&ntb=1
+                                - generic [ref=f20e86]:
+                                  - img "Global Web Icon" [ref=f20e89]
+                                  - generic [ref=f20e90]:
+                                    - generic [ref=f20e91]: canadahelps.org •
+                                    - generic [ref=f20e92]:
+                                      - text: https://www.
+                                      - strong [ref=f20e93]: canada
+                                      - text: helps.org/en/
+                                      - strong [ref=f20e94]: charity
+                                      - text: "-life/2025-the-"
+                                      - strong [ref=f20e95]: giving
+                                      - text: "-report-insights-for-"
+                                      - strong [ref=f20e96]: charities
+                                - 'heading "A Look Back at Canadian Generosity: The Giving Report Insights for ..." [level=1] [ref=f20e97]'
+                                - generic [ref=f20e98]:
+                                  - text: Economic issues continue to have ripple effects on the
+                                  - strong [ref=f20e99]: charitable
+                                  - text: sector – increasing demand for services and resulting in
+                                  - strong [ref=f20e100]: declining donations
+                                  - text: as Can…
+                - list
+                - complementary "Additional Results" [ref=f20e101]:
+                  - list
+    - generic [ref=f7e47]:
+      - status [ref=f7e76]
+      - generic [ref=f7e49]:
+        - textbox "Ask a follow-up" [ref=f7e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f7e55] [cursor=pointer]

@@ -1,0 +1,140 @@
+- generic [ref=e1]:
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - strong [ref=e44]: Duck.ai
+        - button "Hide sidebar, CTRL + ⇧ + S" [ref=e45] [cursor=pointer]
+      - button "New Chat CTRL + ⇧ + O" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: New Chat
+        - generic [ref=e56]: CTRL + ⇧ + O
+      - generic [ref=e58]:
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+          - button "New Image CTRL + ⇧ + I" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: New Image
+            - generic [ref=e71]: CTRL + ⇧ + I
+        - generic [ref=e345]:
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Chats
+            - button [ref=e351] [cursor=pointer]
+            - button "Search chats" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - 'generic "Household labor in Canada: men vs women" [ref=e1993]':
+              - generic [ref=e1870]:
+                - paragraph [ref=e1872]: "Household labor in Canada: men vs women"
+                - button "menu" [ref=e1874] [cursor=pointer]
+            - generic "Volunteer rate in Canada" [ref=e1597] [cursor=pointer]:
+              - paragraph [ref=e1600]: Volunteer rate in Canada
+            - generic "Canada volunteering statistics" [ref=e1304] [cursor=pointer]:
+              - paragraph [ref=e1307]: Canada volunteering statistics
+            - generic "Salary by province (Canada)" [ref=e1097] [cursor=pointer]:
+              - paragraph [ref=e969]: Salary by province (Canada)
+            - generic "Canada salary by age" [ref=e764] [cursor=pointer]:
+              - paragraph [ref=e641]: Canada salary by age
+            - generic "Donations in Canada decline? sources" [ref=e359] [cursor=pointer]:
+              - paragraph [ref=e362]: Donations in Canada decline? sources
+      - generic [ref=e72]:
+        - button "Settings & More" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - strong [ref=e81]: Settings & More
+            - generic [ref=e82]: Free
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - text: by
+            - link "DuckDuckGo" [ref=e88] [cursor=pointer]:
+              - /url: https://duckduckgo.com/about
+          - generic [ref=e89]: "|"
+          - link "Get the App" [ref=e90] [cursor=pointer]:
+            - /url: https://duck.ai/browser
+    - generic [ref=e91]:
+      - generic:
+        - generic:
+          - paragraph: Drop your photos or PDF files
+      - generic [ref=e94]:
+        - generic [ref=e1877]:
+          - generic [ref=e1880]:
+            - text: Anonymized by DuckDuckGo. Zero data retention for this chat. No AI training.
+            - button "Learn more" [ref=e1881] [cursor=pointer]
+          - generic [ref=e1882]:
+            - paragraph [ref=e1885]: Who does more housework in Canada, men or women? What's the source?
+            - generic [ref=e1889]:
+              - button [ref=e1891] [cursor=pointer]
+              - button "Edit" [ref=e1896] [cursor=pointer]
+          - generic [ref=e1901]:
+            - strong [ref=e1999]:
+              - strong [ref=e2001]: GPT-5.4
+              - text: nano
+            - generic [ref=e1912]:
+              - generic [ref=e1914]:
+                - generic [ref=e1915]: Searching the web
+                - generic [ref=e1918]:
+                  - paragraph [ref=e1919]: Canada who does more housework men or women housework time use survey source
+                  - list [ref=e1920]:
+                    - listitem [ref=e1921]:
+                      - link "pubmed.ncbi.nlm.nih.gov" [ref=e1922] [cursor=pointer]:
+                        - /url: https://pubmed.ncbi.nlm.nih.gov/38512215/
+                    - listitem [ref=e1923]:
+                      - link "www150.statcan.gc.ca" [ref=e1924] [cursor=pointer]:
+                        - /url: https://www150.statcan.gc.ca/n1/pub/89-503-x/2015001/article/54931-eng.htm
+                    - listitem [ref=e1925]:
+                      - link "news.ubc.ca" [ref=e1926] [cursor=pointer]:
+                        - /url: https://news.ubc.ca/explore/trend-toward-gender-balance-in-workforce-reflected-in-housekeeping-chores/
+                    - listitem [ref=e1927]:
+                      - link "thegepi.org" [ref=e1928] [cursor=pointer]:
+                        - /url: https://thegepi.org/free-time-gender-gap/
+              - button "Hide Reasoning" [ref=e1929] [cursor=pointer]
+            - generic [ref=e1936]:
+              - paragraph [ref=e1937]:
+                - text: In Canada,
+                - generic [ref=e1938]: women do more housework than men
+                - text: .
+              - paragraph [ref=e1939]:
+                - generic [ref=e1940]: "Source (Statistics Canada):"
+                - text: In 2015, women spent an average of
+                - generic [ref=e1941]: 2.8 hours per day on housework
+                - text: ", versus"
+                - generic [ref=e1942]: 1.9 hours per day for men
+                - text: —a difference of
+                - generic [ref=e1943]: 54 minutes
+                - text: .
+                - link "Statistics Canada" [ref=e1944] [cursor=pointer]:
+                  - /url: https://www150.statcan.gc.ca/n1/pub/89-503-x/2015001/article/54931-eng.htm
+            - generic [ref=e2005]:
+              - heading "Search Results" [level=4] [ref=e2006]
+              - list [ref=e2008]:
+                - listitem [ref=e2009]:
+                  - 'link "Time Use: Total work burden, unpaid work, and leisure - Statistics Canada statcan.gc.ca" [ref=e2010]':
+                    - /url: https://www150.statcan.gc.ca/n1/pub/89-503-x/2015001/article/54931-eng.htm
+                    - generic [ref=e2012]:
+                      - text: "Time Use: Total work burden, unpaid work, and leisure - Statistics Canada"
+                      - generic [ref=e2013]: statcan.gc.ca
+            - generic [ref=e2014]:
+              - generic [ref=e2016]:
+                - button "Positive feedback" [ref=e2018] [cursor=pointer]
+                - button "Negative feedback" [ref=e2023] [cursor=pointer]
+              - button [ref=e2028] [cursor=pointer]
+              - button "Switch model" [ref=e2033] [cursor=pointer]
+              - button [ref=e2038] [cursor=pointer]
+              - button [ref=e2044] [cursor=pointer]
+        - generic [ref=e1948]:
+          - button "Delete chat" [ref=e1950] [cursor=pointer]
+          - generic [ref=e1955]:
+            - generic [ref=e1956]:
+              - textbox "Reply..." [active] [ref=e1957]
+              - button "Dictate" [ref=e1958] [cursor=pointer]
+            - generic [ref=e1962]:
+              - generic [ref=e1963]:
+                - button "Add images or PDFs" [ref=e2048] [cursor=pointer]
+                - button [ref=e1972] [cursor=pointer]:
+                  - strong [ref=e1977]: Tools
+              - button "Reasoning mode" [ref=e1981] [cursor=pointer]:
+                - generic [ref=e1982]: Fast
+              - button "Send" [disabled] [ref=e2050]
+              - generic:
+                - button "Stop generating" [disabled]
+        - paragraph [ref=e1991]:
+          - text: All chats are
+          - button "private" [ref=e1992] [cursor=pointer]
+          - text: . AI can make mistakes.
+  - iframe [ref=e193]:
+    

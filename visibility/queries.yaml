@@ -1,0 +1,197 @@
+# StatCan AI/Search Visibility Study — pilot query bank
+#
+# Purpose: a representative bank of real-world questions in five StatCan subject
+# areas (labour; digital economy and society; society and community; immigration
+# and ethnocultural diversity; population and demography), used to audit
+# whether popular search engines and AI answer engines cite Statistics Canada,
+# and whether StatCan *could* have answered (see docs/visibility.md).
+#
+# Fields per query:
+#   id       — stable identifier (LAB/DIG/SOC + number)
+#   query    — the question as a user would type/ask it
+#   source   — autocomplete (real Google autocomplete phrasing, July 2026)
+#              | curated (constructed to probe a specific gap)
+#   intent   — point (single current number) | trend | comparison
+#              | disaggregated (breakdown by sociodemographic/geo group)
+#              | integration (needs variables crossed from >1 dataset)
+#   probe    — optional: which underutilization mechanism this query tests
+#              (unpublished_indicator | shallow_disaggregation | no_integration)
+#   answerable — goal-2 coding (2026-07-18, vs WDS cube list of 8,212 cubes):
+#              fully (current published table at needed granularity)
+#              | partially (indicator exists but stale, discontinued, wrong
+#                granularity, or split across sources)
+#              | microdata_only (collected but published only in one-off
+#                articles/analysis, no standing table)
+#              | not_collected (not a StatCan indicator; another org owns it)
+#   candidate_table — PID(s) of best candidate cube(s); empty when none
+#   note     — coding rationale where non-obvious
+#
+# Coding is PILOT-GRADE: title-based matching against getAllCubesListLite plus
+# getCubeMetadata spot-checks (45100049, 45100095, 45100104). Single coder.
+# Engine-audit results go to visibility/results/*.parquet, not here.
+
+subjects:
+  labour:
+    - {id: LAB-001, query: "average salary in canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "14100063"}
+    - {id: LAB-002, query: "average salary in canada by age", source: autocomplete, intent: disaggregated, probe: shallow_disaggregation, answerable: fully, candidate_table: "14100064", note: "LFS wage tables carry sex and age group dims"}
+    - {id: LAB-003, query: "average salary in canada by province", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "14100064"}
+    - {id: LAB-004, query: "average salary in canada per hour", source: autocomplete, intent: point, answerable: fully, candidate_table: "14100063"}
+    - {id: LAB-005, query: "unemployment rate canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "14100287"}
+    - {id: LAB-006, query: "unemployment rate canada by province", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "14100287"}
+    - {id: LAB-007, query: "unemployment rate canada by city", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "14100459", note: "CMA 3-month moving avg; also small-area estimates 14100480"}
+    - {id: LAB-008, query: "unemployment rate canada vs usa", source: autocomplete, intent: comparison, answerable: partially, candidate_table: "", note: "no current adjusted-to-US-concepts cube found; comparison needs BLS; StatCan covers it in analytical articles"}
+    - {id: LAB-009, query: "unemployment rate canada by year", source: autocomplete, intent: trend, answerable: fully, candidate_table: "14100464"}
+    - {id: LAB-010, query: "gender pay gap canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "14100324"}
+    - {id: LAB-011, query: "adjusted gender pay gap canada", source: autocomplete, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_table: "", note: "regression-adjusted gap exists only in analytical papers, no standing table"}
+    - {id: LAB-012, query: "how many canadians work for the federal government", source: autocomplete, intent: point, answerable: partially, candidate_table: "14100288", note: "public-sector class of worker current; federal-specific SEPH table 10100026 ended 2011, TBS owns headcounts"}
+    - {id: LAB-013, query: "how many canadians work full time", source: autocomplete, intent: point, answerable: fully, candidate_table: "14100287"}
+    - {id: LAB-014, query: "how many canadians work in the public sector", source: autocomplete, intent: point, answerable: fully, candidate_table: "14100288"}
+    - {id: LAB-015, query: "minimum wage in canada by province", source: autocomplete, intent: disaggregated, answerable: not_collected, candidate_table: "", note: "minimum wage rates are ESDC Labour Program data, not a StatCan cube"}
+    - {id: LAB-016, query: "minimum wage in canada in 1970", source: autocomplete, intent: trend, answerable: not_collected, candidate_table: "", note: "ESDC historical minimum wage database"}
+    - {id: LAB-017, query: "youth unemployment rate canada", source: curated, intent: disaggregated, answerable: fully, candidate_table: "14100017"}
+    - {id: LAB-018, query: "how many job vacancies are there in canada right now", source: curated, intent: point, answerable: fully, candidate_table: "14100398"}
+    - {id: LAB-019, query: "what percentage of canadian workers are unionized", source: curated, intent: point, answerable: fully, candidate_table: "14100129"}
+    - {id: LAB-020, query: "how many canadians do gig work", source: curated, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_table: "", note: "LFS gig/platform supplements published as articles only; business-side outsourcing 33100933 is the only cube"}
+    - {id: LAB-021, query: "what percentage of canadians work from home", source: curated, intent: point, answerable: partially, candidate_table: "98100461", note: "LFS telework estimates live in articles; census commuting table is 2021; no standing LFS table found"}
+    - {id: LAB-022, query: "average retirement age in canada", source: curated, intent: point, answerable: fully, candidate_table: "14100060"}
+    - {id: LAB-023, query: "employment rate of recent immigrants in canada", source: curated, intent: disaggregated, answerable: partially, candidate_table: "14100083", note: "annual LFS immigrant-status table marked inactive end-2024; successor unclear"}
+    - {id: LAB-024, query: "unemployment rate for recent immigrants in toronto", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_table: "98100441", note: "no current CMA-by-immigrant-status table; census 2021 only"}
+    - {id: LAB-025, query: "average hours worked per week canada", source: curated, intent: point, answerable: fully, candidate_table: "14100043"}
+    - {id: LAB-026, query: "self-employment rate canada", source: curated, intent: point, answerable: fully, candidate_table: "14100026"}
+    - {id: LAB-027, query: "how many young people in canada are not in school or working", source: curated, intent: point, answerable: partially, candidate_table: "98100648", note: "no current headline NEET cube found; only census + subgroup tables (13100893)"}
+    - {id: LAB-028, query: "indigenous employment rate canada", source: curated, intent: disaggregated, answerable: fully, candidate_table: "14100470"}
+    - {id: LAB-029, query: "employment rate of people with disabilities in canada", source: curated, intent: disaggregated, answerable: fully, candidate_table: "14100477"}
+    - {id: LAB-030, query: "average salary software engineer canada", source: curated, intent: disaggregated, answerable: partially, candidate_table: "14100417", note: "occupation granularity is broad NOC; detailed-NOC wages live in ESDC Job Bank"}
+    - {id: LAB-031, query: "how many nurses are there in canada", source: curated, intent: point, answerable: partially, candidate_table: "98100593", note: "census occupation counts every 5y; CIHI is the authoritative annual source"}
+    - {id: LAB-032, query: "labour force participation of mothers with young children canada", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_table: "14100119", note: "family-age-composition LFS table inactive since 2020"}
+    - {id: LAB-033, query: "do immigrants earn less than canadian-born workers with the same education", source: curated, intent: integration, probe: no_integration, answerable: partially, candidate_table: "98100442", note: "census cross-tab every 5y; no annual or adjusted product"}
+    - {id: LAB-034, query: "is youth unemployment worse now than in the 1990s", source: curated, intent: trend, answerable: fully, candidate_table: "14100017", note: "monthly series since 1976"}
+
+  digital_economy_and_society:
+    - {id: DIG-001, query: "percentage of internet users in canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "22100137", note: "CIUS 2022; biennial lag"}
+    - {id: DIG-002, query: "average screen time canada", source: autocomplete, intent: point, probe: unpublished_indicator, answerable: partially, candidate_table: "45100104", note: "no headline screen-time table; TUS 2022 activity time + accelerometer sedentary 13100967; commercial surveys dominate the answer space"}
+    - {id: DIG-003, query: "screen time kids canada", source: autocomplete, intent: disaggregated, answerable: partially, candidate_table: "13100799", note: "CCHS 2015 ages 6-17 only; CHSCY 2019/2023 in microdata and articles"}
+    - {id: DIG-004, query: "online shopping canada statistics", source: autocomplete, intent: point, answerable: partially, candidate_table: "22100138", note: "latest published cube 2020"}
+    - {id: DIG-005, query: "online grocery shopping statistics canada", source: autocomplete, intent: point, answerable: microdata_only, candidate_table: "", note: "e-grocery not published as a standing table"}
+    - {id: DIG-006, query: "cyberbullying canada statistics", source: autocomplete, intent: point, answerable: microdata_only, candidate_table: "", note: "no cube; Juristat/CIUS online-harms articles only"}
+    - {id: DIG-007, query: "cyberbullying statistics canada 2025", source: autocomplete, intent: trend, answerable: microdata_only, candidate_table: ""}
+    - {id: DIG-008, query: "how many canadians have a smartphone", source: curated, intent: point, answerable: fully, candidate_table: "22100143", note: "2020; freshness caveat"}
+    - {id: DIG-009, query: "social media use in canada by age", source: curated, intent: disaggregated, answerable: microdata_only, candidate_table: "", note: "zero cubes title-match 'social media'; CIUS collects it, published in articles only"}
+    - {id: DIG-010, query: "internet use among seniors in canada", source: curated, intent: disaggregated, answerable: fully, candidate_table: "22100136"}
+    - {id: DIG-011, query: "rural internet access canada", source: curated, intent: disaggregated, answerable: partially, candidate_table: "", note: "zero cubes title-match 'broadband'; CRTC/ISED own coverage data"}
+    - {id: DIG-012, query: "e-commerce sales canada", source: curated, intent: point, answerable: partially, candidate_table: "20100072", note: "retail e-commerce table DISCONTINUED (inactive end-2022)"}
+    - {id: DIG-013, query: "how many canadians use ai chatbots", source: curated, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_table: "", note: "CIUS/other gen-AI modules surface in articles, no standing table"}
+    - {id: DIG-014, query: "how many businesses in canada use artificial intelligence", source: curated, intent: point, answerable: fully, candidate_table: "33101045", note: "current to 2025"}
+    - {id: DIG-015, query: "how much money do canadians lose to online scams", source: curated, intent: point, answerable: partially, candidate_table: "", note: "dollar losses are CAFC (RCMP) data; StatCan covers victimization rates"}
+    - {id: DIG-016, query: "what percentage of canadians subscribe to streaming services", source: curated, intent: point, answerable: partially, candidate_table: "22100136", note: "intensity of use, not subscription rates"}
+    - {id: DIG-017, query: "where do canadians get their news", source: curated, intent: point, answerable: fully, candidate_table: "45100102", note: "main source of news, 2024"}
+    - {id: DIG-018, query: "how many canadians play video games", source: curated, intent: point, answerable: partially, candidate_table: "22100136", note: "gaming intensity among users only"}
+    - {id: DIG-019, query: "digital divide in canada by income", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_table: "22100113", note: "by income quartile but 2018"}
+    - {id: DIG-020, query: "how many canadians have been exposed to misinformation online", source: curated, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_table: "", note: "CIUS misinformation module → articles only"}
+    - {id: DIG-021, query: "canadians concerned about online privacy statistics", source: curated, intent: point, answerable: partially, candidate_table: "22100009", note: "standing cubes end 2012; newer modules in articles"}
+    - {id: DIG-022, query: "how many canadian households have no internet at home", source: curated, intent: point, answerable: partially, candidate_table: "", note: "access rate published in Daily releases; standing-cube PID unverified"}
+    - {id: DIG-023, query: "teens social media use canada", source: curated, intent: disaggregated, answerable: microdata_only, candidate_table: "", note: "CHSCY articles only"}
+    - {id: DIG-024, query: "online dating statistics canada", source: curated, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_table: "", note: "one-off analytical study only"}
+    - {id: DIG-025, query: "cryptocurrency ownership canada", source: curated, intent: point, answerable: not_collected, candidate_table: "", note: "Bank of Canada omnibus surveys own this"}
+    - {id: DIG-026, query: "how many canadians earn money through online platforms", source: curated, intent: point, answerable: partially, candidate_table: "", note: "Digital Economy Accounts estimates; no standing household-side table found"}
+    - {id: DIG-027, query: "average internet speed canada", source: curated, intent: point, answerable: not_collected, candidate_table: "", note: "CRTC / commercial (Ookla)"}
+    - {id: DIG-028, query: "e-commerce share of retail sales canada", source: curated, intent: point, answerable: partially, candidate_table: "20100072", note: "discontinued 2022"}
+    - {id: DIG-029, query: "online harassment of women in canada", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_table: "", note: "SSPPS gender-based online harms; scattered 35-10 tables and articles"}
+    - {id: DIG-030, query: "is screen time linked to worse mental health in canadian teens", source: curated, intent: integration, probe: no_integration, answerable: microdata_only, candidate_table: "", note: "answered only by one-off longitudinal study (Daily, Mar 2026); no table"}
+    - {id: DIG-031, query: "do low-income canadian kids have less access to computers for school", source: curated, intent: integration, probe: no_integration, answerable: partially, candidate_table: "22100113", note: "2018; pandemic-era articles"}
+    - {id: DIG-032, query: "internet use canada urban vs rural", source: curated, intent: comparison, answerable: partially, candidate_table: "", note: "rural dim not in current standing cubes found"}
+    - {id: DIG-033, query: "how has online shopping changed since the pandemic in canada", source: curated, intent: trend, answerable: partially, candidate_table: "20100072", note: "series discontinued mid-story (2022)"}
+
+  society_and_community:
+    - {id: SOC-001, query: "volunteering in canada statistics", source: autocomplete, intent: point, answerable: fully, candidate_table: "45100039", note: "GSS-GVP 2023"}
+    - {id: SOC-002, query: "what percentage of canadians volunteer", source: curated, intent: point, answerable: fully, candidate_table: "45100039"}
+    - {id: SOC-003, query: "charitable donations canada average", source: autocomplete, intent: point, answerable: fully, candidate_table: "45100031", note: "also tax-filer 11100130"}
+    - {id: SOC-004, query: "are charitable donations declining in canada", source: curated, intent: trend, answerable: fully, candidate_table: "11100130", note: "long annual tax-filer series"}
+    - {id: SOC-005, query: "loneliness in canada statistics", source: autocomplete, intent: point, answerable: fully, candidate_table: "45100048", note: "CSS, current to 2024"}
+    - {id: SOC-006, query: "loneliness in seniors canada", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "45100049"}
+    - {id: SOC-007, query: "loneliness in canada for immigrants", source: autocomplete, intent: disaggregated, probe: shallow_disaggregation, answerable: fully, candidate_table: "45100049", note: "immigrant status confirmed in dims — but national one-way only; cannot cross with province/CMA"}
+    - {id: SOC-008, query: "life satisfaction canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "13100843", note: "current to 2025"}
+    - {id: SOC-009, query: "life satisfaction by province canada", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "13100843"}
+    - {id: SOC-010, query: "do canadians trust the government", source: curated, intent: point, answerable: fully, candidate_table: "45100073", note: "confidence in institutions, 2024"}
+    - {id: SOC-011, query: "trust in media canada statistics", source: curated, intent: point, answerable: fully, candidate_table: "45100102"}
+    - {id: SOC-012, query: "how many canadians feel a sense of belonging to their community", source: curated, intent: point, answerable: fully, candidate_table: "45100052"}
+    - {id: SOC-013, query: "discrimination statistics canada", source: curated, intent: point, answerable: fully, candidate_table: "45100100", note: "2024"}
+    - {id: SOC-014, query: "racism experienced by black canadians statistics", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: fully, candidate_table: "43100061", note: "by designated group incl. Black; 2020 vintage"}
+    - {id: SOC-015, query: "food bank use canada statistics", source: curated, intent: trend, answerable: partially, candidate_table: "13100834", note: "StatCan measures food insecurity; food-bank counts are Food Banks Canada (HungerCount)"}
+    - {id: SOC-016, query: "how religious is canada", source: curated, intent: point, answerable: fully, candidate_table: "98100353", note: "census 2021 religion"}
+    - {id: SOC-017, query: "church attendance canada statistics", source: curated, intent: trend, answerable: partially, candidate_table: "", note: "attendance-trend cubes inactive since 2013; newer estimates in articles"}
+    - {id: SOC-018, query: "social isolation young adults canada", source: curated, intent: disaggregated, answerable: partially, candidate_table: "45100049", note: "loneliness by age current; contact-frequency measures end 2013"}
+    - {id: SOC-019, query: "how much time do canadians spend with friends", source: curated, intent: point, probe: unpublished_indicator, answerable: fully, candidate_table: "45100104", note: "TUS 2022 socializing time — probe refuted"}
+    - {id: SOC-020, query: "are canadians happier than americans", source: curated, intent: comparison, answerable: partially, candidate_table: "13100843", note: "Canada side only; comparison needs Gallup/WHR"}
+    - {id: SOC-021, query: "do canadians feel safe walking alone at night", source: curated, intent: point, answerable: partially, candidate_table: "43100059", note: "2019 GSS; classic safety-perception tables end 2014"}
+    - {id: SOC-022, query: "how many close friends does the average canadian have", source: curated, intent: point, probe: unpublished_indicator, answerable: partially, candidate_table: "45100021", note: "latest table 2013 — 13 years stale"}
+    - {id: SOC-023, query: "unpaid caregiving statistics canada", source: curated, intent: point, answerable: partially, candidate_table: "44100011", note: "GSS 2018; newer CSS caregiving in articles"}
+    - {id: SOC-024, query: "who does more housework men or women canada", source: curated, intent: disaggregated, answerable: fully, candidate_table: "45100104", note: "TUS 2022 unpaid domestic work by gender"}
+    - {id: SOC-025, query: "how well do refugees integrate in canada", source: curated, intent: integration, probe: no_integration, answerable: partially, candidate_table: "98100441", note: "IMDB/census cover economic outcomes; no multi-domain integration product"}
+    - {id: SOC-026, query: "lgbtq wellbeing canada statistics", source: curated, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_table: "", note: "scattered tables by sexual orientation; no consolidated well-being product"}
+    - {id: SOC-027, query: "is life satisfaction declining among young canadians", source: curated, intent: trend, answerable: fully, candidate_table: "13100844", note: "CSS 2021-2025 by age; CCHS historical 13100106"}
+    - {id: SOC-028, query: "how many canadians live alone", source: curated, intent: point, answerable: fully, candidate_table: "98100134", note: "census 2021"}
+    - {id: SOC-029, query: "do people trust their neighbours in canada", source: curated, intent: point, answerable: fully, candidate_table: "45100095", note: "CSS trust battery; verify neighbourhood item among 16 indicators"}
+    - {id: SOC-030, query: "civic engagement youth canada", source: curated, intent: disaggregated, answerable: partially, candidate_table: "43100065", note: "2020, visible-minority-focused; general youth civic in GSS articles"}
+    - {id: SOC-031, query: "is loneliness worse in big cities canada", source: curated, intent: integration, probe: no_integration, answerable: partially, candidate_table: "45100048", note: "province granularity only; no CMA breakdown published"}
+    - {id: SOC-032, query: "sense of meaning and purpose canada statistics", source: curated, intent: point, answerable: fully, candidate_table: "13100845", note: "current to 2025"}
+    - {id: SOC-033, query: "immigrants sense of belonging canada", source: curated, intent: disaggregated, answerable: fully, candidate_table: "45100053", note: "immigrant status confirmed in CSS sociodemographic dims"}
+
+  # Added 2026-07-18 (round 2): two further subjects from the StatCan subject list.
+  # Autocomplete phrasings collected 2026-07-18 via suggestqueries.google.com
+  # (client=firefox), same method as the original three subjects. Coding is
+  # title-based vs the cached cube list (visibility/cache/cubes_lite.json).
+
+  immigration_and_ethnocultural_diversity:
+    - {id: IMM-001, query: "how many immigrants in canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "98100307", note: "census 2021 stock; annual flow in 17100008"}
+    - {id: IMM-002, query: "how many immigrants in canada per year", source: autocomplete, intent: trend, answerable: fully, candidate_table: "17100008", note: "components of demographic growth, current"}
+    - {id: IMM-003, query: "immigration to canada statistics by countries", source: autocomplete, intent: disaggregated, answerable: partially, candidate_table: "98100349", note: "census place-of-birth stock 2021; current admissions by country are IRCC data"}
+    - {id: IMM-004, query: "how many refugees in canada", source: autocomplete, intent: point, answerable: partially, candidate_table: "98100317", note: "census admission-category stock 2021; current refugee admissions are IRCC; asylum claimants in 17100121"}
+    - {id: IMM-005, query: "how many international students in canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "17100121", note: "NPR by type, quarterly current; enrolments 37100086 to 2023"}
+    - {id: IMM-006, query: "canada immigration rate over time", source: autocomplete, intent: trend, answerable: fully, candidate_table: "17100008"}
+    - {id: IMM-007, query: "visible minorities in canada percentage", source: autocomplete, intent: point, answerable: fully, candidate_table: "98100324", note: "census 2021; 5-year cycle"}
+    - {id: IMM-008, query: "largest visible minority in canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "98100324"}
+    - {id: IMM-009, query: "how many muslims in canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "98100353", note: "census religion 2021; 10-year collection cycle"}
+    - {id: IMM-010, query: "ethnic groups in canada percentages", source: autocomplete, intent: point, answerable: fully, candidate_table: "98100355"}
+    - {id: IMM-011, query: "how many people speak french in canada outside of quebec", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "98100170"}
+    - {id: IMM-012, query: "how many immigrants in canada are on welfare", source: autocomplete, intent: integration, probe: no_integration, answerable: partially, candidate_table: "98100334", note: "no social-assistance-by-immigrant-status table; census income sources + IMDB analytical studies; provinces own caseloads"}
+    - {id: IMM-013, query: "what percentage of canada's population is foreign born", source: curated, intent: point, answerable: fully, candidate_table: "98100307"}
+    - {id: IMM-014, query: "which cities do most immigrants settle in canada", source: curated, intent: disaggregated, answerable: fully, candidate_table: "98100307", note: "census CMA stock 2021; current-year settlement by city is IRCC admissions data"}
+    - {id: IMM-015, query: "second generation immigrants in canada statistics", source: curated, intent: point, answerable: fully, candidate_table: "98100324", note: "generation status dims"}
+    - {id: IMM-016, query: "how many temporary foreign workers in canada", source: curated, intent: point, answerable: fully, candidate_table: "17100121", note: "NPR work-permit holders quarterly; agriculture-specific 32100218"}
+    - {id: IMM-017, query: "how many asylum claimants in canada", source: curated, intent: point, answerable: fully, candidate_table: "17100121"}
+    - {id: IMM-018, query: "how many undocumented immigrants in canada", source: curated, intent: point, probe: unpublished_indicator, answerable: not_collected, candidate_table: "", note: "no official StatCan estimate exists; circulating figures are advocacy/ministerial guesses"}
+    - {id: IMM-019, query: "do immigrants commit more crime in canada", source: curated, intent: integration, probe: no_integration, answerable: microdata_only, candidate_table: "", note: "police-reported crime data does not record immigrant status; one-off census-justice linkage studies only"}
+    - {id: IMM-020, query: "how much do immigrants earn compared to canadian born workers", source: curated, intent: comparison, answerable: fully, candidate_table: "43100026", note: "IMDB income by admission category to 2023; census employment income 98100440"}
+    - {id: IMM-021, query: "what percentage of immigrants become canadian citizens", source: curated, intent: point, answerable: fully, candidate_table: "98100303"}
+    - {id: IMM-022, query: "how many interracial couples in canada", source: curated, intent: point, probe: unpublished_indicator, answerable: microdata_only, candidate_table: "", note: "zero cubes title-match 'mixed unions'; census-based analytical articles only"}
+    - {id: IMM-023, query: "discrimination against immigrants in canada statistics", source: curated, intent: disaggregated, answerable: fully, candidate_table: "45100101", note: "CSS discrimination by sociodemographic characteristics, 2024"}
+    - {id: IMM-024, query: "how many immigrants leave canada after arriving", source: curated, intent: trend, probe: unpublished_indicator, answerable: microdata_only, candidate_table: "", note: "onward-migration exists only in IMDB analytical studies; only aggregate emigration in 17100008"}
+    - {id: IMM-025, query: "how do refugees do economically in canada", source: curated, intent: disaggregated, answerable: fully, candidate_table: "43100026", note: "IMDB income incl. refugee admission categories, to 2023"}
+
+  population_and_demography:
+    - {id: POP-001, query: "population of canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "17100009", note: "quarterly estimates, current to 2026"}
+    - {id: POP-002, query: "population of canada by province", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "17100009"}
+    - {id: POP-003, query: "population of canada by race", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "98100324", note: "census 2021"}
+    - {id: POP-004, query: "population of toronto", source: autocomplete, intent: point, answerable: fully, candidate_table: "17100148", note: "CMA estimates current to 2025"}
+    - {id: POP-005, query: "population of toronto vs montreal", source: autocomplete, intent: comparison, answerable: fully, candidate_table: "17100148"}
+    - {id: POP-006, query: "canada population growth rate", source: autocomplete, intent: trend, answerable: fully, candidate_table: "17100009"}
+    - {id: POP-007, query: "canada population growth projections", source: autocomplete, intent: trend, answerable: fully, candidate_table: "17100057", note: "projection scenarios to 2075"}
+    - {id: POP-008, query: "canada birth rate", source: autocomplete, intent: point, answerable: fully, candidate_table: "13100418", note: "vital statistics current to 2024"}
+    - {id: POP-009, query: "canada birth rate by province", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "13100418"}
+    - {id: POP-010, query: "canada death rate by year", source: autocomplete, intent: trend, answerable: fully, candidate_table: "13100710"}
+    - {id: POP-011, query: "life expectancy canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "13100114", note: "current to 2022; 2-3 year vital-stats lag"}
+    - {id: POP-012, query: "life expectancy canada by province", source: autocomplete, intent: disaggregated, answerable: fully, candidate_table: "13100114"}
+    - {id: POP-013, query: "life expectancy canada vs us", source: autocomplete, intent: comparison, answerable: partially, candidate_table: "13100114", note: "comparison needs NCHS data; StatCan covers in analytical articles only"}
+    - {id: POP-014, query: "fertility rate canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "13100418"}
+    - {id: POP-015, query: "average age in canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "98100020", note: "census average/median age 2021; median age also in annual estimates 17100005"}
+    - {id: POP-016, query: "average age in canada to have a baby", source: autocomplete, intent: point, answerable: fully, candidate_table: "13100417", note: "mean age of mother at delivery, to 2024"}
+    - {id: POP-017, query: "how many seniors in canada", source: autocomplete, intent: point, answerable: fully, candidate_table: "17100005"}
+    - {id: POP-018, query: "how many seniors in canada live alone", source: autocomplete, intent: disaggregated, probe: shallow_disaggregation, answerable: partially, candidate_table: "", note: "zero cubes title-match 'living alone'; census living-arrangements topic 2021; marital-status estimates 17100060 ended 2022"}
+    - {id: POP-019, query: "how many people live in montreal", source: autocomplete, intent: point, answerable: fully, candidate_table: "17100148"}
+    - {id: POP-020, query: "population of canada vs usa", source: autocomplete, intent: comparison, answerable: partially, candidate_table: "17100009", note: "comparison needs US Census Bureau data"}
+    - {id: POP-021, query: "marriage rate canada", source: curated, intent: point, probe: unpublished_indicator, answerable: partially, candidate_table: "39100055", note: "nuptiality indicators end 2020; vital-stats marriage collection ceased 2008, revived via admin data only to 2020"}
+    - {id: POP-022, query: "divorce rate canada", source: curated, intent: point, answerable: partially, candidate_table: "39100051", note: "divorce indicators end 2020"}
+    - {id: POP-023, query: "which province are people moving to in canada", source: curated, intent: disaggregated, answerable: fully, candidate_table: "17100045", note: "interprovincial migration quarterly, current"}
+    - {id: POP-024, query: "how many people immigrate to canada vs leave", source: curated, intent: comparison, answerable: fully, candidate_table: "17100008", note: "immigrant and emigrant components in one table"}
+    - {id: POP-025, query: "what percentage of canadians live in cities", source: curated, intent: point, answerable: fully, candidate_table: "98100008", note: "population centres vs rural, census 2021"}

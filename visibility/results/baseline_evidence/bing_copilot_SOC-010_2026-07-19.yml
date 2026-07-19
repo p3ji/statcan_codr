@@ -1,0 +1,169 @@
+- generic [active] [ref=f119e1]:
+  - generic [ref=f119e2]:
+    - link [ref=f119e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f119e4]
+    - navigation "Search Filter" [ref=f119e5]:
+      - list [ref=f119e6]:
+        - listitem [ref=f119e7]:
+          - link "All" [ref=f119e8] [cursor=pointer]:
+            - /url: /search?q=do%20canadians%20trust%20the%20government&FORM=HDRSC1
+        - link "Search" [ref=f119e9] [cursor=pointer]
+        - listitem [ref=f119e17]:
+          - link "Images" [ref=f119e18] [cursor=pointer]:
+            - /url: /images/search?q=do%20canadians%20trust%20the%20government&FORM=HDRSC3
+        - listitem [ref=f119e19]:
+          - link "Videos" [ref=f119e20] [cursor=pointer]:
+            - /url: /videos/search?q=do%20canadians%20trust%20the%20government&FORM=HDRSC4
+        - listitem [ref=f119e21]:
+          - link "Maps" [ref=f119e22] [cursor=pointer]:
+            - /url: /maps?q=do%20canadians%20trust%20the%20government&FORM=HDRSC6
+        - listitem [ref=f119e23]:
+          - link "News" [ref=f119e24] [cursor=pointer]:
+            - /url: /news/search?q=do%20canadians%20trust%20the%20government&FORM=HDRSC7
+        - listitem [ref=f119e25]:
+          - link "Shopping" [ref=f119e26] [cursor=pointer]:
+            - /url: /shop/topics?q=do%20canadians%20trust%20the%20government&FORM=SHOPTB
+      - button "More" [ref=f119e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f119e32]:
+      - button "Microsoft Rewards" [ref=f119e58] [cursor=pointer]:
+        - generic [ref=f119e59]: Rewards
+      - link [ref=f119e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f119e36]
+  - generic [ref=f119e38]:
+    - generic [ref=f119e39]:
+      - generic [ref=f119e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f119e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f119e42]:
+        - listitem [ref=f119e43]:
+          - generic [ref=f119e44]:
+            - generic "Sent by you. do canadians trust the government" [ref=f119e45]: do canadians trust the government
+            - generic [ref=f119e78]:
+              - button "Like" [ref=f119e79]
+              - button "Dislike" [ref=f119e82]
+          - iframe [ref=f119e86]:
+            - main "Search Results" [ref=f132e3]:
+              - generic [ref=f132e4]:
+                - list [ref=f132e5]:
+                  - listitem [ref=f132e6]:
+                    - region "Copilot Search" [ref=f132e10]:
+                      - list
+                      - generic [ref=f132e11]:
+                        - heading "Search results" [level=2] [ref=f132e13]
+                        - list [ref=f132e19]:
+                          - listitem [ref=f132e20]:
+                            - link "Global Web Icon Policy Options https://policyoptions.irpp.org/2025/10/trust-government-public Why Canada needs a trust ecosystem in government Overall, Canadians’ trust in government institutions tends to be around or slightly above the OECD average. However, the number of Canadians expressing confidence in the federal government dipped below 50 per cent in 2023, which could be reason …" [ref=f132e22] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=293ee16bb03a69d9ef6d5eb351c82cc00b573cdf635b8d4bcf425ff5ef8ff50dJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9wb2xpY3lvcHRpb25zLmlycHAub3JnLzIwMjUvMTAvdHJ1c3QtZ292ZXJubWVudC1wdWJsaWMv&ntb=1
+                              - generic [ref=f132e23]:
+                                - img "Global Web Icon" [ref=f132e26]
+                                - generic [ref=f132e27]:
+                                  - generic [ref=f132e28]: Policy Options
+                                  - generic [ref=f132e29]:
+                                    - text: https://policyoptions.irpp.org/2025/10/
+                                    - strong [ref=f132e30]: trust
+                                    - text: "-"
+                                    - strong [ref=f132e31]: government
+                                    - text: "-public"
+                              - generic [ref=f132e32]: Why Canada needs a trust ecosystem in government
+                              - generic [ref=f132e33]:
+                                - text: Overall,
+                                - strong [ref=f132e34]: Canadians
+                                - text: ’
+                                - strong [ref=f132e35]: trust
+                                - text: in
+                                - strong [ref=f132e36]: government
+                                - text: institutions tends to be around or slightly above the OECD average. However, the number of
+                                - strong [ref=f132e37]: Canadians
+                                - text: expressing confidence in the federal
+                                - strong [ref=f132e38]: government
+                                - text: dipped below 50 per cent in 2023, which could be reason …
+                            - link "Global Web Icon Canada.ca https://www.canada.ca/en/government/system/government-wide-reporting-spending... Government of Canada Trust and Transparency Strategy While Canadians have a high level of trust in our democratic system, we must take additional action to ensure the Government of Canada continues to meet citizen expectations for transparent, accountable, and participatory government." [ref=f132e40] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=3485407814a4beb2f86652639a6ca81a5cbc8ad8dd7c0053fa23eaa784c5e6a0JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuY2FuYWRhLmNhL2VuL2dvdmVybm1lbnQvc3lzdGVtL2dvdmVybm1lbnQtd2lkZS1yZXBvcnRpbmctc3BlbmRpbmctb3BlcmF0aW9ucy90cnVzdC10cmFuc3BhcmVuY3kvZ292ZXJubWVudC1jYW5hZGEtdHJ1c3QtYW5kLXRyYW5zcGFyZW5jeS1zdHJhdGVneS5odG1s&ntb=1
+                              - generic [ref=f132e41]:
+                                - img "Global Web Icon" [ref=f132e44]
+                                - generic [ref=f132e45]:
+                                  - generic [ref=f132e46]: Canada.ca
+                                  - generic [ref=f132e47]:
+                                    - text: https://www.
+                                    - strong [ref=f132e48]: canada
+                                    - text: .ca/en/
+                                    - strong [ref=f132e49]: government
+                                    - text: /system/
+                                    - strong [ref=f132e50]: government
+                                    - text: "-wide-reporting-spending..."
+                              - generic [ref=f132e51]: Government of Canada Trust and Transparency Strategy
+                              - generic [ref=f132e52]:
+                                - text: While
+                                - strong [ref=f132e53]: Canadians
+                                - text: have a high level of
+                                - strong [ref=f132e54]: trust
+                                - text: in our democratic system, we must take additional action to ensure the
+                                - strong [ref=f132e55]: Government
+                                - text: of
+                                - strong [ref=f132e56]: Canada
+                                - text: continues to meet citizen expectations for transparent, accountable, and participatory government.
+                          - listitem [ref=f132e57]:
+                            - generic [ref=f132e59]:
+                              - link "frontiercentre.org • https://frontiercentre.org/2025/03/04/canadians-no-longer-trust-their-government-and... Canadians No Longer Trust Their Government. And For Good Reason In a recent Ekos Research survey, 51 per cent of respondents said they distrust government decision-making, with that number climbing to 64 per cent in Alb…" [ref=f132e60] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=cd1c56a63d1ecb988dc9bc04cd176edc11172eefac1a801246b98d97f562b64dJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9mcm9udGllcmNlbnRyZS5vcmcvMjAyNS8wMy8wNC9jYW5hZGlhbnMtbm8tbG9uZ2VyLXRydXN0LXRoZWlyLWdvdmVybm1lbnQtYW5kLWZvci1nb29kLXJlYXNvbi8&ntb=1
+                                - generic [ref=f132e64]:
+                                  - generic [ref=f132e65]: frontiercentre.org •
+                                  - generic [ref=f132e66]:
+                                    - text: https://frontiercentre.org/2025/03/04/
+                                    - strong [ref=f132e67]: canadians
+                                    - text: "-no-longer-"
+                                    - strong [ref=f132e68]: trust
+                                    - text: "-their-"
+                                    - strong [ref=f132e69]: government
+                                    - text: "-and..."
+                                - heading "Canadians No Longer Trust Their Government. And For Good Reason" [level=1] [ref=f132e70]
+                                - generic [ref=f132e71]:
+                                  - text: In a recent Ekos Research survey, 51 per cent of respondents said they distrust
+                                  - strong [ref=f132e72]: government
+                                  - text: decision-making, with that number climbing to 64 per cent in Alb…
+                              - link "Global Web Icon Public Sector Network • https://publicsectornetwork.com/insight/public-trust-in-digital-government-canada Public Trust in Digital Government Canada Where do Canadians stand when it comes to their trust levels in their government? According to the 2024 Edelman Trust Barometer, trust in their …" [ref=f132e73] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=b00ed2de5a544211dca028f9b25daefdcc692f7893b6ddf83e706f98899d93f0JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9wdWJsaWNzZWN0b3JuZXR3b3JrLmNvbS9pbnNpZ2h0L3B1YmxpYy10cnVzdC1pbi1kaWdpdGFsLWdvdmVybm1lbnQtY2FuYWRh&ntb=1
+                                - generic [ref=f132e74]:
+                                  - img "Global Web Icon" [ref=f132e77]
+                                  - generic [ref=f132e78]:
+                                    - generic [ref=f132e79]: Public Sector Network •
+                                    - generic [ref=f132e80]:
+                                      - text: https://publicsectornetwork.com/insight/public-
+                                      - strong [ref=f132e81]: trust
+                                      - text: "-in-digital-"
+                                      - strong [ref=f132e82]: government
+                                      - text: "-"
+                                      - strong [ref=f132e83]: canada
+                                - heading "Public Trust in Digital Government Canada" [level=1] [ref=f132e84]
+                                - generic [ref=f132e85]:
+                                  - text: Where do
+                                  - strong [ref=f132e86]: Canadians
+                                  - text: stand when it comes to their
+                                  - strong [ref=f132e87]: trust
+                                  - text: levels in their
+                                  - strong [ref=f132e88]: government
+                                  - text: "? According to the 2024 Edelman Trust Barometer,"
+                                  - strong [ref=f132e89]: trust
+                                  - text: in their …
+                              - 'link "Global Web Icon University of Waterloo • https://uwaterloo.ca/cybersecurity-privacy-institute/sites/default/files/uploads/... Trust in Canadian government: what is it, (how) has it changed, can it ... Criticisms of efforts toward Reconciliation with Indigenous Peoples for historical injustices, high levels of inequity in the population, general dissatisfaction wit…" [ref=f132e90] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=777272bfdeab82507d03ec4a8f66b05a4a5b2c23a125cafd1a4608dcd13d44a0JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly91d2F0ZXJsb28uY2EvY3liZXJzZWN1cml0eS1wcml2YWN5LWluc3RpdHV0ZS9zaXRlcy9kZWZhdWx0L2ZpbGVzL3VwbG9hZHMvZG9jdW1lbnRzL3RydXN0LWluLWNhbmFkaWFuLWdvdmVybm1lbnQtd2hhdC1pcy1pdC1ob3ctaGFzLWl0LWNoYW5nZWQtY2FuLWl0LWJlLW1lYXN1cmVkLWFuZC13aHktZG9lcy1pdC1tYXR0ZXItZm9yLXBvcHVsYXRpb24taGVhbHRoLXNhbWFudGhhLW1leWVyLnBkZg&ntb=1
+                                - generic [ref=f132e91]:
+                                  - img "Global Web Icon" [ref=f132e94]
+                                  - generic [ref=f132e95]:
+                                    - generic [ref=f132e96]: University of Waterloo •
+                                    - generic [ref=f132e97]: https://uwaterloo.ca/cybersecurity-privacy-institute/sites/default/files/uploads/...
+                                - 'heading "Trust in Canadian government: what is it, (how) has it changed, can it ..." [level=1] [ref=f132e98]'
+                                - generic [ref=f132e99]: Criticisms of efforts toward Reconciliation with Indigenous Peoples for historical injustices, high levels of inequity in the population, general dissatisfaction wit…
+                - list
+                - complementary "Additional Results" [ref=f132e100]:
+                  - list
+    - generic [ref=f119e47]:
+      - status [ref=f119e76]
+      - generic [ref=f119e49]:
+        - textbox "Ask a follow-up" [ref=f119e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f119e55] [cursor=pointer]

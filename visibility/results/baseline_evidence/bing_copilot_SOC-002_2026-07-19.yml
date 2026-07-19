@@ -1,0 +1,151 @@
+- generic [active] [ref=f63e1]:
+  - generic [ref=f63e2]:
+    - link [ref=f63e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f63e4]
+    - navigation "Search Filter" [ref=f63e5]:
+      - list [ref=f63e6]:
+        - listitem [ref=f63e7]:
+          - link "All" [ref=f63e8] [cursor=pointer]:
+            - /url: /search?q=what%20percentage%20of%20canadians%20volunteer&FORM=HDRSC1
+        - link "Search" [ref=f63e9] [cursor=pointer]
+        - listitem [ref=f63e17]:
+          - link "Images" [ref=f63e18] [cursor=pointer]:
+            - /url: /images/search?q=what%20percentage%20of%20canadians%20volunteer&FORM=HDRSC3
+        - listitem [ref=f63e19]:
+          - link "Videos" [ref=f63e20] [cursor=pointer]:
+            - /url: /videos/search?q=what%20percentage%20of%20canadians%20volunteer&FORM=HDRSC4
+        - listitem [ref=f63e21]:
+          - link "Maps" [ref=f63e22] [cursor=pointer]:
+            - /url: /maps?q=what%20percentage%20of%20canadians%20volunteer&FORM=HDRSC6
+        - listitem [ref=f63e23]:
+          - link "News" [ref=f63e24] [cursor=pointer]:
+            - /url: /news/search?q=what%20percentage%20of%20canadians%20volunteer&FORM=HDRSC7
+        - listitem [ref=f63e25]:
+          - link "Shopping" [ref=f63e26] [cursor=pointer]:
+            - /url: /shop/topics?q=what%20percentage%20of%20canadians%20volunteer&FORM=SHOPTB
+      - button "More" [ref=f63e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f63e32]:
+      - button "Microsoft Rewards" [ref=f63e58] [cursor=pointer]:
+        - generic [ref=f63e59]: Rewards
+      - link [ref=f63e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f63e36]
+  - generic [ref=f63e38]:
+    - generic [ref=f63e39]:
+      - generic [ref=f63e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f63e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f63e42]:
+        - listitem [ref=f63e43]:
+          - generic [ref=f63e44]:
+            - generic "Sent by you. what percentage of canadians volunteer" [ref=f63e45]: what percentage of canadians volunteer
+            - generic [ref=f63e78]:
+              - button "Like" [ref=f63e79]
+              - button "Dislike" [ref=f63e82]
+          - iframe [ref=f63e86]:
+            - main "Search Results" [ref=f76e3]:
+              - generic [ref=f76e4]:
+                - list [ref=f76e5]:
+                  - listitem [ref=f76e6]:
+                    - region "Copilot Search" [ref=f76e10]:
+                      - list
+                      - list [ref=f76e17]:
+                        - listitem [ref=f76e18]:
+                          - generic [ref=f76e20]:
+                            - link "Global Web Icon Volunteer Canada https://volunteer.ca/data-on-giving-volunteering-and-participating-in-canada Data on Giving, Volunteering and Participating in Canada Collected every five years, this survey captures how Canadians support their communities through time, money, and civic action. The newest data provides a snapshot of how …" [ref=f76e21] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=4349be68b5ac2973e208bfd5a8142e1fd74c48334671f68f7164880909adad05JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly92b2x1bnRlZXIuY2EvZGF0YS1vbi1naXZpbmctdm9sdW50ZWVyaW5nLWFuZC1wYXJ0aWNpcGF0aW5nLWluLWNhbmFkYS8&ntb=1
+                              - generic [ref=f76e22]:
+                                - img "Global Web Icon" [ref=f76e25]
+                                - generic [ref=f76e26]:
+                                  - generic [ref=f76e27]: Volunteer Canada
+                                  - generic [ref=f76e28]:
+                                    - text: https://
+                                    - strong [ref=f76e29]: volunteer
+                                    - text: .ca/data-on-giving-
+                                    - strong [ref=f76e30]: volunteering
+                                    - text: "-and-participating-in-"
+                                    - strong [ref=f76e31]: canada
+                              - heading "Data on Giving, Volunteering and Participating in Canada" [level=1] [ref=f76e32]
+                              - generic [ref=f76e33]:
+                                - text: Collected every five years, this survey captures how
+                                - strong [ref=f76e34]: Canadians
+                                - text: support their communities through time, money, and civic action. The newest data provides a snapshot of how …
+                            - generic [ref=f76e35]:
+                              - link "Virtual Volunteering Opportunities Virtual volunteering is done online, via computers, tablets, or smartphones, usually off-site …" [ref=f76e36] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=cdd0f480f0db76cde855d52241bb95bc83853461ca3c68f0c605e7629dc8589cJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly92b2x1bnRlZXIuY2EvdmlydHVhbC12b2x1bnRlZXJpbmctb3Bwb3J0dW5pdGllcy8&ntb=1
+                                - generic [ref=f76e38]:
+                                  - heading "Virtual Volunteering Opportunities" [level=1] [ref=f76e39]
+                                  - generic [ref=f76e40]: Virtual volunteering is done online, via computers, tablets, or smartphones, usually off-site …
+                              - link "Membership Volunteer Canada members are a part of a community of organizations that understand the …" [ref=f76e41] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=207b0380c4b5b80121fe7c31dd65f919684d21c27418de0062d916ee74bd25e0JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly92b2x1bnRlZXIuY2EvbWVtYmVyc2hpcC8&ntb=1
+                                - generic [ref=f76e43]:
+                                  - heading "Membership" [level=1] [ref=f76e44]
+                                  - generic [ref=f76e45]: Volunteer Canada members are a part of a community of organizations that understand the …
+                              - 'link "National Volunteer Week National Volunteer Week Ignite Volunteerism: A year-long, nation-building celebration …" [ref=f76e46] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=09bf9ed5558e3798937fadcb36c6b88d66ac20c74c8b4252b0e525758c7b67b3JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly92b2x1bnRlZXIuY2EvbmF0aW9uYWwtdm9sdW50ZWVyLXdlZWsv&ntb=1
+                                - generic [ref=f76e48]:
+                                  - heading "National Volunteer Week" [level=1] [ref=f76e49]
+                                  - generic [ref=f76e50]: "National Volunteer Week Ignite Volunteerism: A year-long, nation-building celebration …"
+                        - listitem [ref=f76e51]:
+                          - generic [ref=f76e53]:
+                            - link "Global Web Icon Made in CA • https://madeinca.ca/volunteer-work-statistics-canada Volunteer Work Statistics in Canada - Made in CA In 2023, around 73% of Canadians aged 15 years or older were taking part in some type of volunteer work, either formally through an organisation or infor…" [ref=f76e54] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=732d8978e262112b0f89d45bb1e0250f89d81ee20d2349f06041eb859f975ab5JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9tYWRlaW5jYS5jYS92b2x1bnRlZXItd29yay1zdGF0aXN0aWNzLWNhbmFkYS8&ntb=1
+                              - generic [ref=f76e55]:
+                                - img "Global Web Icon" [ref=f76e58]
+                                - generic [ref=f76e59]:
+                                  - generic [ref=f76e60]: Made in CA •
+                                  - generic [ref=f76e61]:
+                                    - text: https://madeinca.ca/
+                                    - strong [ref=f76e62]: volunteer
+                                    - text: "-work-statistics-"
+                                    - strong [ref=f76e63]: canada
+                              - heading "Volunteer Work Statistics in Canada - Made in CA" [level=1] [ref=f76e64]
+                              - generic [ref=f76e65]:
+                                - text: In 2023, around 73% of
+                                - strong [ref=f76e66]: Canadians
+                                - text: aged 15 years or older were taking part in some type of
+                                - strong [ref=f76e67]: volunteer
+                                - text: work, either formally through an organisation or infor…
+                            - link "Global Web Icon Imagine Canada • https://imaginecanada.ca/en/360/new-results-statistics-canadas-survey-giving... New Results from Statistics Canada’s Survey of Giving, Volunteering and ... The percentage of Canadians volunteering for nonprofits and charities dropped significantly, from 41% in 2018 to 32% in 2023. This is an additional …" [ref=f76e68] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=5a860526adcfd75d2b454dfbeae1c954d62a15eeb7b59414f1bcfbed048c5194JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9pbWFnaW5lY2FuYWRhLmNhL2VuLzM2MC9uZXctcmVzdWx0cy1zdGF0aXN0aWNzLWNhbmFkYXMtc3VydmV5LWdpdmluZy12b2x1bnRlZXJpbmctYW5kLXBhcnRpY2lwYXRpbmc&ntb=1
+                              - generic [ref=f76e69]:
+                                - img "Global Web Icon" [ref=f76e72]
+                                - generic [ref=f76e73]:
+                                  - generic [ref=f76e74]: Imagine Canada •
+                                  - generic [ref=f76e75]:
+                                    - text: https://imagine
+                                    - strong [ref=f76e76]: canada
+                                    - text: .ca/en/360/new-results-statistics-
+                                    - strong [ref=f76e77]: canada
+                                    - text: s-survey-giving...
+                              - heading "New Results from Statistics Canada’s Survey of Giving, Volunteering and ..." [level=1] [ref=f76e78]
+                              - generic [ref=f76e79]:
+                                - text: The
+                                - strong [ref=f76e80]: percentage
+                                - text: of
+                                - strong [ref=f76e81]: Canadians volunteering
+                                - text: for nonprofits and charities dropped significantly, from 41% in 2018 to 32% in 2023. This is an additional …
+                            - link "Statistique Canada • https://www.statcan.gc.ca/en/survey/household/4430 Survey on Giving, Volunteering and Participating (SGVP) In 2018, over 24 million Canadians gave approximately 5 billion hours to their formal and informal volunteer activities — equivalent to over 2.5 million full-ti…" [ref=f76e82] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=fddd11052bf203ee22d986bc284c0472f2c93fa6e8dcce17f834ab7c28249208JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuc3RhdGNhbi5nYy5jYS9lbi9zdXJ2ZXkvaG91c2Vob2xkLzQ0MzA&ntb=1
+                              - generic [ref=f76e86]:
+                                - generic [ref=f76e87]: Statistique Canada •
+                                - generic [ref=f76e88]: https://www.statcan.gc.ca/en/survey/household/4430
+                              - heading "Survey on Giving, Volunteering and Participating (SGVP)" [level=1] [ref=f76e89]
+                              - generic [ref=f76e90]:
+                                - text: In 2018, over 24 million
+                                - strong [ref=f76e91]: Canadians
+                                - text: gave approximately 5 billion hours to their formal and informal
+                                - strong [ref=f76e92]: volunteer
+                                - text: activities — equivalent to over 2.5 million full-ti…
+                - list
+                - complementary "Additional Results" [ref=f76e93]:
+                  - list
+    - generic [ref=f63e47]:
+      - status [ref=f63e76]
+      - generic [ref=f63e49]:
+        - textbox "Ask a follow-up" [ref=f63e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f63e55] [cursor=pointer]

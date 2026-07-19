@@ -1,0 +1,162 @@
+- generic [ref=e1]:
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - strong [ref=e44]: Duck.ai
+        - button "Hide sidebar, CTRL + ⇧ + S" [ref=e45] [cursor=pointer]
+      - button "New Chat CTRL + ⇧ + O" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: New Chat
+        - generic [ref=e56]: CTRL + ⇧ + O
+      - generic [ref=e58]:
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+          - button "New Image CTRL + ⇧ + I" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: New Image
+            - generic [ref=e71]: CTRL + ⇧ + I
+        - generic [ref=e345]:
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Chats
+            - button [ref=e351] [cursor=pointer]
+            - button "Search chats" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - generic "Public sector employment in Canada" [ref=e2603]:
+              - generic [ref=e2480]:
+                - paragraph [ref=e2482]: Public sector employment in Canada
+                - button "menu" [ref=e2484] [cursor=pointer]
+            - generic "Canadian AI adoption statistics" [ref=e2276] [cursor=pointer]:
+              - paragraph [ref=e2152]: Canadian AI adoption statistics
+            - 'generic "Household labor in Canada: men vs women" [ref=e1993] [cursor=pointer]':
+              - paragraph [ref=e1872]: "Household labor in Canada: men vs women"
+            - generic "Volunteer rate in Canada" [ref=e1597] [cursor=pointer]:
+              - paragraph [ref=e1600]: Volunteer rate in Canada
+            - generic "Canada volunteering statistics" [ref=e1304] [cursor=pointer]:
+              - paragraph [ref=e1307]: Canada volunteering statistics
+            - generic "Salary by province (Canada)" [ref=e1097] [cursor=pointer]:
+              - paragraph [ref=e969]: Salary by province (Canada)
+            - generic "Canada salary by age" [ref=e764] [cursor=pointer]:
+              - paragraph [ref=e641]: Canada salary by age
+            - generic "Donations in Canada decline? sources" [ref=e359] [cursor=pointer]:
+              - paragraph [ref=e362]: Donations in Canada decline? sources
+      - generic [ref=e72]:
+        - button "Settings & More" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - strong [ref=e81]: Settings & More
+            - generic [ref=e82]: Free
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - text: by
+            - link "DuckDuckGo" [ref=e88] [cursor=pointer]:
+              - /url: https://duckduckgo.com/about
+          - generic [ref=e89]: "|"
+          - link "Get the App" [ref=e90] [cursor=pointer]:
+            - /url: https://duck.ai/browser
+    - generic [ref=e91]:
+      - generic:
+        - generic:
+          - paragraph: Drop your photos or PDF files
+      - generic [ref=e94]:
+        - generic [ref=e2487]:
+          - generic [ref=e2490]:
+            - text: Anonymized by DuckDuckGo. Zero data retention for this chat. No AI training.
+            - button "Learn more" [ref=e2491] [cursor=pointer]
+          - generic [ref=e2492]:
+            - paragraph [ref=e2495]: How many Canadians work in the public sector? What's the source?
+            - generic [ref=e2499]:
+              - button [ref=e2501] [cursor=pointer]
+              - button "Edit" [ref=e2506] [cursor=pointer]
+          - generic [ref=e2511]:
+            - strong [ref=e2609]:
+              - strong [ref=e2611]: GPT-5.4
+              - text: nano
+            - generic [ref=e2523]:
+              - generic [ref=e2524]:
+                - generic [ref=e2525]:
+                  - generic [ref=e2526]: Searching the web
+                  - generic [ref=e2531]:
+                    - paragraph [ref=e2532]: How many Canadians work in the public sector number of people employed in public sector Canada source Statistics Canada
+                    - list [ref=e2533]:
+                      - listitem [ref=e2534]:
+                        - link "thehub.ca" [ref=e2535] [cursor=pointer]:
+                          - /url: https://thehub.ca/2026/02/20/more-than-one-in-five-canadians-now-works-for-government-and-the-share-is-rising/
+                      - listitem [ref=e2536]:
+                        - link "www150.statcan.gc.ca" [ref=e2537] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/260710/dq260710a-eng.htm
+                      - listitem [ref=e2538]:
+                        - link "canada.ca" [ref=e2539] [cursor=pointer]:
+                          - /url: https://www.canada.ca/en/treasury-board-secretariat/services/innovation/human-resources-statistics/population-federal-public-service-department.html
+                - generic [ref=e2540]:
+                  - generic [ref=e2541]: Searching the web
+                  - generic [ref=e2544]:
+                    - paragraph [ref=e2545]: 4.597 million public sector employees January 2026 Statistics Canada 14-10-0288-02 public sector employees
+                    - list [ref=e2614]:
+                      - listitem [ref=e2615]:
+                        - link "thehub.ca" [ref=e2616] [cursor=pointer]:
+                          - /url: https://thehub.ca/2024/11/02/since-the-pandemic-canadas-public-sector-employment-has-grown-nearly-four-times-more-than-private-sector-employment/
+                      - listitem [ref=e2617]:
+                        - link "www150.statcan.gc.ca" [ref=e2618] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410035501
+                      - listitem [ref=e2619]:
+                        - link "economics.td.com" [ref=e2620] [cursor=pointer]:
+                          - /url: https://economics.td.com/ca-employment
+                      - listitem [ref=e2621]:
+                        - link "cdhowe.org" [ref=e2622] [cursor=pointer]:
+                          - /url: https://cdhowe.org/publication/public-sector-employment-balloons-compared-private-sector/
+              - button "Hide Reasoning" [ref=e2546] [cursor=pointer]
+            - generic [ref=e2624]:
+              - paragraph [ref=e2625]:
+                - text: In
+                - generic [ref=e2626]: January 2026
+                - text: ","
+                - generic [ref=e2627]: 4.597 million Canadians
+                - text: worked in the
+                - generic [ref=e2628]: public sector
+                - text: ", which was"
+                - generic [ref=e2629]: 21.8% of total employment
+                - text: .
+                - link "thehub.ca" [ref=e2630] [cursor=pointer]:
+                  - /url: https://thehub.ca/2026/02/20/more-than-one-in-five-canadians-now-works-for-government-and-the-share-is-rising/
+              - paragraph [ref=e2632]:
+                - generic [ref=e2633]: "Source:"
+                - emphasis [ref=e2634]: Labour Force Survey
+                - text: (Statistics Canada), as reported in that figure.
+                - link "thehub.ca" [ref=e2635] [cursor=pointer]:
+                  - /url: https://thehub.ca/2026/02/20/more-than-one-in-five-canadians-now-works-for-government-and-the-share-is-rising/
+            - generic [ref=e2638]:
+              - heading "Search Results" [level=4] [ref=e2639]
+              - list [ref=e2641]:
+                - listitem [ref=e2642]:
+                  - link "More than 1 in 5 Canadians now works for government ... - The Hub thehub.ca" [ref=e2643]:
+                    - /url: https://thehub.ca/2026/02/20/more-than-one-in-five-canadians-now-works-for-government-and-the-share-is-rising/
+                    - generic [ref=e2645]:
+                      - text: More than 1 in 5 Canadians now works for government ... - The Hub
+                      - generic [ref=e2646]: thehub.ca
+            - generic [ref=e2647]:
+              - generic [ref=e2649]:
+                - button "Positive feedback" [ref=e2651] [cursor=pointer]
+                - button "Negative feedback" [ref=e2656] [cursor=pointer]
+              - button [ref=e2661] [cursor=pointer]
+              - button "Switch model" [ref=e2666] [cursor=pointer]
+              - button [ref=e2671] [cursor=pointer]
+              - button [ref=e2677] [cursor=pointer]
+        - generic [ref=e2558]:
+          - button "Delete chat" [ref=e2560] [cursor=pointer]
+          - generic [ref=e2565]:
+            - generic [ref=e2566]:
+              - textbox "Reply..." [active] [ref=e2567]
+              - button "Dictate" [ref=e2568] [cursor=pointer]
+            - generic [ref=e2572]:
+              - generic [ref=e2573]:
+                - button "Add images or PDFs" [ref=e2681] [cursor=pointer]
+                - button [ref=e2582] [cursor=pointer]:
+                  - strong [ref=e2587]: Tools
+              - button "Reasoning mode" [ref=e2591] [cursor=pointer]:
+                - generic [ref=e2592]: Fast
+              - button "Send" [disabled] [ref=e2683]
+              - generic:
+                - button "Stop generating" [disabled]
+        - paragraph [ref=e2601]:
+          - text: All chats are
+          - button "private" [ref=e2602] [cursor=pointer]
+          - text: . AI can make mistakes.
+  - iframe [ref=e193]:
+    

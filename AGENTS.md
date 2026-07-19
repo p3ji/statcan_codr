@@ -5,7 +5,7 @@
 **Brain note (goals, backlog, full context):** `H:\My Drive\Brain2\Projects\statcan_codr.md`
 **GitHub:** `https://github.com/p3ji/statcan_codr`
 **Live site:** `https://p3ji.github.io/statcan_codr/`
-**Plan of record:** `docs/phaseone.md`
+**Plan of record:** `docs/phaseone.md` · Visibility study: `docs/visibility.md` (query bank: `visibility/queries.yaml`)
 **Stack:** Python (pipeline) + plain HTML/JS + DuckDB-Wasm (site, no build step)
 
 ## Run / build / test

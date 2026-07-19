@@ -1,0 +1,184 @@
+- generic [ref=e1]:
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - strong [ref=e44]: Duck.ai
+        - button "Hide sidebar, CTRL + ⇧ + S" [ref=e45] [cursor=pointer]
+      - button "New Chat CTRL + ⇧ + O" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: New Chat
+        - generic [ref=e56]: CTRL + ⇧ + O
+      - generic [ref=e58]:
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+          - button "New Image CTRL + ⇧ + I" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: New Image
+            - generic [ref=e71]: CTRL + ⇧ + I
+        - generic [ref=e345]:
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Chats
+            - button [ref=e351] [cursor=pointer]
+            - button "Search chats" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - generic "Salary by province (Canada)" [ref=e1097]:
+              - generic [ref=e967]:
+                - paragraph [ref=e969]: Salary by province (Canada)
+                - button "menu" [ref=e971] [cursor=pointer]
+            - generic "Canada salary by age" [ref=e764] [cursor=pointer]:
+              - paragraph [ref=e641]: Canada salary by age
+            - generic "Donations in Canada decline? sources" [ref=e359] [cursor=pointer]:
+              - paragraph [ref=e362]: Donations in Canada decline? sources
+      - generic [ref=e72]:
+        - button "Settings & More" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - strong [ref=e81]: Settings & More
+            - generic [ref=e82]: Free
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - text: by
+            - link "DuckDuckGo" [ref=e88] [cursor=pointer]:
+              - /url: https://duckduckgo.com/about
+          - generic [ref=e89]: "|"
+          - link "Get the App" [ref=e90] [cursor=pointer]:
+            - /url: https://duck.ai/browser
+    - generic [ref=e91]:
+      - generic:
+        - generic:
+          - paragraph: Drop your photos or PDF files
+      - generic [ref=e94]:
+        - generic [ref=e974]:
+          - generic [ref=e977]:
+            - text: Anonymized by DuckDuckGo. Zero data retention for this chat. No AI training.
+            - button "Learn more" [ref=e978] [cursor=pointer]
+          - generic [ref=e979]:
+            - paragraph [ref=e982]: What is the average salary in Canada by province? What's the source?
+            - generic [ref=e986]:
+              - button [ref=e988] [cursor=pointer]
+              - button "Edit" [ref=e993] [cursor=pointer]
+          - generic [ref=e998]:
+            - strong [ref=e1103]:
+              - strong [ref=e1105]: GPT-5.4
+              - text: nano
+            - generic [ref=e1010]:
+              - generic [ref=e1011]:
+                - generic [ref=e1012]:
+                  - generic [ref=e1013]: Searching the web
+                  - generic [ref=e1016]:
+                    - paragraph [ref=e1017]: average salary Canada by province latest data source
+                    - list [ref=e1018]:
+                      - listitem [ref=e1019]:
+                        - link "ctvnews.ca" [ref=e1020] [cursor=pointer]:
+                          - /url: https://www.ctvnews.ca/canada/article/these-are-the-regions-where-canadians-are-earning-the-most-on-average-and-by-contrast-the-least/
+                      - listitem [ref=e1021]:
+                        - link "fraserinstitute.org" [ref=e1022] [cursor=pointer]:
+                          - /url: https://www.fraserinstitute.org/studies/our-incomes-are-falling-behind-earnings-in-the-canadian-provinces-and-us-states-2010-2022
+                      - listitem [ref=e1023]:
+                        - link "www150.statcan.gc.ca" [ref=e1024] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110023901
+                      - listitem [ref=e1025]:
+                        - link "knitpeople.com" [ref=e1026] [cursor=pointer]:
+                          - /url: https://knitpeople.com/blog/average-salary-canada
+                      - listitem [ref=e1027]:
+                        - link "oysterhr.com" [ref=e1028] [cursor=pointer]:
+                          - /url: https://www.oysterhr.com/library/average-salary-in-canada
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]: Searching the web
+                  - generic [ref=e1114]:
+                    - paragraph [ref=e1115]: Statistics Canada average weekly earnings by province table
+                    - list [ref=e1116]:
+                      - listitem [ref=e1117]:
+                        - link "www150.statcan.gc.ca" [ref=e1118] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410033201
+                - generic [ref=e1119]:
+                  - generic [ref=e1120]: Reading website
+                  - list [ref=e1125]:
+                    - listitem [ref=e1126]:
+                      - link "www150.statcan.gc.ca" [ref=e1127] [cursor=pointer]:
+                        - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410022301
+              - button "Hide Reasoning" [ref=e1029] [cursor=pointer]
+            - generic [ref=e1129]:
+              - paragraph [ref=e1130]:
+                - text: Canada doesn’t publish a single official “average salary” by province in one number (salary depends on what you mean by
+                - emphasis [ref=e1131]: salary
+                - text: —hourly vs weekly, with/without overtime, employees vs all income, etc.). The closest standard “salary/earnings” measure that’s published
+                - emphasis [ref=e1132]: by province
+                - text: is
+                - generic [ref=e1133]: average weekly earnings
+                - text: from Statistics Canada’s payroll earnings program.
+              - 'heading "Best match: Average weekly earnings (incl. overtime) by province" [level=2] [ref=e1134]'
+              - paragraph [ref=e1135]:
+                - text: Use
+                - generic [ref=e1136]: Statistics Canada Table 14-10-0223-01
+                - text: ":"
+                - emphasis [ref=e1137]: “Employment and average weekly earnings (including overtime) for all employees by province and territory, monthly, seasonally adjusted”
+                - text: .
+              - paragraph [ref=e1138]:
+                - text: "Source: Statistics Canada, Table 14-10-0223-01 (formerly CANSIM 281-0063), release date shown on the table page as"
+                - generic [ref=e1139]: 2026-06-25
+                - text: .
+                - link "Statistics Canada" [ref=e1140] [cursor=pointer]:
+                  - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410022301
+              - heading "How to get the “by province average salary” numbers from it" [level=3] [ref=e1142]
+              - list [ref=e1143]:
+                - listitem [ref=e1144]: Open the table page for Table 14-10-0223-01.
+                - listitem [ref=e1145]:
+                  - text: "Set:"
+                  - list [ref=e1146]:
+                    - listitem [ref=e1147]:
+                      - generic [ref=e1148]: "Estimate:"
+                      - emphasis [ref=e1149]: Average weekly earnings
+                      - text: (including overtime)
+                    - listitem [ref=e1150]:
+                      - generic [ref=e1151]: "Geography:"
+                      - text: select each province (and exclude territories if you want provinces only)
+                    - listitem [ref=e1152]:
+                      - generic [ref=e1153]: "Reference period:"
+                      - text: pick a specific month/year (e.g., the most recent month available on the page)
+                - listitem [ref=e1154]:
+                  - text: Use
+                  - generic [ref=e1155]: Download options → CSV
+                  - text: (or “Download selected data”) to extract the province values.
+              - paragraph [ref=e1156]:
+                - text: If you tell me which
+                - generic [ref=e1157]: month/year
+                - text: you want (e.g., “most recent month” or “2025-12”) and whether you want
+                - generic [ref=e1158]: provinces only
+                - text: (excluding territories), I can format the results as a clean province-by-province table.
+            - generic [ref=e1160]:
+              - heading "Search Results" [level=4] [ref=e1161]
+              - list [ref=e1163]:
+                - listitem [ref=e1164]:
+                  - link "Employment and average weekly earnings (including overtime) for all employees by province and territory, monthly, seasonally adjusted - Statistics Canada statcan.gc.ca" [ref=e1165]:
+                    - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410022301
+                    - generic [ref=e1167]:
+                      - text: Employment and average weekly earnings (including overtime) for all employees by province and territory, monthly, seasonally adjusted - Statistics Canada
+                      - generic [ref=e1168]: statcan.gc.ca
+            - generic [ref=e1169]:
+              - generic [ref=e1171]:
+                - button "Positive feedback" [ref=e1173] [cursor=pointer]
+                - button "Negative feedback" [ref=e1178] [cursor=pointer]
+              - button [ref=e1183] [cursor=pointer]
+              - button "Switch model" [ref=e1188] [cursor=pointer]
+              - button [ref=e1193] [cursor=pointer]
+              - button [ref=e1199] [cursor=pointer]
+        - generic [ref=e1052]:
+          - button "Delete chat" [ref=e1054] [cursor=pointer]
+          - generic [ref=e1059]:
+            - generic [ref=e1060]:
+              - textbox "Reply..." [active] [ref=e1061]
+              - button "Dictate" [ref=e1062] [cursor=pointer]
+            - generic [ref=e1066]:
+              - generic [ref=e1067]:
+                - button "Add images or PDFs" [ref=e1203] [cursor=pointer]
+                - button [ref=e1076] [cursor=pointer]:
+                  - strong [ref=e1081]: Tools
+              - button "Reasoning mode" [ref=e1085] [cursor=pointer]:
+                - generic [ref=e1086]: Fast
+              - button "Send" [disabled] [ref=e1205]
+              - generic:
+                - button "Stop generating" [disabled]
+        - paragraph [ref=e1095]:
+          - text: All chats are
+          - button "private" [ref=e1096] [cursor=pointer]
+          - text: . AI can make mistakes.
+  - iframe [ref=e193]:
+    

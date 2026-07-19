@@ -1,0 +1,223 @@
+- generic [ref=e1]:
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - strong [ref=e44]: Duck.ai
+        - button "Hide sidebar, CTRL + ⇧ + S" [ref=e45] [cursor=pointer]
+      - button "New Chat CTRL + ⇧ + O" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: New Chat
+        - generic [ref=e56]: CTRL + ⇧ + O
+      - generic [ref=e58]:
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+          - button "New Image CTRL + ⇧ + I" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: New Image
+            - generic [ref=e71]: CTRL + ⇧ + I
+        - generic [ref=e345]:
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Chats
+            - button [ref=e351] [cursor=pointer]
+            - button "Search chats" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - generic "Canadians loneliness statistics" [ref=e3583]:
+              - generic [ref=e3453]:
+                - paragraph [ref=e3455]: Canadians loneliness statistics
+                - button "menu" [ref=e3457] [cursor=pointer]
+            - generic "Canada religion statistics" [ref=e3225] [cursor=pointer]:
+              - paragraph [ref=e3098]: Canada religion statistics
+            - generic "Canadians' trust in government" [ref=e2913] [cursor=pointer]:
+              - paragraph [ref=e2785]: Canadians' trust in government
+            - generic "Public sector employment in Canada" [ref=e2603] [cursor=pointer]:
+              - paragraph [ref=e2482]: Public sector employment in Canada
+            - generic "Canadian AI adoption statistics" [ref=e2276] [cursor=pointer]:
+              - paragraph [ref=e2152]: Canadian AI adoption statistics
+            - 'generic "Household labor in Canada: men vs women" [ref=e1993] [cursor=pointer]':
+              - paragraph [ref=e1872]: "Household labor in Canada: men vs women"
+            - generic "Volunteer rate in Canada" [ref=e1597] [cursor=pointer]:
+              - paragraph [ref=e1600]: Volunteer rate in Canada
+            - generic "Canada volunteering statistics" [ref=e1304] [cursor=pointer]:
+              - paragraph [ref=e1307]: Canada volunteering statistics
+            - generic "Salary by province (Canada)" [ref=e1097] [cursor=pointer]:
+              - paragraph [ref=e969]: Salary by province (Canada)
+            - generic "Canada salary by age" [ref=e764] [cursor=pointer]:
+              - paragraph [ref=e641]: Canada salary by age
+            - generic "Donations in Canada decline? sources" [ref=e359] [cursor=pointer]:
+              - paragraph [ref=e362]: Donations in Canada decline? sources
+      - generic [ref=e72]:
+        - button "Settings & More" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - strong [ref=e81]: Settings & More
+            - generic [ref=e82]: Free
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - text: by
+            - link "DuckDuckGo" [ref=e88] [cursor=pointer]:
+              - /url: https://duckduckgo.com/about
+          - generic [ref=e89]: "|"
+          - link "Get the App" [ref=e90] [cursor=pointer]:
+            - /url: https://duck.ai/browser
+    - generic [ref=e91]:
+      - generic:
+        - generic:
+          - paragraph: Drop your photos or PDF files
+      - generic [ref=e94]:
+        - generic [ref=e3460]:
+          - generic [ref=e3463]:
+            - text: Anonymized by DuckDuckGo. Zero data retention for this chat. No AI training.
+            - button "Learn more" [ref=e3464] [cursor=pointer]
+          - generic [ref=e3465]:
+            - paragraph [ref=e3468]: How lonely are Canadians? What do the statistics say, and what's the source?
+            - generic [ref=e3472]:
+              - button [ref=e3474] [cursor=pointer]
+              - button "Edit" [ref=e3479] [cursor=pointer]
+          - generic [ref=e3484]:
+            - strong [ref=e3589]:
+              - strong [ref=e3591]: GPT-5.4
+              - text: nano
+            - generic [ref=e3496]:
+              - generic [ref=e3497]:
+                - generic [ref=e3498]:
+                  - generic [ref=e3499]: Searching the web
+                  - generic [ref=e3502]:
+                    - paragraph [ref=e3503]: statistics how lonely are Canadians loneliness rate survey source 2023 2024
+                    - list [ref=e3504]:
+                      - listitem [ref=e3505]:
+                        - link "pmc.ncbi.nlm.nih.gov" [ref=e3506] [cursor=pointer]:
+                          - /url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12419236/
+                      - listitem [ref=e3507]:
+                        - link "www150.statcan.gc.ca" [ref=e3508] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4510004801
+                      - listitem [ref=e3509]:
+                        - link "genwell.ca" [ref=e3510] [cursor=pointer]:
+                          - /url: https://genwell.ca/topline-results-of-the-2023-canadian-social-connection-survey/
+                      - listitem [ref=e3511]:
+                        - link "niageing.ca" [ref=e3512] [cursor=pointer]:
+                          - /url: https://niageing.ca/resources/social-isolation-and-lonelinessthe-hidden-epidemic/
+                      - listitem [ref=e3513]:
+                        - link "cma.ca" [ref=e3514] [cursor=pointer]:
+                          - /url: https://www.cma.ca/healthcare-for-real/how-does-loneliness-fuel-misinformation
+                - generic [ref=e3594]:
+                  - generic [ref=e3595]: Reading website
+                  - list [ref=e3600]:
+                    - listitem [ref=e3601]:
+                      - link "cma.ca" [ref=e3602] [cursor=pointer]:
+                        - /url: https://www.cma.ca/healthcare-for-real/how-does-loneliness-fuel-misinformation
+                - generic [ref=e3603]:
+                  - generic [ref=e3604]: Searching the web
+                  - generic [ref=e3609]:
+                    - paragraph [ref=e3610]: Statistics Canada "often or always" feeling lonely 13% over the age of 15 Canadian Social Survey Loneliness in Canada
+                    - list [ref=e3611]:
+                      - listitem [ref=e3612]:
+                        - link "cmha.ca" [ref=e3613] [cursor=pointer]:
+                          - /url: https://cmha.ca/news/are-screens-getting-the-best-of-us-canadians-are-digitally-connected-yet-millions-are-very-lonely/
+                      - listitem [ref=e3614]:
+                        - link "cma.ca" [ref=e3615] [cursor=pointer]:
+                          - /url: https://www.cma.ca/healthcare-for-real/how-does-loneliness-fuel-misinformation
+                      - listitem [ref=e3616]:
+                        - link "news.westernu.ca" [ref=e3617] [cursor=pointer]:
+                          - /url: https://news.westernu.ca/2021/11/canadian-lonely-in-good-company/
+                      - listitem [ref=e3618]:
+                        - link "peakexperiencecounselling.com" [ref=e3619] [cursor=pointer]:
+                          - /url: https://www.peakexperiencecounselling.com/post/loneliness-epidemic
+                      - listitem [ref=e3620]:
+                        - link "statcan.gc.ca" [ref=e3621] [cursor=pointer]:
+                          - /url: https://www.statcan.gc.ca/hub-carrefour/quality-life-qualite-vie/society-societe/loneliness-solitude-eng.htm
+              - button "Hide Reasoning" [ref=e3515] [cursor=pointer]
+            - generic [ref=e3623]:
+              - paragraph [ref=e3624]:
+                - text: Canadian loneliness is usually measured as the share of people who report they feel
+                - generic [ref=e3625]: lonely “often or always.”
+                - text: Using Statistics Canada’s
+                - generic [ref=e3626]: Canadian Social Survey
+                - text: ":"
+              - list [ref=e3627]:
+                - listitem [ref=e3628]:
+                  - text: In recent survey quarters, the percentage reporting
+                  - generic [ref=e3629]: often/always lonely
+                  - text: has generally hovered around
+                  - generic [ref=e3630]: ~13–15%
+                  - text: (e.g.,
+                  - generic [ref=e3631]: 13.0% in Q3 2021
+                  - text: ","
+                  - generic [ref=e3632]: 14.0% in Q2 2022
+                  - text: ","
+                  - generic [ref=e3633]: 12.7% in Q3 2023
+                  - text: ","
+                  - generic [ref=e3634]: 13.1% in Q1 2024
+                  - text: ","
+                  - generic [ref=e3635]: 14.7% in Q2 2024
+                  - text: ","
+                  - generic [ref=e3636]: 12.8% in Q3 2024
+                  - text: ","
+                  - generic [ref=e3637]: 13.4% in Q4 2024
+                  - text: ).
+                  - link "Statistics Canada" [ref=e3638] [cursor=pointer]:
+                    - /url: https://www.statcan.gc.ca/hub-carrefour/quality-life-qualite-vie/society-societe/loneliness-solitude-eng.htm
+                - listitem [ref=e3640]:
+                  - text: A high-level summary figure commonly cited is
+                  - generic [ref=e3641]: 13% of Canadians aged 15+
+                  - text: reporting they feel lonely
+                  - generic [ref=e3642]: often or always
+                  - text: (with higher rates among youth).
+                  - link "cma.ca" [ref=e3643] [cursor=pointer]:
+                    - /url: https://www.cma.ca/healthcare-for-real/how-does-loneliness-fuel-misinformation
+              - paragraph [ref=e3645]:
+                - generic [ref=e3646]: "Source(s):"
+              - list [ref=e3647]:
+                - listitem [ref=e3648]:
+                  - text: Statistics Canada, “Loneliness” indicator page (Quality of Life Hub), with the note that it comes from the
+                  - generic [ref=e3649]: Canadian Social Survey
+                  - text: and a table of quarterly percentages.
+                  - link "Statistics Canada" [ref=e3650] [cursor=pointer]:
+                    - /url: https://www.statcan.gc.ca/hub-carrefour/quality-life-qualite-vie/society-societe/loneliness-solitude-eng.htm
+                - listitem [ref=e3652]:
+                  - text: Canadian Medical Association (CMA) summary article that states the
+                  - generic [ref=e3653]: 13%
+                  - text: figure and points readers to Statistics Canada data.
+                  - link "cma.ca" [ref=e3654] [cursor=pointer]:
+                    - /url: https://www.cma.ca/healthcare-for-real/how-does-loneliness-fuel-misinformation
+            - generic [ref=e3657]:
+              - heading "Search Results" [level=4] [ref=e3658]
+              - list [ref=e3660]:
+                - listitem [ref=e3661]:
+                  - 'link "Quality of life indicator: Loneliness - Statistics Canada statcan.gc.ca" [ref=e3662]':
+                    - /url: https://www.statcan.gc.ca/hub-carrefour/quality-life-qualite-vie/society-societe/loneliness-solitude-eng.htm
+                    - generic [ref=e3664]:
+                      - text: "Quality of life indicator: Loneliness - Statistics Canada"
+                      - generic [ref=e3665]: statcan.gc.ca
+                - listitem [ref=e3666]:
+                  - link "How does loneliness fuel misinformation? | CMA - Canadian Medical Association cma.ca" [ref=e3667]:
+                    - /url: https://www.cma.ca/healthcare-for-real/how-does-loneliness-fuel-misinformation
+                    - generic [ref=e3669]:
+                      - text: How does loneliness fuel misinformation? | CMA - Canadian Medical Association
+                      - generic [ref=e3670]: cma.ca
+            - generic [ref=e3671]:
+              - generic [ref=e3673]:
+                - button "Positive feedback" [ref=e3675] [cursor=pointer]
+                - button "Negative feedback" [ref=e3680] [cursor=pointer]
+              - button [ref=e3685] [cursor=pointer]
+              - button "Switch model" [ref=e3690] [cursor=pointer]
+              - button [ref=e3695] [cursor=pointer]
+              - button [ref=e3701] [cursor=pointer]
+        - generic [ref=e3538]:
+          - button "Delete chat" [ref=e3540] [cursor=pointer]
+          - generic [ref=e3545]:
+            - generic [ref=e3546]:
+              - textbox "Reply..." [active] [ref=e3547]
+              - button "Dictate" [ref=e3548] [cursor=pointer]
+            - generic [ref=e3552]:
+              - generic [ref=e3553]:
+                - button "Add images or PDFs" [ref=e3705] [cursor=pointer]
+                - button [ref=e3562] [cursor=pointer]:
+                  - strong [ref=e3567]: Tools
+              - button "Reasoning mode" [ref=e3571] [cursor=pointer]:
+                - generic [ref=e3572]: Fast
+              - button "Send" [disabled] [ref=e3707]
+              - generic:
+                - button "Stop generating" [disabled]
+        - paragraph [ref=e3581]:
+          - text: All chats are
+          - button "private" [ref=e3582] [cursor=pointer]
+          - text: . AI can make mistakes.
+  - iframe [ref=e193]:
+    

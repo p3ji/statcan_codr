@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - strong [ref=e44]: Duck.ai
+        - button "Hide sidebar, CTRL + ⇧ + S" [ref=e45] [cursor=pointer]
+      - button "New Chat CTRL + ⇧ + O" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: New Chat
+        - generic [ref=e56]: CTRL + ⇧ + O
+      - generic [ref=e58]:
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+          - button "New Image CTRL + ⇧ + I" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: New Image
+            - generic [ref=e71]: CTRL + ⇧ + I
+        - generic [ref=e345]:
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Chats
+            - button [ref=e351] [cursor=pointer]
+            - button "Search chats" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - generic "Canada salary by age" [ref=e764]:
+              - generic [ref=e639]:
+                - paragraph [ref=e641]: Canada salary by age
+                - button "menu" [ref=e643] [cursor=pointer]
+            - generic "Donations in Canada decline? sources" [ref=e359] [cursor=pointer]:
+              - paragraph [ref=e362]: Donations in Canada decline? sources
+      - generic [ref=e72]:
+        - button "Settings & More" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - strong [ref=e81]: Settings & More
+            - generic [ref=e82]: Free
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - text: by
+            - link "DuckDuckGo" [ref=e88] [cursor=pointer]:
+              - /url: https://duckduckgo.com/about
+          - generic [ref=e89]: "|"
+          - link "Get the App" [ref=e90] [cursor=pointer]:
+            - /url: https://duck.ai/browser
+    - generic [ref=e91]:
+      - generic:
+        - generic:
+          - paragraph: Drop your photos or PDF files
+      - generic [ref=e94]:
+        - generic [ref=e646]:
+          - generic [ref=e649]:
+            - text: Anonymized by DuckDuckGo. Zero data retention for this chat. No AI training.
+            - button "Learn more" [ref=e650] [cursor=pointer]
+          - generic [ref=e651]:
+            - paragraph [ref=e654]: What is the average salary in Canada by age? What's the source?
+            - generic [ref=e658]:
+              - button [ref=e660] [cursor=pointer]
+              - button "Edit" [ref=e665] [cursor=pointer]
+          - generic [ref=e670]:
+            - strong [ref=e770]:
+              - strong [ref=e772]: GPT-5.4
+              - text: nano
+            - generic [ref=e682]:
+              - generic [ref=e683]:
+                - generic [ref=e684]:
+                  - generic [ref=e685]: Searching the web
+                  - generic [ref=e690]:
+                    - paragraph [ref=e691]: Statistics Canada earnings by age average salary by age group
+                    - list [ref=e692]:
+                      - listitem [ref=e693]:
+                        - link "www150.statcan.gc.ca" [ref=e694] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/n1/en/catalogue/11100239
+                      - listitem [ref=e695]:
+                        - link "www12.statcan.gc.ca" [ref=e696] [cursor=pointer]:
+                          - /url: https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/income-revenu/index-en.html
+                      - listitem [ref=e697]:
+                        - link "ca.indeed.com" [ref=e698] [cursor=pointer]:
+                          - /url: https://ca.indeed.com/career-advice/pay-salary/average-canadian-salary-by-age
+                - generic [ref=e699]:
+                  - generic [ref=e700]: Reading website
+                  - list [ref=e703]:
+                    - listitem [ref=e704]:
+                      - link "www150.statcan.gc.ca" [ref=e705] [cursor=pointer]:
+                        - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110023901
+                - generic [ref=e775]:
+                  - generic [ref=e776]: Reading website
+                  - list [ref=e781]:
+                    - listitem [ref=e782]:
+                      - link "www150.statcan.gc.ca" [ref=e783] [cursor=pointer]:
+                        - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710015201
+              - button "Hide Reasoning" [ref=e706] [cursor=pointer]
+            - generic [ref=e785]:
+              - paragraph [ref=e786]:
+                - text: I can’t reliably extract the actual
+                - emphasis [ref=e787]: numeric
+                - text: "“average salary by age” values from Statistics Canada’s tables in this chat (the table contents load dynamically), but the Statistics Canada sources that contain exactly what you’re asking for are:"
+              - list [ref=e788]:
+                - listitem [ref=e789]:
+                  - paragraph [ref=e790]:
+                    - generic [ref=e791]: Table 11-10-0239-01 — “Income of individuals by age group, gender and income source…” (Canada)
+                  - list [ref=e792]:
+                    - listitem [ref=e793]:
+                      - text: Includes age-group breakdowns and an
+                      - generic [ref=e794]: income source
+                      - text: category such as
+                      - generic [ref=e795]: “Employment income”
+                      - text: (the closest match to what most people mean by “salary,” though it’s not limited to wages only).
+                    - listitem [ref=e796]:
+                      - text: "Source/ID: Statistics Canada, Table 11-10-0239-01; DOI:"
+                      - generic [ref=e797]: 10.25318/1110023901-eng
+                      - text: .
+                      - link "Statistics Canada" [ref=e798] [cursor=pointer]:
+                        - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110023901
+                - listitem [ref=e800]:
+                  - paragraph [ref=e801]:
+                    - generic [ref=e802]: Table 37-10-0152-01 — “Average earnings or employment income, by age group and highest certificate, diploma or degree” (Canada)
+                  - list [ref=e803]:
+                    - listitem [ref=e804]:
+                      - text: Breaks down
+                      - generic [ref=e805]: average earnings/employment income by age group
+                      - text: (and also by education credential).
+                    - listitem [ref=e806]:
+                      - text: "Source/ID: Statistics Canada, Table 37-10-0152-01; DOI:"
+                      - generic [ref=e807]: 10.25318/3710015201-eng
+                      - text: .
+                      - link "Statistics Canada" [ref=e808] [cursor=pointer]:
+                        - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710015201
+              - paragraph [ref=e810]:
+                - text: If you tell me which you mean by “salary” (e.g.,
+                - generic [ref=e811]: wages only
+                - text: vs
+                - generic [ref=e812]: employment income
+                - text: vs
+                - generic [ref=e813]: total income
+                - text: ) and what
+                - generic [ref=e814]: age bands
+                - text: you want (e.g., exact ages 18–24 vs 5-year bands), I can point you to the exact table filters to use for the cleanest match.
+              - paragraph [ref=e815]: "RelatedSearchTerms suggestions: [\"Statistics Canada average earnings by age group wages salaries employment income table DOI\", \"Table 11-10-0239-01 employment income age group how to filter\", \"Table 37-10-0152-01 average earnings employment income by age group education credential\"]"
+            - generic [ref=e817]:
+              - heading "Search Results" [level=4] [ref=e818]
+              - list [ref=e820]:
+                - listitem [ref=e821]:
+                  - link "Income of individuals by age group, gender and income source ... statcan.gc.ca" [ref=e822]:
+                    - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110023901
+                    - generic [ref=e824]:
+                      - text: Income of individuals by age group, gender and income source ...
+                      - generic [ref=e825]: statcan.gc.ca
+                - listitem [ref=e826]:
+                  - link "Average earnings or employment income, by age group and highest ... statcan.gc.ca" [ref=e827]:
+                    - /url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710015201
+                    - generic [ref=e829]:
+                      - text: Average earnings or employment income, by age group and highest ...
+                      - generic [ref=e830]: statcan.gc.ca
+            - generic [ref=e831]:
+              - generic [ref=e833]:
+                - button "Positive feedback" [ref=e835] [cursor=pointer]
+                - button "Negative feedback" [ref=e840] [cursor=pointer]
+              - button [ref=e845] [cursor=pointer]
+              - button "Switch model" [ref=e850] [cursor=pointer]
+              - button [ref=e855] [cursor=pointer]
+              - button [ref=e861] [cursor=pointer]
+        - generic [ref=e719]:
+          - button "Delete chat" [ref=e721] [cursor=pointer]
+          - generic [ref=e726]:
+            - generic [ref=e727]:
+              - textbox "Reply..." [ref=e728]
+              - button "Dictate" [ref=e729] [cursor=pointer]
+            - generic [ref=e733]:
+              - generic [ref=e734]:
+                - button "Add images or PDFs" [ref=e865] [cursor=pointer]
+                - button [ref=e743] [cursor=pointer]:
+                  - strong [ref=e748]: Tools
+              - button "Reasoning mode" [ref=e752] [cursor=pointer]:
+                - generic [ref=e753]: Fast
+              - button "Send" [disabled] [ref=e867]
+              - generic:
+                - button "Stop generating" [disabled]
+        - paragraph [ref=e762]:
+          - text: All chats are
+          - button "private" [ref=e763] [cursor=pointer]
+          - text: . AI can make mistakes.
+  - iframe [ref=e193]:
+    

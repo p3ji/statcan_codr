@@ -1,0 +1,169 @@
+- generic [active] [ref=f49e1]:
+  - generic [ref=f49e2]:
+    - link [ref=f49e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f49e4]
+    - navigation "Search Filter" [ref=f49e5]:
+      - list [ref=f49e6]:
+        - listitem [ref=f49e7]:
+          - link "All" [ref=f49e8] [cursor=pointer]:
+            - /url: /search?q=volunteering%20in%20canada%20statistics&FORM=HDRSC1
+        - link "Search" [ref=f49e9] [cursor=pointer]
+        - listitem [ref=f49e17]:
+          - link "Images" [ref=f49e18] [cursor=pointer]:
+            - /url: /images/search?q=volunteering%20in%20canada%20statistics&FORM=HDRSC3
+        - listitem [ref=f49e19]:
+          - link "Videos" [ref=f49e20] [cursor=pointer]:
+            - /url: /videos/search?q=volunteering%20in%20canada%20statistics&FORM=HDRSC4
+        - listitem [ref=f49e21]:
+          - link "Maps" [ref=f49e22] [cursor=pointer]:
+            - /url: /maps?q=volunteering%20in%20canada%20statistics&FORM=HDRSC6
+        - listitem [ref=f49e23]:
+          - link "News" [ref=f49e24] [cursor=pointer]:
+            - /url: /news/search?q=volunteering%20in%20canada%20statistics&FORM=HDRSC7
+        - listitem [ref=f49e25]:
+          - link "Shopping" [ref=f49e26] [cursor=pointer]:
+            - /url: /shop/topics?q=volunteering%20in%20canada%20statistics&FORM=SHOPTB
+      - button "More" [ref=f49e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f49e32]:
+      - button "Microsoft Rewards" [ref=f49e58] [cursor=pointer]:
+        - generic [ref=f49e59]: Rewards
+      - link [ref=f49e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f49e36]
+  - generic [ref=f49e38]:
+    - generic [ref=f49e39]:
+      - generic [ref=f49e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f49e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f49e42]:
+        - listitem [ref=f49e43]:
+          - generic [ref=f49e44]:
+            - generic "Sent by you. volunteering in canada statistics" [ref=f49e45]: volunteering in canada statistics
+            - generic [ref=f49e78]:
+              - button "Like" [ref=f49e79]
+              - button "Dislike" [ref=f49e82]
+          - iframe [ref=f49e86]:
+            - main "Search Results" [ref=f62e3]:
+              - generic [ref=f62e4]:
+                - list [ref=f62e5]:
+                  - listitem [ref=f62e6]:
+                    - region "Copilot Search" [ref=f62e10]:
+                      - list
+                      - generic [ref=f62e11]:
+                        - heading "Search results" [level=2] [ref=f62e13]
+                        - list [ref=f62e19]:
+                          - listitem [ref=f62e20]:
+                            - link "Global Web Icon Made in CA https://madeinca.ca/volunteer-work-statistics-canada Volunteer Work Statistics in Canada - Made in CA In this article, we have collated statistics on volunteer work in Canada. You will find information on how many Canadians actively contribute their time and skills voluntarily, the demographics of Canadian volunteers, and the significance of volun…" [ref=f62e22] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=732d8978e262112b0f89d45bb1e0250f89d81ee20d2349f06041eb859f975ab5JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9tYWRlaW5jYS5jYS92b2x1bnRlZXItd29yay1zdGF0aXN0aWNzLWNhbmFkYS8&ntb=1
+                              - generic [ref=f62e23]:
+                                - img "Global Web Icon" [ref=f62e26]
+                                - generic [ref=f62e27]:
+                                  - generic [ref=f62e28]: Made in CA
+                                  - generic [ref=f62e29]:
+                                    - text: https://madeinca.ca/
+                                    - strong [ref=f62e30]: volunteer
+                                    - text: "-work-"
+                                    - strong [ref=f62e31]: statistics
+                                    - text: "-"
+                                    - strong [ref=f62e32]: canada
+                              - generic [ref=f62e33]: Volunteer Work Statistics in Canada - Made in CA
+                              - generic [ref=f62e34]:
+                                - text: In this article, we have collated
+                                - strong [ref=f62e35]: statistics
+                                - text: "on"
+                                - strong [ref=f62e36]: volunteer
+                                - text: work in
+                                - strong [ref=f62e37]: Canada
+                                - text: . You will find information on how many Canadians actively contribute their time and skills voluntarily, the demographics of Canadian
+                                - strong [ref=f62e38]: volunteers
+                                - text: ", and the significance of"
+                                - strong [ref=f62e39]: volun
+                                - text: …
+                            - link "Global Web Icon Volunteer Canada https://volunteer.ca/data-on-giving-volunteering-and-participating-in-canada Data on Giving, Volunteering and Participating in Canada Collected every five years, this survey captures how Canadians support their communities through time, money, and civic action. The newest data provides a snapshot of how participation changed between 2018 and 2023, a period shaped b…" [ref=f62e41] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=4349be68b5ac2973e208bfd5a8142e1fd74c48334671f68f7164880909adad05JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly92b2x1bnRlZXIuY2EvZGF0YS1vbi1naXZpbmctdm9sdW50ZWVyaW5nLWFuZC1wYXJ0aWNpcGF0aW5nLWluLWNhbmFkYS8&ntb=1
+                              - generic [ref=f62e42]:
+                                - img "Global Web Icon" [ref=f62e45]
+                                - generic [ref=f62e46]:
+                                  - generic [ref=f62e47]: Volunteer Canada
+                                  - generic [ref=f62e48]:
+                                    - text: https://
+                                    - strong [ref=f62e49]: volunteer
+                                    - text: .ca/data-on-giving-
+                                    - strong [ref=f62e50]: volunteering
+                                    - text: "-and-participating-"
+                                    - strong [ref=f62e51]: in-canada
+                              - generic [ref=f62e52]: Data on Giving, Volunteering and Participating in Canada
+                              - generic [ref=f62e53]:
+                                - text: Collected every five years, this survey captures how
+                                - strong [ref=f62e54]: Canadians
+                                - text: support their communities through time, money, and civic action. The newest data provides a snapshot of how participation changed between 2018 and 2023, a period shaped b…
+                          - listitem [ref=f62e55]:
+                            - generic [ref=f62e57]:
+                              - 'link "Global Web Icon Canada.ca • https://www.canada.ca/.../corporate/reports/research/volunteers-canada.html Research summary: Volunteers in Canada - Canada.ca Using the 2018 and 2023 General Social Survey, this research looks at individuals who are volunteering in Canada, how often people volunteer, if v…" [ref=f62e58] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=393a1fa54cdc54e1bd2b270af224d86b662907eee1fab545715c592109a43affJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuY2FuYWRhLmNhL2VuL2VtcGxveW1lbnQtc29jaWFsLWRldmVsb3BtZW50L2NvcnBvcmF0ZS9yZXBvcnRzL3Jlc2VhcmNoL3ZvbHVudGVlcnMtY2FuYWRhLmh0bWw&ntb=1
+                                - generic [ref=f62e59]:
+                                  - img "Global Web Icon" [ref=f62e62]
+                                  - generic [ref=f62e63]:
+                                    - generic [ref=f62e64]: Canada.ca •
+                                    - generic [ref=f62e65]:
+                                      - text: https://www.
+                                      - strong [ref=f62e66]: canada
+                                      - text: .ca/.../corporate/reports/research/
+                                      - strong [ref=f62e67]: volunteers
+                                      - text: "-"
+                                      - strong [ref=f62e68]: canada
+                                      - text: .html
+                                - 'heading "Research summary: Volunteers in Canada - Canada.ca" [level=1] [ref=f62e69]'
+                                - generic [ref=f62e70]:
+                                  - text: Using the 2018 and 2023 General Social Survey, this research looks at individuals who are
+                                  - strong [ref=f62e71]: volunteering in Canada
+                                  - text: ", how often people volunteer, if"
+                                  - strong [ref=f62e72]: v
+                                  - text: …
+                              - link "Statistique Canada • https://www.statcan.gc.ca/en/survey/household/4430 Survey on Giving, Volunteering and Participating (SGVP) Whether or not you volunteer, donate or otherwise take part in community life, your information will contribute to a clearer picture of how Canadians are sha…" [ref=f62e73] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=fddd11052bf203ee22d986bc284c0472f2c93fa6e8dcce17f834ab7c28249208JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuc3RhdGNhbi5nYy5jYS9lbi9zdXJ2ZXkvaG91c2Vob2xkLzQ0MzA&ntb=1
+                                - generic [ref=f62e77]:
+                                  - generic [ref=f62e78]: Statistique Canada •
+                                  - generic [ref=f62e79]: https://www.statcan.gc.ca/en/survey/household/4430
+                                - heading "Survey on Giving, Volunteering and Participating (SGVP)" [level=1] [ref=f62e80]
+                                - generic [ref=f62e81]:
+                                  - text: Whether or not you
+                                  - strong [ref=f62e82]: volunteer
+                                  - text: ", donate or otherwise take part in community life, your information will contribute to a clearer picture of how"
+                                  - strong [ref=f62e83]: Canadians
+                                  - text: are sha…
+                              - link "Global Web Icon Imagine Canada • https://imaginecanada.ca/en/360/new-results-statistics-canadas-survey-giving... New Results from Statistics Canada’s Survey of Giving, Volunteering and ... These findings provide an important update on giving and volunteering trends in Canada, providing a snapshot of how Canadians are engaging with chariti…" [ref=f62e84] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=5a860526adcfd75d2b454dfbeae1c954d62a15eeb7b59414f1bcfbed048c5194JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9pbWFnaW5lY2FuYWRhLmNhL2VuLzM2MC9uZXctcmVzdWx0cy1zdGF0aXN0aWNzLWNhbmFkYXMtc3VydmV5LWdpdmluZy12b2x1bnRlZXJpbmctYW5kLXBhcnRpY2lwYXRpbmc&ntb=1
+                                - generic [ref=f62e85]:
+                                  - img "Global Web Icon" [ref=f62e88]
+                                  - generic [ref=f62e89]:
+                                    - generic [ref=f62e90]: Imagine Canada •
+                                    - generic [ref=f62e91]:
+                                      - text: https://imagine
+                                      - strong [ref=f62e92]: canada
+                                      - text: .ca/en/360/new-results-
+                                      - strong [ref=f62e93]: statistics
+                                      - text: "-"
+                                      - strong [ref=f62e94]: canada
+                                      - text: s-survey-giving...
+                                - heading "New Results from Statistics Canada’s Survey of Giving, Volunteering and ..." [level=1] [ref=f62e95]
+                                - generic [ref=f62e96]:
+                                  - text: These findings provide an important update on giving and
+                                  - strong [ref=f62e97]: volunteering
+                                  - text: trends in
+                                  - strong [ref=f62e98]: Canada
+                                  - text: ", providing a snapshot of how"
+                                  - strong [ref=f62e99]: Canadians
+                                  - text: are engaging with chariti…
+                - list
+                - complementary "Additional Results" [ref=f62e100]:
+                  - list
+    - generic [ref=f49e47]:
+      - status [ref=f49e76]
+      - generic [ref=f49e49]:
+        - textbox "Ask a follow-up" [ref=f49e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f49e55] [cursor=pointer]

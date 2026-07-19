@@ -1,0 +1,79 @@
+[
+ {
+  "pid": "14100288",
+  "coordinate": "1.3.1.1.1.0.0.0.0.0",
+  "label": "Public sector employees, Canada, SA (thousands)",
+  "refPer": "2026-05-01",
+  "value": 4595.4
+ },
+ {
+  "pid": "14100288",
+  "coordinate": "1.3.1.1.1.0.0.0.0.0",
+  "label": "Public sector employees, Canada, SA (thousands)",
+  "refPer": "2026-06-01",
+  "value": 4564.9
+ },
+ {
+  "pid": "45100048",
+  "coordinate": "1.1.1.1.0.0.0.0.0.0",
+  "label": "Always or often feels lonely, % persons",
+  "refPer": "2024-07-01",
+  "value": 12.8
+ },
+ {
+  "pid": "45100048",
+  "coordinate": "1.1.1.1.0.0.0.0.0.0",
+  "label": "Always or often feels lonely, % persons",
+  "refPer": "2024-10-01",
+  "value": 13.4
+ },
+ {
+  "pid": "45100073",
+  "coordinate": "1.1.15.1.0.0.0.0.0.0",
+  "label": "High confidence (4-5) in Federal Parliament, % persons",
+  "refPer": "2024-07-01",
+  "value": 29.6
+ },
+ {
+  "pid": "45100073",
+  "coordinate": "1.1.15.1.0.0.0.0.0.0",
+  "label": "High confidence (4-5) in Federal Parliament, % persons",
+  "refPer": "2024-10-01",
+  "value": 28.3
+ },
+ {
+  "pid": "45100073",
+  "coordinate": "1.1.3.1.0.0.0.0.0.0",
+  "label": "High confidence (4-5) in police, % persons",
+  "refPer": "2024-07-01",
+  "value": 63.5
+ },
+ {
+  "pid": "45100073",
+  "coordinate": "1.1.3.1.0.0.0.0.0.0",
+  "label": "High confidence (4-5) in police, % persons",
+  "refPer": "2024-10-01",
+  "value": 63.4
+ },
+ {
+  "pid": "98100353",
+  "coordinate": "1.1.1.2.21.0.0.0.0.0",
+  "label": "Muslim, %, census 2021",
+  "refPer": "2021-01-01",
+  "value": 4.9
+ },
+ {
+  "pid": "98100353",
+  "coordinate": "1.1.1.2.25.0.0.0.0.0",
+  "label": "No religion and secular perspectives, %, census 2021",
+  "refPer": "2021-01-01",
+  "value": 34.6
+ },
+ {
+  "pid": "98100353",
+  "coordinate": "1.1.1.2.3.0.0.0.0.0",
+  "label": "Christian, % of population, census 2021",
+  "refPer": "2021-01-01",
+  "value": 53.3
+ }
+]

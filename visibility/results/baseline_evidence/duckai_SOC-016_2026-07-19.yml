@@ -1,0 +1,232 @@
+- generic [ref=e1]:
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - strong [ref=e44]: Duck.ai
+        - button "Hide sidebar, CTRL + ⇧ + S" [ref=e45] [cursor=pointer]
+      - button "New Chat CTRL + ⇧ + O" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: New Chat
+        - generic [ref=e56]: CTRL + ⇧ + O
+      - generic [ref=e58]:
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+          - button "New Image CTRL + ⇧ + I" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: New Image
+            - generic [ref=e71]: CTRL + ⇧ + I
+        - generic [ref=e345]:
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Chats
+            - button [ref=e351] [cursor=pointer]
+            - button "Search chats" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - generic "Canada religion statistics" [ref=e3225]:
+              - generic [ref=e3096]:
+                - paragraph [ref=e3098]: Canada religion statistics
+                - button "menu" [ref=e3100] [cursor=pointer]
+            - generic "Canadians' trust in government" [ref=e2913] [cursor=pointer]:
+              - paragraph [ref=e2785]: Canadians' trust in government
+            - generic "Public sector employment in Canada" [ref=e2603] [cursor=pointer]:
+              - paragraph [ref=e2482]: Public sector employment in Canada
+            - generic "Canadian AI adoption statistics" [ref=e2276] [cursor=pointer]:
+              - paragraph [ref=e2152]: Canadian AI adoption statistics
+            - 'generic "Household labor in Canada: men vs women" [ref=e1993] [cursor=pointer]':
+              - paragraph [ref=e1872]: "Household labor in Canada: men vs women"
+            - generic "Volunteer rate in Canada" [ref=e1597] [cursor=pointer]:
+              - paragraph [ref=e1600]: Volunteer rate in Canada
+            - generic "Canada volunteering statistics" [ref=e1304] [cursor=pointer]:
+              - paragraph [ref=e1307]: Canada volunteering statistics
+            - generic "Salary by province (Canada)" [ref=e1097] [cursor=pointer]:
+              - paragraph [ref=e969]: Salary by province (Canada)
+            - generic "Canada salary by age" [ref=e764] [cursor=pointer]:
+              - paragraph [ref=e641]: Canada salary by age
+            - generic "Donations in Canada decline? sources" [ref=e359] [cursor=pointer]:
+              - paragraph [ref=e362]: Donations in Canada decline? sources
+      - generic [ref=e72]:
+        - button "Settings & More" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - strong [ref=e81]: Settings & More
+            - generic [ref=e82]: Free
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - text: by
+            - link "DuckDuckGo" [ref=e88] [cursor=pointer]:
+              - /url: https://duckduckgo.com/about
+          - generic [ref=e89]: "|"
+          - link "Get the App" [ref=e90] [cursor=pointer]:
+            - /url: https://duck.ai/browser
+    - generic [ref=e91]:
+      - generic:
+        - generic:
+          - paragraph: Drop your photos or PDF files
+      - generic [ref=e94]:
+        - generic [ref=e3103]:
+          - generic [ref=e3106]:
+            - text: Anonymized by DuckDuckGo. Zero data retention for this chat. No AI training.
+            - button "Learn more" [ref=e3107] [cursor=pointer]
+          - generic [ref=e3108]:
+            - paragraph [ref=e3111]: How religious is Canada? What do the statistics say, and what's the source?
+            - generic [ref=e3115]:
+              - button [ref=e3117] [cursor=pointer]
+              - button "Edit" [ref=e3122] [cursor=pointer]
+          - generic [ref=e3127]:
+            - strong [ref=e3231]:
+              - strong [ref=e3233]: GPT-5.4
+              - text: nano
+            - generic [ref=e3139]:
+              - generic [ref=e3140]:
+                - generic [ref=e3141]:
+                  - generic [ref=e3142]: Searching the web
+                  - generic [ref=e3147]:
+                    - paragraph [ref=e3148]: Canada religious affiliation statistics 2021 census religion no religion percentage source
+                    - list [ref=e3149]:
+                      - listitem [ref=e3150]:
+                        - link "state.gov" [ref=e3151] [cursor=pointer]:
+                          - /url: https://www.state.gov/reports/2022-report-on-international-religious-freedom/canada
+                      - listitem [ref=e3152]:
+                        - link "en.wikipedia.org" [ref=e3153] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Religion_in_Canada
+                      - listitem [ref=e3154]:
+                        - link "eurel-info.cnrs.fr" [ref=e3155] [cursor=pointer]:
+                          - /url: https://www.eurel-info.cnrs.fr/spip.php?lang=en&rubrique1021=
+                      - listitem [ref=e3156]:
+                        - link "www12.statcan.gc.ca" [ref=e3157] [cursor=pointer]:
+                          - /url: https://www12.statcan.gc.ca/census-recensement/2021/rt-td/ethno-religion-eng.cfm
+                      - listitem [ref=e3158]:
+                        - link "canadianaffairs.news" [ref=e3159] [cursor=pointer]:
+                          - /url: https://www.canadianaffairs.news/2026/01/04/statscan-speeds-up-data-collection-on-religious-affiliation/
+                - generic [ref=e3160]:
+                  - generic [ref=e3161]: Reading website
+                  - list [ref=e3164]:
+                    - listitem [ref=e3165]:
+                      - link "www12.statcan.gc.ca" [ref=e3166] [cursor=pointer]:
+                        - /url: https://www12.statcan.gc.ca/census-recensement/2021/rt-td/ethno-religion-eng.cfm
+                - generic [ref=e3236]:
+                  - generic [ref=e3237]: Searching the web
+                  - generic [ref=e3242]:
+                    - paragraph [ref=e3243]: Statistics Canada 2021 census religion 53.3 no religion 34.6 Christianity 53.3 Catholics 29.9 source The Daily
+                    - list [ref=e3244]:
+                      - listitem [ref=e3245]:
+                        - link "en.wikipedia.org" [ref=e3246] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Religion_in_Canada
+                      - listitem [ref=e3247]:
+                        - link "www150.statcan.gc.ca" [ref=e3248] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm
+                      - listitem [ref=e3249]:
+                        - link "www12.statcan.gc.ca" [ref=e3250] [cursor=pointer]:
+                          - /url: https://www12.statcan.gc.ca/census-recensement/2021/rt-td/ethno-religion-eng.cfm
+                      - listitem [ref=e3251]:
+                        - link "statcan.gc.ca" [ref=e3252] [cursor=pointer]:
+                          - /url: https://www.statcan.gc.ca/en/sc/video/ethnocultural-religious-composition-asl
+                      - listitem [ref=e3253]:
+                        - link "davidschlachter.com" [ref=e3254] [cursor=pointer]:
+                          - /url: https://www.davidschlachter.com/misc/census-religion-2021
+                - generic [ref=e3255]:
+                  - generic [ref=e3256]: Reading document
+                  - generic [ref=e3262]:
+                    - paragraph [ref=e3263]: "53.3"
+                    - list [ref=e3264]:
+                      - listitem [ref=e3265]:
+                        - link "www150.statcan.gc.ca" [ref=e3266] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm
+                - generic [ref=e3267]:
+                  - generic [ref=e3268]: Reading document
+                  - generic [ref=e3274]:
+                    - paragraph [ref=e3275]: "34.6"
+                    - list [ref=e3276]:
+                      - listitem [ref=e3277]:
+                        - link "www150.statcan.gc.ca" [ref=e3278] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm
+              - button "Hide Reasoning" [ref=e3167] [cursor=pointer]
+            - generic [ref=e3280]:
+              - paragraph [ref=e3281]:
+                - text: Canada is comparatively less religious than in the past, and recent official census statistics show that more people report
+                - generic [ref=e3282]: no religion
+                - text: than report
+                - generic [ref=e3283]: Christianity
+                - text: .
+              - heading "What the most recent census statistics say (2021)" [level=3] [ref=e3284]
+              - list [ref=e3285]:
+                - listitem [ref=e3286]:
+                  - generic [ref=e3287]: "Christians (all denominations): 53.3%"
+                  - text: of the population (down from
+                  - generic [ref=e3288]: 67.3%
+                  - text: in 2011 and
+                  - generic [ref=e3289]: 77.1%
+                  - text: in 2001).
+                - listitem [ref=e3290]:
+                  - generic [ref=e3291]: "Catholics: 29.9%"
+                  - text: of the population.
+                - listitem [ref=e3292]:
+                  - generic [ref=e3293]: "No religion / secular perspectives: 34.6%"
+                  - text: of the population (up from
+                  - generic [ref=e3294]: 16.5%
+                  - text: in 2001 and
+                  - generic [ref=e3295]: 23.9%
+                  - text: in 2011).
+                - listitem [ref=e3296]:
+                  - text: "Other major religions in 2021 included:"
+                  - list [ref=e3297]:
+                    - listitem [ref=e3298]:
+                      - generic [ref=e3299]: "Muslim: 4.9%"
+                    - listitem [ref=e3300]:
+                      - generic [ref=e3301]: "Hindu: 2.3%"
+                    - listitem [ref=e3302]:
+                      - generic [ref=e3303]: "Sikh: 2.1%"
+                      - link "Statistics Canada" [ref=e3304] [cursor=pointer]:
+                        - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm
+                      - link "Statistics Canada" [ref=e3306] [cursor=pointer]:
+                        - /url: https://www12.statcan.gc.ca/census-recensement/2021/rt-td/ethno-religion-eng.cfm
+              - heading "Source" [level=3] [ref=e3308]
+              - paragraph [ref=e3309]:
+                - text: Statistics Canada (The Daily),
+                - emphasis [ref=e3310]: "“The Canadian census: A rich portrait of the country’s religious and ethnocultural diversity”"
+                - text: (released for the 2021 Census findings).
+                - link "Statistics Canada" [ref=e3311] [cursor=pointer]:
+                  - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm
+                - link "Statistics Canada" [ref=e3313] [cursor=pointer]:
+                  - /url: https://www12.statcan.gc.ca/census-recensement/2021/rt-td/ethno-religion-eng.cfm
+            - generic [ref=e3316]:
+              - heading "Search Results" [level=4] [ref=e3317]
+              - list [ref=e3319]:
+                - listitem [ref=e3320]:
+                  - 'link "The Canadian census: A rich portrait of the country''s ... statcan.gc.ca" [ref=e3321]':
+                    - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm
+                    - generic [ref=e3323]:
+                      - text: "The Canadian census: A rich portrait of the country's ..."
+                      - generic [ref=e3324]: statcan.gc.ca
+                - listitem [ref=e3325]:
+                  - link "Topics, 2021 Census Ethnocultural and religious diversity statcan.gc.ca" [ref=e3326]:
+                    - /url: https://www12.statcan.gc.ca/census-recensement/2021/rt-td/ethno-religion-eng.cfm
+                    - generic [ref=e3328]:
+                      - text: Topics, 2021 Census Ethnocultural and religious diversity
+                      - generic [ref=e3329]: statcan.gc.ca
+            - generic [ref=e3330]:
+              - generic [ref=e3332]:
+                - button "Positive feedback" [ref=e3334] [cursor=pointer]
+                - button "Negative feedback" [ref=e3339] [cursor=pointer]
+              - button [ref=e3344] [cursor=pointer]
+              - button "Switch model" [ref=e3349] [cursor=pointer]
+              - button [ref=e3354] [cursor=pointer]
+              - button [ref=e3360] [cursor=pointer]
+        - generic [ref=e3180]:
+          - button "Delete chat" [ref=e3182] [cursor=pointer]
+          - generic [ref=e3187]:
+            - generic [ref=e3188]:
+              - textbox "Reply..." [active] [ref=e3189]
+              - button "Dictate" [ref=e3190] [cursor=pointer]
+            - generic [ref=e3194]:
+              - generic [ref=e3195]:
+                - button "Add images or PDFs" [ref=e3364] [cursor=pointer]
+                - button [ref=e3204] [cursor=pointer]:
+                  - strong [ref=e3209]: Tools
+              - button "Reasoning mode" [ref=e3213] [cursor=pointer]:
+                - generic [ref=e3214]: Fast
+              - button "Send" [disabled] [ref=e3366]
+              - generic:
+                - button "Stop generating" [disabled]
+        - paragraph [ref=e3223]:
+          - text: All chats are
+          - button "private" [ref=e3224] [cursor=pointer]
+          - text: . AI can make mistakes.
+  - iframe [ref=e193]:
+    

@@ -1,0 +1,147 @@
+- generic [active] [ref=f91e1]:
+  - generic [ref=f91e2]:
+    - link [ref=f91e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f91e4]
+    - navigation "Search Filter" [ref=f91e5]:
+      - list [ref=f91e6]:
+        - listitem [ref=f91e7]:
+          - link "All" [ref=f91e8] [cursor=pointer]:
+            - /url: /search?q=how%20many%20businesses%20in%20canada%20use%20artificial%20intelligence&FORM=HDRSC1
+        - link "Search" [ref=f91e9] [cursor=pointer]
+        - listitem [ref=f91e17]:
+          - link "Images" [ref=f91e18] [cursor=pointer]:
+            - /url: /images/search?q=how%20many%20businesses%20in%20canada%20use%20artificial%20intelligence&FORM=HDRSC3
+        - listitem [ref=f91e19]:
+          - link "Videos" [ref=f91e20] [cursor=pointer]:
+            - /url: /videos/search?q=how%20many%20businesses%20in%20canada%20use%20artificial%20intelligence&FORM=HDRSC4
+        - listitem [ref=f91e21]:
+          - link "Maps" [ref=f91e22] [cursor=pointer]:
+            - /url: /maps?q=how%20many%20businesses%20in%20canada%20use%20artificial%20intelligence&FORM=HDRSC6
+        - listitem [ref=f91e23]:
+          - link "News" [ref=f91e24] [cursor=pointer]:
+            - /url: /news/search?q=how%20many%20businesses%20in%20canada%20use%20artificial%20intelligence&FORM=HDRSC7
+        - listitem [ref=f91e25]:
+          - link "Shopping" [ref=f91e26] [cursor=pointer]:
+            - /url: /shop/topics?q=how%20many%20businesses%20in%20canada%20use%20artificial%20intelligence&FORM=SHOPTB
+      - button "More" [ref=f91e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f91e32]:
+      - button "Microsoft Rewards" [ref=f91e58] [cursor=pointer]:
+        - generic [ref=f91e59]: Rewards
+      - link [ref=f91e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f91e36]
+  - generic [ref=f91e38]:
+    - generic [ref=f91e39]:
+      - generic [ref=f91e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f91e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f91e42]:
+        - listitem [ref=f91e43]:
+          - generic [ref=f91e44]:
+            - generic "Sent by you. how many businesses in canada use artificial intelligence" [ref=f91e45]: how many businesses in canada use artificial intelligence
+            - generic [ref=f91e78]:
+              - button "Like" [ref=f91e79]
+              - button "Dislike" [ref=f91e82]
+          - iframe [ref=f91e86]:
+            - main "Search Results" [ref=f104e3]:
+              - generic [ref=f104e4]:
+                - list [ref=f104e5]:
+                  - listitem [ref=f104e6]:
+                    - region "Copilot Search" [ref=f104e10]:
+                      - list
+                      - generic [ref=f104e11]:
+                        - heading "Search results" [level=2] [ref=f104e13]
+                        - list [ref=f104e19]:
+                          - listitem [ref=f104e20]:
+                            - link "Global Web Icon Statistics Canada https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025008-eng.htm Analysis on artificial intelligence use by businesses in Canada, second ... Artificial intelligence (AI) is increasingly shaping how work is performed and how businesses operate in Canada. According to Census 2021 data, three in five workers in Canada are employed in occupations with a high potential for exposure to AI tech…" [ref=f104e22] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=b0e2d81318ee3330a2daf74f524fb1335ee808e02e884bacacb1c67ec8deca0dJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cxNTAuc3RhdGNhbi5nYy5jYS9uMS9wdWIvMTEtNjIxLW0vMTEtNjIxLW0yMDI1MDA4LWVuZy5odG0&ntb=1
+                              - generic [ref=f104e23]:
+                                - img "Global Web Icon" [ref=f104e25]
+                                - generic [ref=f104e26]:
+                                  - generic [ref=f104e27]: Statistics Canada
+                                  - generic [ref=f104e28]: https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025008-eng.htm
+                              - generic [ref=f104e29]: Analysis on artificial intelligence use by businesses in Canada, second ...
+                              - generic [ref=f104e30]:
+                                - strong [ref=f104e31]: Artificial intelligence
+                                - text: (AI) is increasingly shaping how work is performed and how
+                                - strong [ref=f104e32]: businesses
+                                - text: operate in
+                                - strong [ref=f104e33]: Canada
+                                - text: . According to Census 2021 data, three in five workers in
+                                - strong [ref=f104e34]: Canada
+                                - text: are employed in occupations with a high potential for exposure to AI tech…
+                            - link "Global Web Icon Statistics Canada https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm Analysis on artificial intelligence use by businesses in Canada, second ... Over the last 12 months, businesses in information and cultural industries (42.3%), finance and insurance (40.4%), and professional, scientific and technical services (32.4%) were most likely to use AI to produce goods and deliver services." [ref=f104e36] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=6e43b5ff8db037af701d7166d047e3b82b78b2c568d2004421fa8a66568b66b7JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cxNTAuc3RhdGNhbi5nYy5jYS9uMS9wdWIvMTEtNjIxLW0vMTEtNjIxLW0yMDI2MDEwLWVuZy5odG0&ntb=1
+                              - generic [ref=f104e37]:
+                                - img "Global Web Icon" [ref=f104e39]
+                                - generic [ref=f104e40]:
+                                  - generic [ref=f104e41]: Statistics Canada
+                                  - generic [ref=f104e42]: https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm
+                              - generic [ref=f104e43]: Analysis on artificial intelligence use by businesses in Canada, second ...
+                              - generic [ref=f104e44]:
+                                - text: Over the last 12 months,
+                                - strong [ref=f104e45]: businesses
+                                - text: in information and cultural industries (42.3%), finance and insurance (40.4%), and professional, scientific and technical services (32.4%) were most likely to use
+                                - strong [ref=f104e46]: AI
+                                - text: to produce goods and deliver services.
+                          - listitem [ref=f104e47]:
+                            - generic [ref=f104e49]:
+                              - link "Global Web Icon publications.gc.ca • https://publications.gc.ca/collections/collection_2025/statcan/11-621-m/11-621-m... Analysis on artificial intelligence use by businesses in Canada, second ... In the second quarter of 2025, 12.2% of businesses reported having used AI to produce goods or deliver services over the 12 months preceding the survey. …" [ref=f104e50] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=469cfd1551a2a0a91f5909eedd8507053d3c4f8285947257cebf44a08896a63bJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9wdWJsaWNhdGlvbnMuZ2MuY2EvY29sbGVjdGlvbnMvY29sbGVjdGlvbl8yMDI1L3N0YXRjYW4vMTEtNjIxLW0vMTEtNjIxLW0yMDI1MDA4LWVuZy5wZGY&ntb=1
+                                - generic [ref=f104e51]:
+                                  - img "Global Web Icon" [ref=f104e54]
+                                  - generic [ref=f104e55]:
+                                    - generic [ref=f104e56]: publications.gc.ca •
+                                    - generic [ref=f104e57]: https://publications.gc.ca/collections/collection_2025/statcan/11-621-m/11-621-m...
+                                - heading "Analysis on artificial intelligence use by businesses in Canada, second ..." [level=1] [ref=f104e58]
+                                - generic [ref=f104e59]:
+                                  - text: In the second quarter of 2025, 12.2% of
+                                  - strong [ref=f104e60]: businesses
+                                  - text: reported having used
+                                  - strong [ref=f104e61]: AI
+                                  - text: to produce goods or deliver services over the 12 months preceding the survey. …
+                              - link "Global Web Icon Made in CA • https://madeinca.ca/artificial-intelligence-canada-statistics Artificial Intelligence Statistics in Canada - Made in CA Over 1,500 AI companies are operating in Canada, and their sizes range from small companies with only a few employees to large companies with hundred…" [ref=f104e62] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=655d225934838e56209cf241b4fd531bde5924437f83c663eec09324ed63940bJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9tYWRlaW5jYS5jYS9hcnRpZmljaWFsLWludGVsbGlnZW5jZS1jYW5hZGEtc3RhdGlzdGljcy8&ntb=1
+                                - generic [ref=f104e63]:
+                                  - img "Global Web Icon" [ref=f104e66]
+                                  - generic [ref=f104e67]:
+                                    - generic [ref=f104e68]: Made in CA •
+                                    - generic [ref=f104e69]:
+                                      - text: https://madeinca.ca/
+                                      - strong [ref=f104e70]: artificial
+                                      - text: "-"
+                                      - strong [ref=f104e71]: intelligence
+                                      - text: "-"
+                                      - strong [ref=f104e72]: canada
+                                      - text: "-statistics"
+                                - heading "Artificial Intelligence Statistics in Canada - Made in CA" [level=1] [ref=f104e73]
+                                - generic [ref=f104e74]:
+                                  - text: Over
+                                  - strong [ref=f104e75]: 1,500 AI companies
+                                  - text: are operating in Canada, and their sizes range from small companies with only a few employees to large companies with hundred…
+                              - link "Global Web Icon chatgpt.ca • https://chatgpt.ca/research/canadian-ai-adoption-2026 Canadian AI Adoption Benchmark 2026 - chatgpt.ca Statistics Canada, “Artificial intelligence adoption and productivity in Canadian firms” (released April 22, 2026) — the 16.8% / 10.2% / 5.1% produc…" [ref=f104e76] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=589f798fdb698b42433b788243b391883e3feeab32145107d7dd6dde63707004JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9jaGF0Z3B0LmNhL3Jlc2VhcmNoL2NhbmFkaWFuLWFpLWFkb3B0aW9uLTIwMjY&ntb=1
+                                - generic [ref=f104e77]:
+                                  - img "Global Web Icon" [ref=f104e80]
+                                  - generic [ref=f104e81]:
+                                    - generic [ref=f104e82]: chatgpt.ca •
+                                    - generic [ref=f104e83]: https://chatgpt.ca/research/canadian-ai-adoption-2026
+                                - heading "Canadian AI Adoption Benchmark 2026 - chatgpt.ca" [level=1] [ref=f104e84]
+                                - generic [ref=f104e85]:
+                                  - text: Statistics
+                                  - strong [ref=f104e86]: Canada
+                                  - text: ", “"
+                                  - strong [ref=f104e87]: Artificial intelligence
+                                  - text: adoption and productivity in Canadian firms” (released April 22, 2026) — the 16.8% / 10.2% / 5.1% produc…
+                - list
+                - complementary "Additional Results" [ref=f104e88]:
+                  - list
+    - generic [ref=f91e47]:
+      - status [ref=f91e76]
+      - generic [ref=f91e49]:
+        - textbox "Ask a follow-up" [ref=f91e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f91e55] [cursor=pointer]

@@ -1,0 +1,156 @@
+- generic [active] [ref=f77e1]:
+  - generic [ref=f77e2]:
+    - link [ref=f77e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f77e4]
+    - navigation "Search Filter" [ref=f77e5]:
+      - list [ref=f77e6]:
+        - listitem [ref=f77e7]:
+          - link "All" [ref=f77e8] [cursor=pointer]:
+            - /url: /search?q=who%20does%20more%20housework%20men%20or%20women%20canada&FORM=HDRSC1
+        - link "Search" [ref=f77e9] [cursor=pointer]
+        - listitem [ref=f77e17]:
+          - link "Images" [ref=f77e18] [cursor=pointer]:
+            - /url: /images/search?q=who%20does%20more%20housework%20men%20or%20women%20canada&FORM=HDRSC3
+        - listitem [ref=f77e19]:
+          - link "Videos" [ref=f77e20] [cursor=pointer]:
+            - /url: /videos/search?q=who%20does%20more%20housework%20men%20or%20women%20canada&FORM=HDRSC4
+        - listitem [ref=f77e21]:
+          - link "Maps" [ref=f77e22] [cursor=pointer]:
+            - /url: /maps?q=who%20does%20more%20housework%20men%20or%20women%20canada&FORM=HDRSC6
+        - listitem [ref=f77e23]:
+          - link "News" [ref=f77e24] [cursor=pointer]:
+            - /url: /news/search?q=who%20does%20more%20housework%20men%20or%20women%20canada&FORM=HDRSC7
+        - listitem [ref=f77e25]:
+          - link "Shopping" [ref=f77e26] [cursor=pointer]:
+            - /url: /shop/topics?q=who%20does%20more%20housework%20men%20or%20women%20canada&FORM=SHOPTB
+      - button "More" [ref=f77e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f77e32]:
+      - button "Microsoft Rewards" [ref=f77e58] [cursor=pointer]:
+        - generic [ref=f77e59]: Rewards
+      - link [ref=f77e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f77e36]
+  - generic [ref=f77e38]:
+    - generic [ref=f77e39]:
+      - generic [ref=f77e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f77e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f77e42]:
+        - listitem [ref=f77e43]:
+          - generic [ref=f77e44]:
+            - generic "Sent by you. who does more housework men or women canada" [ref=f77e45]: who does more housework men or women canada
+            - generic [ref=f77e78]:
+              - button "Like" [ref=f77e79]
+              - button "Dislike" [ref=f77e82]
+          - iframe [ref=f77e86]:
+            - main "Search Results" [ref=f90e3]:
+              - generic [ref=f90e4]:
+                - list [ref=f90e5]:
+                  - listitem [ref=f90e6]:
+                    - region "Copilot Search" [ref=f90e10]:
+                      - list
+                      - generic [ref=f90e11]:
+                        - heading "Search results" [level=2] [ref=f90e13]
+                        - list [ref=f90e19]:
+                          - listitem [ref=f90e20]:
+                            - link "Global Web Icon CBC https://www.cbc.ca/news/canada/women-housework-division-labour-1.7426763 Despite gains, women still do most of the housework. Will this gender ... Statistics Canada data analyzed by the independent national think-tank shows that despite gains with men taking on more household labour, women still continue to do more unpaid work than men." [ref=f90e22] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=066f8e85aa560096e55fdfd6828e88b9beb5efe5a6293cce25849c57c9df367fJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cuY2JjLmNhL25ld3MvY2FuYWRhL3dvbWVuLWhvdXNld29yay1kaXZpc2lvbi1sYWJvdXItMS43NDI2NzYz&ntb=1
+                              - generic [ref=f90e23]:
+                                - img "Global Web Icon" [ref=f90e26]
+                                - generic [ref=f90e27]:
+                                  - generic [ref=f90e28]: CBC
+                                  - generic [ref=f90e29]:
+                                    - text: https://
+                                    - strong [ref=f90e30]: www.cbc.ca
+                                    - text: /news/
+                                    - strong [ref=f90e31]: canada
+                                    - text: /
+                                    - strong [ref=f90e32]: women
+                                    - text: "-"
+                                    - strong [ref=f90e33]: housework
+                                    - text: "-division-labour-1.7426763"
+                              - generic [ref=f90e34]: Despite gains, women still do most of the housework. Will this gender ...
+                              - generic [ref=f90e35]:
+                                - text: Statistics Canada data analyzed by the independent national think-tank shows that despite gains with men taking on more household labour,
+                                - strong [ref=f90e36]: women
+                                - text: still continue to do more unpaid work than men.
+                            - link "Global Web Icon University of Alberta https://www.ualberta.ca/en/folio/2025/01/women-still-doing-most-of-the-housework.html Women are still doing most of the housework | Folio Women are still doing the lion’s share of housework years into their relationships, revealing an uneven gender divide that continues to linger, according to new University of Alberta research." [ref=f90e38] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=723109eaf1a04140fe057e23fdc15b3f9983eca5f1db4cca7be6c42068914977JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cudWFsYmVydGEuY2EvZW4vZm9saW8vMjAyNS8wMS93b21lbi1zdGlsbC1kb2luZy1tb3N0LW9mLXRoZS1ob3VzZXdvcmsuaHRtbA&ntb=1
+                              - generic [ref=f90e39]:
+                                - img "Global Web Icon" [ref=f90e42]
+                                - generic [ref=f90e43]:
+                                  - generic [ref=f90e44]: University of Alberta
+                                  - generic [ref=f90e45]:
+                                    - text: https://www.ualberta.ca/en/folio/2025/01/
+                                    - strong [ref=f90e46]: women
+                                    - text: "-still-doing-most-of-the-"
+                                    - strong [ref=f90e47]: housework
+                                    - text: .html
+                              - generic [ref=f90e48]: Women are still doing most of the housework | Folio
+                              - generic [ref=f90e49]:
+                                - text: Women are still doing the lion’s share of
+                                - strong [ref=f90e50]: housework
+                                - text: years into their relationships, revealing an uneven gender divide that continues to linger, according to new University of Alberta research.
+                          - listitem [ref=f90e51]:
+                            - generic [ref=f90e53]:
+                              - link "Global Web Icon CityNews Edmonton • https://edmonton.citynews.ca/2025/01/13/women-men-housework-study-alberta Women do more housework than men, University of Alberta study finds A new study at the University of Alberta says women are still doing the majority of housework years into their relationships, revealing an uneven gender divid…" [ref=f90e54] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=c6f606800f31206768cbd013bc91a3c22a2312d875c1081f3d5c19972aac9de4JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9lZG1vbnRvbi5jaXR5bmV3cy5jYS8yMDI1LzAxLzEzL3dvbWVuLW1lbi1ob3VzZXdvcmstc3R1ZHktYWxiZXJ0YS8&ntb=1
+                                - generic [ref=f90e55]:
+                                  - img "Global Web Icon" [ref=f90e58]
+                                  - generic [ref=f90e59]:
+                                    - generic [ref=f90e60]: CityNews Edmonton •
+                                    - generic [ref=f90e61]:
+                                      - text: https://edmonton.citynews.ca/2025/01/13/
+                                      - strong [ref=f90e62]: women
+                                      - text: "-"
+                                      - strong [ref=f90e63]: men
+                                      - text: "-"
+                                      - strong [ref=f90e64]: housework
+                                      - text: "-study-alberta"
+                                - heading "Women do more housework than men, University of Alberta study finds" [level=1] [ref=f90e65]
+                                - generic [ref=f90e66]:
+                                  - text: A new study at the University of Alberta says
+                                  - strong [ref=f90e67]: women
+                                  - text: are still doing the majority of housework years into their relationships, revealing an uneven gender divid…
+                              - link "Statistics Canada • https://www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m2021003-eng.htm Couples’ Perceptions of the Division of Household and Child Care Tasks ... Since the 1980s, an increase in men’s and a slight decrease in women’s time spent doing housework has been observed in Canada, coinciding with an in…" [ref=f90e68] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=b23aaccda282422c046e4c9702b7314cf81135fe1565d7b3ee065ffea9b41f79JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cxNTAuc3RhdGNhbi5nYy5jYS9uMS9wdWIvMTFmMDAxOW0vMTFmMDAxOW0yMDIxMDAzLWVuZy5odG0&ntb=1
+                                - generic [ref=f90e72]:
+                                  - generic [ref=f90e73]: Statistics Canada •
+                                  - generic [ref=f90e74]: https://www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m2021003-eng.htm
+                                - heading "Couples’ Perceptions of the Division of Household and Child Care Tasks ..." [level=1] [ref=f90e75]
+                                - generic [ref=f90e76]:
+                                  - text: Since the 1980s, an increase in
+                                  - strong [ref=f90e77]: men
+                                  - text: ’s and a slight decrease in
+                                  - strong [ref=f90e78]: women
+                                  - text: ’s time spent doing
+                                  - strong [ref=f90e79]: housework
+                                  - text: has been observed in
+                                  - strong [ref=f90e80]: Canada
+                                  - text: ", coinciding with an in…"
+                              - 'link "Statistics Canada • https://www150.statcan.gc.ca/n1/daily-quotidien/200219/dq200219e-eng.htm The Daily — Family Matters: Sharing housework ... - Statistics Canada When it comes to sharing household chores, women still do the majority of the laundry (61%) and meal preparation (56%), but men are also increasingly pull…" [ref=f90e81] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=6dbbdbc3b9539eaac7de50cbdf6ad72b9e4f207440c2e0e200c0456a73109caaJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cxNTAuc3RhdGNhbi5nYy5jYS9uMS9kYWlseS1xdW90aWRpZW4vMjAwMjE5L2RxMjAwMjE5ZS1lbmcuaHRt&ntb=1
+                                - generic [ref=f90e85]:
+                                  - generic [ref=f90e86]: Statistics Canada •
+                                  - generic [ref=f90e87]: https://www150.statcan.gc.ca/n1/daily-quotidien/200219/dq200219e-eng.htm
+                                - 'heading "The Daily — Family Matters: Sharing housework ... - Statistics Canada" [level=1] [ref=f90e88]'
+                                - generic [ref=f90e89]:
+                                  - text: When it comes to sharing household chores,
+                                  - strong [ref=f90e90]: women
+                                  - text: still
+                                  - strong [ref=f90e91]: do
+                                  - text: the majority of the laundry (61%) and meal preparation (56%), but
+                                  - strong [ref=f90e92]: men
+                                  - text: are also increasingly pull…
+                - list
+                - complementary "Additional Results" [ref=f90e93]:
+                  - list
+    - generic [ref=f77e47]:
+      - status [ref=f77e76]
+      - generic [ref=f77e49]:
+        - textbox "Ask a follow-up" [ref=f77e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f77e55] [cursor=pointer]

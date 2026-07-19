@@ -1,0 +1,172 @@
+- generic [active] [ref=f133e1]:
+  - generic [ref=f133e2]:
+    - link [ref=f133e3] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=f133e4]
+    - navigation "Search Filter" [ref=f133e5]:
+      - list [ref=f133e6]:
+        - listitem [ref=f133e7]:
+          - link "All" [ref=f133e8] [cursor=pointer]:
+            - /url: /search?q=how%20religious%20is%20canada&FORM=HDRSC1
+        - link "Search" [ref=f133e9] [cursor=pointer]
+        - listitem [ref=f133e17]:
+          - link "Images" [ref=f133e18] [cursor=pointer]:
+            - /url: /images/search?q=how%20religious%20is%20canada&FORM=HDRSC3
+        - listitem [ref=f133e19]:
+          - link "Videos" [ref=f133e20] [cursor=pointer]:
+            - /url: /videos/search?q=how%20religious%20is%20canada&FORM=HDRSC4
+        - listitem [ref=f133e21]:
+          - link "Maps" [ref=f133e22] [cursor=pointer]:
+            - /url: /maps?q=how%20religious%20is%20canada&FORM=HDRSC6
+        - listitem [ref=f133e23]:
+          - link "News" [ref=f133e24] [cursor=pointer]:
+            - /url: /news/search?q=how%20religious%20is%20canada&FORM=HDRSC7
+        - listitem [ref=f133e25]:
+          - link "Shopping" [ref=f133e26] [cursor=pointer]:
+            - /url: /shop/topics?q=how%20religious%20is%20canada&FORM=SHOPTB
+      - button "More" [ref=f133e28] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f133e32]:
+      - button "Microsoft Rewards" [ref=f133e58] [cursor=pointer]:
+        - generic [ref=f133e59]: Rewards
+      - link [ref=f133e33] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - button "Sign in" [ref=f133e36]
+  - generic [ref=f133e38]:
+    - generic [ref=f133e39]:
+      - generic [ref=f133e40]:
+        - text: Content was generated with AI.
+        - link "How bing delivers search results" [ref=f133e41] [cursor=pointer]:
+          - /url: https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3?
+          - text: Learn more
+      - list [ref=f133e42]:
+        - listitem [ref=f133e43]:
+          - generic [ref=f133e44]:
+            - generic "Sent by you. how religious is canada" [ref=f133e45]: how religious is canada
+            - generic [ref=f133e78]:
+              - button "Like" [ref=f133e79]
+              - button "Dislike" [ref=f133e82]
+          - iframe [ref=f133e86]:
+            - main "Search Results" [ref=f146e3]:
+              - generic [ref=f146e4]:
+                - list [ref=f146e5]:
+                  - listitem [ref=f146e6]:
+                    - region "Copilot Search" [ref=f146e10]:
+                      - list
+                      - generic [ref=f146e11]:
+                        - heading "Search results" [level=2] [ref=f146e13]
+                        - list [ref=f146e19]:
+                          - listitem [ref=f146e20]:
+                            - link "Global Web Icon Wikipedia https://en.wikipedia.org/wiki/Religion_in_Canada Religion in Canada - Wikipedia Religion in Canada encompasses a wide range of beliefs and customs that historically has been dominated by Christianity. The constitution of Canada refers to 'God'; however Canada has no official church and the government is officially comm…" [ref=f146e22] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=d0a1ac8675a20c80dfa8918ff9cda162e6fbfb2099da7790fe3fcfe616a7a980JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUmVsaWdpb25faW5fQ2FuYWRh&ntb=1
+                              - generic [ref=f146e23]:
+                                - img "Global Web Icon" [ref=f146e26]
+                                - generic [ref=f146e27]:
+                                  - generic [ref=f146e28]: Wikipedia
+                                  - generic [ref=f146e29]:
+                                    - text: https://
+                                    - strong [ref=f146e30]: en.wikipedia.org
+                                    - text: /wiki/
+                                    - strong [ref=f146e31]: Religion_in_Canada
+                              - generic [ref=f146e32]: Religion in Canada - Wikipedia
+                              - generic [ref=f146e33]: Religion in Canada encompasses a wide range of beliefs and customs that historically has been dominated by Christianity. The constitution of Canada refers to 'God'; however Canada has no official church and the government is officially comm…
+                            - link "Global Web Icon Made in CA https://madeinca.ca/religion-statistics-canada Religion Statistics in Canada - Made in CA You will find information on the biggest religions in Canada, how Canada’s religious landscape is changing, and what different religions are followed in Canada among other key religion statistics." [ref=f146e35] [cursor=pointer]:
+                              - /url: https://www.bing.com/ck/a?!&&p=0942dc6df4adcd39b52950a96a2c01f6705893787d01598060f86b03ce16ec6fJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly9tYWRlaW5jYS5jYS9yZWxpZ2lvbi1zdGF0aXN0aWNzLWNhbmFkYS8&ntb=1
+                              - generic [ref=f146e36]:
+                                - img "Global Web Icon" [ref=f146e39]
+                                - generic [ref=f146e40]:
+                                  - generic [ref=f146e41]: Made in CA
+                                  - generic [ref=f146e42]:
+                                    - text: https://madeinca.ca/
+                                    - strong [ref=f146e43]: religion
+                                    - text: "-statistics-"
+                                    - strong [ref=f146e44]: canada
+                              - generic [ref=f146e45]: Religion Statistics in Canada - Made in CA
+                              - generic [ref=f146e46]:
+                                - text: You will find information on the biggest
+                                - strong [ref=f146e47]: religions
+                                - text: in
+                                - strong [ref=f146e48]: Canada
+                                - text: ", how"
+                                - strong [ref=f146e49]: Canada
+                                - text: ’
+                                - strong [ref=f146e50]: s religious
+                                - text: landscape is changing, and what different
+                                - strong [ref=f146e51]: religions
+                                - text: are followed in
+                                - strong [ref=f146e52]: Canada
+                                - text: among other key
+                                - strong [ref=f146e53]: religion
+                                - text: statistics.
+                          - listitem [ref=f146e54]:
+                            - generic [ref=f146e56]:
+                              - link "Global Web Icon worldculturepost.com • https://www.worldculturepost.com/2026/03/religion-and-beliefs-in-canada.html Religion and Beliefs in Canada - World Culture Post Explore religious diversity and belief systems that influence culture and social life in Canada." [ref=f146e57] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=941c4954b971effcd1ac35f05a4c47ddc5de72698aa377b01104989bed7b1b10JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cud29ybGRjdWx0dXJlcG9zdC5jb20vMjAyNi8wMy9yZWxpZ2lvbi1hbmQtYmVsaWVmcy1pbi1jYW5hZGEuaHRtbA&ntb=1
+                                - generic [ref=f146e58]:
+                                  - img "Global Web Icon" [ref=f146e61]
+                                  - generic [ref=f146e62]:
+                                    - generic [ref=f146e63]: worldculturepost.com •
+                                    - generic [ref=f146e64]:
+                                      - text: https://www.worldculturepost.com/2026/03/
+                                      - strong [ref=f146e65]: religion
+                                      - text: "-and-beliefs-in-"
+                                      - strong [ref=f146e66]: canada
+                                      - text: .html
+                                - heading "Religion and Beliefs in Canada - World Culture Post" [level=1] [ref=f146e67]
+                                - generic [ref=f146e68]:
+                                  - text: Explore
+                                  - strong [ref=f146e69]: religious
+                                  - text: diversity and belief systems that influence culture and social life in
+                                  - strong [ref=f146e70]: Canada
+                                  - text: .
+                              - link "Global Web Icon theworlddata.com • https://theworlddata.com/religion-statistics-in-canada Religion Statistics in Canada 2026 | Affiliation, Trends & Key Facts This article compiles verified religion statistics in Canada 2026 from Statistics Canada, the International Social Survey Programme (ISSP), the Non-Religio…" [ref=f146e71] [cursor=pointer]:
+                                - /url: https://www.bing.com/ck/a?!&&p=a937d2be6846b59f2de99465c8eb287dedaf609d4685632c3adf8f9ef6dd08adJmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly90aGV3b3JsZGRhdGEuY29tL3JlbGlnaW9uLXN0YXRpc3RpY3MtaW4tY2FuYWRhLw&ntb=1
+                                - generic [ref=f146e72]:
+                                  - img "Global Web Icon" [ref=f146e75]
+                                  - generic [ref=f146e76]:
+                                    - generic [ref=f146e77]: theworlddata.com •
+                                    - generic [ref=f146e78]:
+                                      - text: https://theworlddata.com/
+                                      - strong [ref=f146e79]: religion
+                                      - text: "-statistics-in-"
+                                      - strong [ref=f146e80]: canada
+                                - heading "Religion Statistics in Canada 2026 | Affiliation, Trends & Key Facts" [level=1] [ref=f146e81]
+                                - generic [ref=f146e82]:
+                                  - text: This article compiles verified
+                                  - strong [ref=f146e83]: religion
+                                  - text: statistics in
+                                  - strong [ref=f146e84]: Canada
+                                  - text: 2026 from Statistics
+                                  - strong [ref=f146e85]: Canada
+                                  - text: ", the International Social Survey Programme (ISSP), the Non-"
+                                  - strong [ref=f146e86]: Religio
+                                  - text: …
+                              - 'link "Global Web Icon Remitly • https://www.remitly.com/blog/en-ca/lifestyle-and-culture/religion-in-canada-beliefs... Religion in Canada: Beliefs, Faiths, and Cultural Traditions Christianity is the biggest religion in Canada. But religious diversity is important here, with more Muslim, Hindu, and Sikh people every year. Censu…" [ref=f146e87] [cursor=pointer]':
+                                - /url: https://www.bing.com/ck/a?!&&p=d686059038d819a3139bcf5179dd96d9ccde44b0a0083807629ec6b33ff6a584JmltdHM9MTc4NDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=3496b612-2ade-687b-203a-a1892b6069d4&u=a1aHR0cHM6Ly93d3cucmVtaXRseS5jb20vYmxvZy9lbi1jYS9saWZlc3R5bGUtYW5kLWN1bHR1cmUvcmVsaWdpb24taW4tY2FuYWRhLWJlbGllZnMtYW5kLWN1bHR1cmFsLXRyYWRpdGlvbnMv&ntb=1
+                                - generic [ref=f146e88]:
+                                  - img "Global Web Icon" [ref=f146e91]
+                                  - generic [ref=f146e92]:
+                                    - generic [ref=f146e93]: Remitly •
+                                    - generic [ref=f146e94]:
+                                      - text: https://www.remitly.com/blog/en-ca/lifestyle-and-culture/
+                                      - strong [ref=f146e95]: religion
+                                      - text: "-in-"
+                                      - strong [ref=f146e96]: canada
+                                      - text: "-beliefs..."
+                                - 'heading "Religion in Canada: Beliefs, Faiths, and Cultural Traditions" [level=1] [ref=f146e97]'
+                                - generic [ref=f146e98]:
+                                  - text: Christianity is the biggest
+                                  - strong [ref=f146e99]: religion
+                                  - text: in
+                                  - strong [ref=f146e100]: Canada
+                                  - text: . But
+                                  - strong [ref=f146e101]: religious
+                                  - text: diversity is important here, with more Muslim, Hindu, and Sikh people every year. Censu…
+                - list
+                - complementary "Additional Results" [ref=f146e102]:
+                  - list
+    - generic [ref=f133e47]:
+      - status [ref=f133e76]
+      - generic [ref=f133e49]:
+        - textbox "Ask a follow-up" [ref=f133e52]:
+          - /placeholder: "Ask a follow-up "
+        - button "Open Copilot Search menu" [ref=f133e55] [cursor=pointer]

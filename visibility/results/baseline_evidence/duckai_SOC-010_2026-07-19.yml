@@ -1,0 +1,167 @@
+- generic [ref=e1]:
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - strong [ref=e44]: Duck.ai
+        - button "Hide sidebar, CTRL + ⇧ + S" [ref=e45] [cursor=pointer]
+      - button "New Chat CTRL + ⇧ + O" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: New Chat
+        - generic [ref=e56]: CTRL + ⇧ + O
+      - generic [ref=e58]:
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+          - button "New Image CTRL + ⇧ + I" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: New Image
+            - generic [ref=e71]: CTRL + ⇧ + I
+        - generic [ref=e345]:
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Chats
+            - button [ref=e351] [cursor=pointer]
+            - button "Search chats" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - generic "Canadians' trust in government" [ref=e2913]:
+              - generic [ref=e2783]:
+                - paragraph [ref=e2785]: Canadians' trust in government
+                - button "menu" [ref=e2787] [cursor=pointer]
+            - generic "Public sector employment in Canada" [ref=e2603] [cursor=pointer]:
+              - paragraph [ref=e2482]: Public sector employment in Canada
+            - generic "Canadian AI adoption statistics" [ref=e2276] [cursor=pointer]:
+              - paragraph [ref=e2152]: Canadian AI adoption statistics
+            - 'generic "Household labor in Canada: men vs women" [ref=e1993] [cursor=pointer]':
+              - paragraph [ref=e1872]: "Household labor in Canada: men vs women"
+            - generic "Volunteer rate in Canada" [ref=e1597] [cursor=pointer]:
+              - paragraph [ref=e1600]: Volunteer rate in Canada
+            - generic "Canada volunteering statistics" [ref=e1304] [cursor=pointer]:
+              - paragraph [ref=e1307]: Canada volunteering statistics
+            - generic "Salary by province (Canada)" [ref=e1097] [cursor=pointer]:
+              - paragraph [ref=e969]: Salary by province (Canada)
+            - generic "Canada salary by age" [ref=e764] [cursor=pointer]:
+              - paragraph [ref=e641]: Canada salary by age
+            - generic "Donations in Canada decline? sources" [ref=e359] [cursor=pointer]:
+              - paragraph [ref=e362]: Donations in Canada decline? sources
+      - generic [ref=e72]:
+        - button "Settings & More" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - strong [ref=e81]: Settings & More
+            - generic [ref=e82]: Free
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - text: by
+            - link "DuckDuckGo" [ref=e88] [cursor=pointer]:
+              - /url: https://duckduckgo.com/about
+          - generic [ref=e89]: "|"
+          - link "Get the App" [ref=e90] [cursor=pointer]:
+            - /url: https://duck.ai/browser
+    - generic [ref=e91]:
+      - generic:
+        - generic:
+          - paragraph: Drop your photos or PDF files
+      - generic [ref=e94]:
+        - generic [ref=e2790]:
+          - generic [ref=e2793]:
+            - text: Anonymized by DuckDuckGo. Zero data retention for this chat. No AI training.
+            - button "Learn more" [ref=e2794] [cursor=pointer]
+          - generic [ref=e2795]:
+            - paragraph [ref=e2798]: Do Canadians trust the government? What do the numbers say, and what's the source?
+            - generic [ref=e2802]:
+              - button [ref=e2804] [cursor=pointer]
+              - button "Edit" [ref=e2809] [cursor=pointer]
+          - generic [ref=e2814]:
+            - strong [ref=e2919]:
+              - strong [ref=e2921]: GPT-5.4
+              - text: nano
+            - generic [ref=e2826]:
+              - generic [ref=e2827]:
+                - generic [ref=e2828]:
+                  - generic [ref=e2829]: Searching the web
+                  - generic [ref=e2832]:
+                    - paragraph [ref=e2833]: Canada trust in government percentage survey 2024 2025 Canada trust government numbers source
+                    - list [ref=e2834]:
+                      - listitem [ref=e2835]:
+                        - link "pewresearch.org" [ref=e2836] [cursor=pointer]:
+                          - /url: https://www.pewresearch.org/politics/2025/12/04/public-trust-in-government-1958-2025/
+                      - listitem [ref=e2837]:
+                        - link "pmc.ncbi.nlm.nih.gov" [ref=e2838] [cursor=pointer]:
+                          - /url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10490979/
+                      - listitem [ref=e2839]:
+                        - link "oecd.org" [ref=e2840] [cursor=pointer]:
+                          - /url: https://www.oecd.org/en/publications/2026/06/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results-country-notes_6dae3a76/canada_f3eaf3e1.html
+                      - listitem [ref=e2841]:
+                        - link "environicsinstitute.org" [ref=e2842] [cursor=pointer]:
+                          - /url: https://environicsinstitute.org/trust-in-political-institutions-in-canada-2025/
+                      - listitem [ref=e2843]:
+                        - link "ourpublicservice.org" [ref=e2844] [cursor=pointer]:
+                          - /url: https://ourpublicservice.org/know-the-facts/resource-library/reports/the-state-of-public-trust-in-government-2025/
+                - generic [ref=e2924]:
+                  - generic [ref=e2925]: Reading website
+                  - list [ref=e2930]:
+                    - listitem [ref=e2931]:
+                      - link "oecd.org" [ref=e2932] [cursor=pointer]:
+                        - /url: https://www.oecd.org/en/publications/2026/06/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results-country-notes_6dae3a76/canada_f3eaf3e1.html
+              - button "Hide Reasoning" [ref=e2845] [cursor=pointer]
+            - generic [ref=e2934]:
+              - paragraph [ref=e2935]:
+                - text: "In Canada, trust in the federal government is fairly high by international standards: the OECD reports that"
+                - generic [ref=e2936]: 50% of Canadians in 2025
+                - text: said they have
+                - generic [ref=e2937]: high or moderately high trust
+                - text: in the federal government (measured on a
+                - generic [ref=e2938]: 0–10 scale
+                - text: ", where responses"
+                - generic [ref=e2939]: 6–10
+                - text: count as high/moderately high). Trust increased from
+                - generic [ref=e2940]: 45% (2021)
+                - text: to
+                - generic [ref=e2941]: 49% (2023)
+                - text: ", reaching"
+                - generic [ref=e2942]: 50% (2025)
+                - text: .
+                - link "OECD" [ref=e2943] [cursor=pointer]:
+                  - /url: https://www.oecd.org/en/publications/2026/06/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results-country-notes_6dae3a76/canada_f3eaf3e1.html
+              - paragraph [ref=e2945]:
+                - text: "Source: OECD,"
+                - emphasis [ref=e2946]: "OECD Survey on Drivers of Trust in Public Institutions 2026 Results: Canada"
+                - text: (country note; dated
+                - generic [ref=e2947]: 29 June 2026
+                - text: ).
+                - link "OECD" [ref=e2948] [cursor=pointer]:
+                  - /url: https://www.oecd.org/en/publications/2026/06/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results-country-notes_6dae3a76/canada_f3eaf3e1.html
+            - generic [ref=e2951]:
+              - heading "Search Results" [level=4] [ref=e2952]
+              - list [ref=e2954]:
+                - listitem [ref=e2955]:
+                  - link "OECD Survey on Drivers of Trust in Public Institutions 2026 ... oecd.org" [ref=e2956]:
+                    - /url: https://www.oecd.org/en/publications/2026/06/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results-country-notes_6dae3a76/canada_f3eaf3e1.html
+                    - generic [ref=e2958]:
+                      - text: OECD Survey on Drivers of Trust in Public Institutions 2026 ...
+                      - generic [ref=e2959]: oecd.org
+            - generic [ref=e2960]:
+              - generic [ref=e2962]:
+                - button "Positive feedback" [ref=e2964] [cursor=pointer]
+                - button "Negative feedback" [ref=e2969] [cursor=pointer]
+              - button [ref=e2974] [cursor=pointer]
+              - button "Switch model" [ref=e2979] [cursor=pointer]
+              - button [ref=e2984] [cursor=pointer]
+              - button [ref=e2990] [cursor=pointer]
+        - generic [ref=e2868]:
+          - button "Delete chat" [ref=e2870] [cursor=pointer]
+          - generic [ref=e2875]:
+            - generic [ref=e2876]:
+              - textbox "Reply..." [active] [ref=e2877]
+              - button "Dictate" [ref=e2878] [cursor=pointer]
+            - generic [ref=e2882]:
+              - generic [ref=e2883]:
+                - button "Add images or PDFs" [ref=e2994] [cursor=pointer]
+                - button [ref=e2892] [cursor=pointer]:
+                  - strong [ref=e2897]: Tools
+              - button "Reasoning mode" [ref=e2901] [cursor=pointer]:
+                - generic [ref=e2902]: Fast
+              - button "Send" [disabled] [ref=e2996]
+              - generic:
+                - button "Stop generating" [disabled]
+        - paragraph [ref=e2911]:
+          - text: All chats are
+          - button "private" [ref=e2912] [cursor=pointer]
+          - text: . AI can make mistakes.
+  - iframe [ref=e193]:
+    

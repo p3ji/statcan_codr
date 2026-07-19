@@ -1,0 +1,187 @@
+- generic [ref=e1]:
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - strong [ref=e44]: Duck.ai
+        - button "Hide sidebar, CTRL + ⇧ + S" [ref=e45] [cursor=pointer]
+      - button "New Chat CTRL + ⇧ + O" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: New Chat
+        - generic [ref=e56]: CTRL + ⇧ + O
+      - generic [ref=e58]:
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+          - button "New Image CTRL + ⇧ + I" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: New Image
+            - generic [ref=e71]: CTRL + ⇧ + I
+        - generic [ref=e345]:
+          - generic [ref=e349]:
+            - paragraph [ref=e350]: Chats
+            - button [ref=e351] [cursor=pointer]
+            - button "Search chats" [ref=e354] [cursor=pointer]
+          - generic [ref=e357]:
+            - generic "Canadian AI adoption statistics" [ref=e2276]:
+              - generic [ref=e2150]:
+                - paragraph [ref=e2152]: Canadian AI adoption statistics
+                - button "menu" [ref=e2154] [cursor=pointer]
+            - 'generic "Household labor in Canada: men vs women" [ref=e1993] [cursor=pointer]':
+              - paragraph [ref=e1872]: "Household labor in Canada: men vs women"
+            - generic "Volunteer rate in Canada" [ref=e1597] [cursor=pointer]:
+              - paragraph [ref=e1600]: Volunteer rate in Canada
+            - generic "Canada volunteering statistics" [ref=e1304] [cursor=pointer]:
+              - paragraph [ref=e1307]: Canada volunteering statistics
+            - generic "Salary by province (Canada)" [ref=e1097] [cursor=pointer]:
+              - paragraph [ref=e969]: Salary by province (Canada)
+            - generic "Canada salary by age" [ref=e764] [cursor=pointer]:
+              - paragraph [ref=e641]: Canada salary by age
+            - generic "Donations in Canada decline? sources" [ref=e359] [cursor=pointer]:
+              - paragraph [ref=e362]: Donations in Canada decline? sources
+      - generic [ref=e72]:
+        - button "Settings & More" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - strong [ref=e81]: Settings & More
+            - generic [ref=e82]: Free
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - text: by
+            - link "DuckDuckGo" [ref=e88] [cursor=pointer]:
+              - /url: https://duckduckgo.com/about
+          - generic [ref=e89]: "|"
+          - link "Get the App" [ref=e90] [cursor=pointer]:
+            - /url: https://duck.ai/browser
+    - generic [ref=e91]:
+      - generic:
+        - generic:
+          - paragraph: Drop your photos or PDF files
+      - generic [ref=e94]:
+        - generic [ref=e2157]:
+          - generic [ref=e2160]:
+            - text: Anonymized by DuckDuckGo. Zero data retention for this chat. No AI training.
+            - button "Learn more" [ref=e2161] [cursor=pointer]
+          - generic [ref=e2162]:
+            - paragraph [ref=e2165]: How many businesses in Canada use artificial intelligence? What's the source?
+            - generic [ref=e2169]:
+              - button [ref=e2171] [cursor=pointer]
+              - button "Edit" [ref=e2176] [cursor=pointer]
+          - generic [ref=e2181]:
+            - strong [ref=e2282]:
+              - strong [ref=e2284]: GPT-5.4
+              - text: nano
+            - generic [ref=e2193]:
+              - generic [ref=e2194]:
+                - generic [ref=e2195]:
+                  - generic [ref=e2196]: Searching the web
+                  - generic [ref=e2199]:
+                    - paragraph [ref=e2200]: number of businesses in Canada using artificial intelligence how many businesses in Canada use AI source report
+                    - list [ref=e2201]:
+                      - listitem [ref=e2202]:
+                        - link "thehub.ca" [ref=e2203] [cursor=pointer]:
+                          - /url: https://thehub.ca/2026/06/26/canadian-businesses-are-closing-the-ai-adoption-gap/
+                      - listitem [ref=e2204]:
+                        - link "www150.statcan.gc.ca" [ref=e2205] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025008-eng.htm
+                      - listitem [ref=e2206]:
+                        - link "ised-isde.canada.ca" [ref=e2207] [cursor=pointer]:
+                          - /url: https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all
+                      - listitem [ref=e2208]:
+                        - link "cfib-fcei.ca" [ref=e2209] [cursor=pointer]:
+                          - /url: https://www.cfib-fcei.ca/en/research-economic-analysis/ai-adoption
+                - generic [ref=e2287]:
+                  - generic [ref=e2288]: Searching the web
+                  - generic [ref=e2293]:
+                    - paragraph [ref=e2294]: Statistics Canada number of business units in Canada count 2024 2025 total businesses
+                    - list [ref=e2295]:
+                      - listitem [ref=e2296]:
+                        - link "www150.statcan.gc.ca" [ref=e2297] [cursor=pointer]:
+                          - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/250228/dq250228c-cansim-eng.htm
+                      - listitem [ref=e2298]:
+                        - link "ised-isde.canada.ca" [ref=e2299] [cursor=pointer]:
+                          - /url: https://ised-isde.canada.ca/site/sme-research-statistics/en/key-small-business-statistics/key-small-business-statistics-2025
+                      - listitem [ref=e2300]:
+                        - link "statcan.gc.ca" [ref=e2301] [cursor=pointer]:
+                          - /url: https://www.statcan.gc.ca/en/statistical-programs/document/1105_D16_V4
+              - button "Hide Reasoning" [ref=e2210] [cursor=pointer]
+            - generic [ref=e2303]:
+              - paragraph [ref=e2304]:
+                - text: Statistics Canada reports that
+                - generic [ref=e2305]: 19.2% of Canadian businesses
+                - text: used artificial intelligence to
+                - generic [ref=e2306]: produce goods or deliver services
+                - text: in the
+                - generic [ref=e2307]: 12 months preceding
+                - text: the survey (Canadian Survey on Business Conditions,
+                - generic [ref=e2308]: Q2 2026
+                - text: ; data collected early April to early May 2026).
+                - link "Statistics Canada" [ref=e2309] [cursor=pointer]:
+                  - /url: https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm
+              - paragraph [ref=e2311]:
+                - text: To convert that into a
+                - generic [ref=e2312]: number of businesses
+                - text: ", you need the total count of “businesses” matching the survey’s scope. One commonly cited business-count baseline from Statistics Canada is"
+                - generic [ref=e2313]: 1.38 million employer businesses
+                - text: in Canada (point-in-time snapshot, June 2025).
+                - link "Statistics Canada" [ref=e2314] [cursor=pointer]:
+                  - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/250815/dq250815c-eng.htm
+              - paragraph [ref=e2316]:
+                - text: "Using that as a rough denominator:"
+                - generic [ref=e2317]: 1.38 million × 19.2% ≈ 265,000 businesses
+                - text: .
+              - paragraph [ref=e2318]:
+                - generic [ref=e2319]: "Source(s):"
+              - list [ref=e2320]:
+                - listitem [ref=e2321]:
+                  - text: Statistics Canada,
+                  - emphasis [ref=e2322]: "Analysis in Brief: Analysis on artificial intelligence use by businesses in Canada, second quarter of 2026"
+                  - text: (19.2%).
+                  - link "Statistics Canada" [ref=e2323] [cursor=pointer]:
+                    - /url: https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm
+                - listitem [ref=e2325]:
+                  - text: Statistics Canada,
+                  - emphasis [ref=e2326]: "The Daily: Canadian business counts, June 2025"
+                  - text: (1.38 million employer businesses).
+                  - link "Statistics Canada" [ref=e2327] [cursor=pointer]:
+                    - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/250815/dq250815c-eng.htm
+            - generic [ref=e2330]:
+              - heading "Search Results" [level=4] [ref=e2331]
+              - list [ref=e2333]:
+                - listitem [ref=e2334]:
+                  - link "Analysis on artificial intelligence use by businesses in Canada, second ... statcan.gc.ca" [ref=e2335]:
+                    - /url: https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm
+                    - generic [ref=e2337]:
+                      - text: Analysis on artificial intelligence use by businesses in Canada, second ...
+                      - generic [ref=e2338]: statcan.gc.ca
+                - listitem [ref=e2339]:
+                  - link "The Daily — Canadian business counts, June 2025 - Statistics Canada statcan.gc.ca" [ref=e2340]:
+                    - /url: https://www150.statcan.gc.ca/n1/daily-quotidien/250815/dq250815c-eng.htm
+                    - generic [ref=e2342]:
+                      - text: The Daily — Canadian business counts, June 2025 - Statistics Canada
+                      - generic [ref=e2343]: statcan.gc.ca
+            - generic [ref=e2344]:
+              - generic [ref=e2346]:
+                - button "Positive feedback" [ref=e2348] [cursor=pointer]
+                - button "Negative feedback" [ref=e2353] [cursor=pointer]
+              - button [ref=e2358] [cursor=pointer]
+              - button "Switch model" [ref=e2363] [cursor=pointer]
+              - button [ref=e2368] [cursor=pointer]
+              - button [ref=e2374] [cursor=pointer]
+        - generic [ref=e2231]:
+          - button "Delete chat" [ref=e2233] [cursor=pointer]
+          - generic [ref=e2238]:
+            - generic [ref=e2239]:
+              - textbox "Reply..." [active] [ref=e2240]
+              - button "Dictate" [ref=e2241] [cursor=pointer]
+            - generic [ref=e2245]:
+              - generic [ref=e2246]:
+                - button "Add images or PDFs" [ref=e2378] [cursor=pointer]
+                - button [ref=e2255] [cursor=pointer]:
+                  - strong [ref=e2260]: Tools
+              - button "Reasoning mode" [ref=e2264] [cursor=pointer]:
+                - generic [ref=e2265]: Fast
+              - button "Send" [disabled] [ref=e2380]
+              - generic:
+                - button "Stop generating" [disabled]
+        - paragraph [ref=e2274]:
+          - text: All chats are
+          - button "private" [ref=e2275] [cursor=pointer]
+          - text: . AI can make mistakes.
+  - iframe [ref=e193]:
+    
