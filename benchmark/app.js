@@ -42,7 +42,7 @@ async function initDuckDB() {
   conn = await db.connect();
 
   setStatus('loading', 'Downloading benchmark data…');
-  const response = await fetch('public/data/global_cities.parquet');
+  const response = await fetch('../public/data/global_cities.parquet');
   if (!response.ok) throw new Error(`HTTP ${response.status} fetching parquet`);
   const buffer = await response.arrayBuffer();
   await db.registerFileBuffer('global_cities.parquet', new Uint8Array(buffer));

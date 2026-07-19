@@ -11,10 +11,17 @@
 ## Run / build / test
 - Refresh benchmark data: `python pipeline/extract.py` — pulls all `status: confirmed` cells in `pipeline/indicators.yaml` from live APIs, validates, writes `public/data/global_cities.parquet`. Requires `pip install -r pipeline/requirements.txt`.
 - Preview the site locally: `python -m http.server 8081` from the repo root (or use the `dashboard` config in `.claude/launch.json`), then open `http://localhost:8081/`.
-- No build step for the site — `index.html`/`app.js`/`style.css` are served as-is.
+- No build step for the site — HTML/JS/CSS are served as-is.
+- Rebuild the crawlable table mirrors: `python visibility/mirror/build_mirror.py` — fetches the TREATMENT tables in `visibility/mirror/manifest.yaml` from WDS and writes `tables/*.html` + `tables/index.html` + `sitemap.xml`. Never mirrors the control tables (see `docs/mirror_experiment.md`).
+
+## Site layout
+- Root `index.html` is a **homepage** linking to the sub-apps. Deploy uses GitHub Actions (`upload-pages-artifact` with `path: .`), which serves the whole repo, so sub-apps live in their own folders:
+  - `/benchmark/` — Ottawa Global Benchmark dashboard (`benchmark/index.html` + `app.js` + `style.css`; its DuckDB fetch uses `../public/data/global_cities.parquet`).
+  - `/tables/` — crawlable StatCan table mirrors (visibility experiment, generated).
+  - `/map/` — Ottawa population map (planned, see `docs/popmap.md`).
 
 ## Conventions & gotchas
-- **`index.html` must stay at repo root**, not a subfolder — GitHub Pages' "Deploy from a branch" source only supports the repo root or `/docs`. `pipeline/extract.py`'s `OUTPUT_PATH` and `.github/workflows/deploy.yml`'s artifact `path` assume this.
+- **A root `index.html` must exist** (currently the homepage). The Actions deploy serves subfolders fine, but if Pages is ever switched to "Deploy from a branch", only repo root and `/docs` are valid sources — keep the entry point at root. `pipeline/extract.py`'s `OUTPUT_PATH` writes `public/data/global_cities.parquet` at repo root (kept there; the moved dashboard reaches it via `../public/`).
 - **`mcp-statcan`'s bulk-fetch tools are broken** (`get_bulk_vector_data_by_range`, `get_changed_series_data_from_vector` throw HTTP 404/406 on valid vectors). `extract.py` bypasses the MCP entirely and calls StatCan WDS / FRED / ABS SDMX / Statistics Finland PxWeb directly via `requests`.
 - **`mcp-statcan` needs one-time interactive approval** in a terminal `claude` session before its tools are usable — non-terminal Claude Code clients (this includes most embedded/desktop UIs) can't render that approval prompt, so MCP-dependent discovery work has to happen in an actual terminal.
 - Series-level detail (exact vector/series IDs, comparability caveats, unresolved cells) lives in `pipeline/indicators.yaml`, not here — it's the manifest, not documentation to duplicate.

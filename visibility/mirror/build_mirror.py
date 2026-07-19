@@ -427,14 +427,15 @@ Not affiliated with or endorsed by Statistics Canada. Published as part of a
 table values crawlable changes how search and AI answer engines cite them.
 </div>
 <ul>{items}</ul>
-<footer><p>Built {built}. <a href="../">statcan_codr dashboard</a></p></footer>
+<footer><p>Built {built}. <a href="../">statcan_codr home</a> · <a href="../benchmark/">city benchmark dashboard</a></p></footer>
 </body>
 </html>
 """
 
 
 def render_sitemap(pages: list[dict], built_date: str) -> str:
-    urls = [BASE_URL, f"{BASE_URL}tables/"] + [f"{BASE_URL}tables/{p['slug']}.html" for p in pages]
+    urls = [BASE_URL, f"{BASE_URL}benchmark/", f"{BASE_URL}tables/"] + \
+        [f"{BASE_URL}tables/{p['slug']}.html" for p in pages]
     entries = "".join(
         f"<url><loc>{u}</loc><lastmod>{built_date}</lastmod></url>" for u in urls)
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
