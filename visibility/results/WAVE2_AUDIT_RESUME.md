@@ -1,6 +1,25 @@
 # Wave 2 baseline audit — resume marker
 
-**Paused 2026-07-22, resume next session.** Full protocol: `docs/wave2.md`.
+**Paused 2026-07-23 (mid-session, low token budget), resume next session.** Full protocol: `docs/wave2.md`.
+
+## Evidence-storage decision (2026-07-23)
+No tool available this session can write a screenshot PNG to disk (`save_to_disk` on
+claude-in-chrome doesn't land anywhere findable — checked Downloads, Pictures, OneDrive,
+Dropbox, all Claude/Chrome AppData dirs, full-profile scan). Wave-1's `baseline_evidence/`
+PNGs (1674x1221) were produced by a different/prior working path not available now. **User
+decision: inline screenshots in the chat transcript are sufficient** — do NOT chase a
+file-saving mechanism further unless the user raises it again. No `.yml`/`.png` files were
+added to `visibility/results/baseline_evidence/` this session; the 7 Health situation-(b)
+screenshots exist only in the conversation transcript (viewable there, save manually via
+right-click if wanted). CSV coding remains the durable record.
+
+## Repo housekeeping note (2026-07-23)
+Two local clones exist: `C:\Users\pushp\Documents\Projects\statcan_codr` (primary working
+dir, has `.claude/`, used by this agent) and `C:\Users\pushp\Documents\Projects\stats`
+(user's second clone, same origin). **Always push from statcan_codr and `git pull --ff-only`
+in stats before touching files there** — today's 7 wave-2 commits sat unpushed for a while
+and the two clones drifted out of sync until caught. Check `git log --oneline origin/main..HEAD`
+before ending a session.
 
 ## What this is
 Two-pass baseline audit of the 75-query wave-2 set (Health + Immigration + Population)
