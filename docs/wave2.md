@@ -53,16 +53,26 @@ subjects together span the full answerability range.
 
 ## Baseline (to capture before any treatment)
 
-Same protocol as wave 1's 2026-07-19 round, applied to all 75 wave-2 queries:
+Applied to all 75 wave-2 queries, as a **two-pass protocol** (refined 2026-07-22, before
+any evidence was captured — this deliberately narrows wave 1's "screenshot every query"
+rule):
 
 - **Engines:** Bing Copilot Search (primary) and Duck.ai (GPT-5.x-nano, web search on),
   fresh session per query.
-- **Evidence:** full-page screenshot + accessibility-tree capture per query, stored under
-  `visibility/results/baseline_evidence/` with the existing `<engine>_<ID>_<date>.png`
-  scheme.
-- **Coding:** the extended value-match schema (`citation_class`, `cited_sources`,
-  `answer_value`, `statcan_value`, `statcan_vintage_cited`, `best_available_vintage`,
-  `value_match`, `note`) → `visibility/results/baseline_<engine>_wave2_<date>.csv`.
+- **Pass 1 — triage (all 75 queries, text only).** Pull the answer text, code the extended
+  value-match schema (`citation_class`, `cited_sources`, `answer_value`, `statcan_value`,
+  `statcan_vintage_cited`, `best_available_vintage`, `value_match`, `note`) →
+  `visibility/results/baseline_<engine>_wave2_<date>.csv`. No screenshot at this stage.
+- **Pass 2 — evidence (gap cases only).** Capture a full screenshot + accessibility-tree
+  **only** for queries where treatment could plausibly change the outcome: coded
+  answerable (`fully`/`partially`) **and** baseline `citation_class` ∈ {`none`, `indirect`}
+  **or** `value_match` ∈ {`no_number`, `match_stale`, `mismatch_risk`}. Stored under
+  `visibility/results/baseline_evidence/` with the existing `<engine>_<ID>_<date>.png`/`.yml`
+  scheme. **Rationale:** where StatCan's figure is already cited *and* used *and* current
+  (`direct` + `match_current`), mirroring the table cannot move the outcome, so there is no
+  "after" for a "before" screenshot to pair with — capturing it wastes effort and adds no
+  evidentiary value. The gap cases are exactly the mirror-treatment candidates, so evidence
+  is spent only where a before/after contrast can exist.
 - **Reference values:** official current value per treatment table recorded at baseline
   (from WDS) so post-treatment vintage/accuracy shifts are measurable.
 
