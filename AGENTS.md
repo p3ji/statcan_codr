@@ -2,7 +2,7 @@
 
 > Single source of truth for *how to work on this repo*. Claude and Antigravity both read this (`CLAUDE.md` → `@AGENTS.md`; `GEMINI.md` → pointer). Keep it short.
 
-**Brain note (goals, backlog, full context):** `H:\My Drive\Brain2\Projects\statcan_codr.md`
+**Brain note (goals, backlog, full context):** [statcan_codr.md](file:///H:/My%20Drive/Brain2_backup/Projects/statcan_codr.md)
 **GitHub:** `https://github.com/p3ji/stats`
 **Live site:** `https://p3ji.github.io/stats/`
 **Naming:** public repo/URL is `stats`, public brand is **Open Stats Lab** (renamed 2026-07-19 from `statcan_codr` to avoid any impression of Statistics Canada affiliation). The **local folder** and Brain note stay `statcan_codr`; the planned Python library keeps the `statcan_codr` name. Don't "fix" those to match — the split is intentional.
