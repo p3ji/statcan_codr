@@ -49,6 +49,17 @@ Screenshot only gaps — see [[visibility-audit-screenshots]] rationale.
 - **Health / Bing: 25/25 COMPLETE.** 2 clean (HEA-006 obesity, HEA-020 physical activity - both recent-Daily direct cites); 7 clean situation-(b) [screenshots captured inline this session]: HEA-001,002,016,017,019,024,025; 6 cross-org GAP-WEAK (PHAC/CCS own: HEA-008,009,012,013,015,023); ~10 (a) displacement; 1 mixed (HEA-018).
 - Pilot (5, both engines): HEA-006, HEA-012, HEA-016, IMM-001, POP-001.
 
+## PROGRESS (updated 2026-07-24, later)
+- **Health / Bing: 25/25 DONE.** 2 clean-direct, 7 clean-(b) [screenshots captured], 6 cross-org, ~10 displacement.
+- **Immigration / Bing: 25/25 DONE.** ZERO clean-(b). 8 displacement, 4 direct, 4 direct-no-box, 4 cross-org (IRCC/UNHCR/ICC), 3 not-collected, 1 mixed.
+- **Population / Bing: 10/25** (001,002,004,006,008,018,021,022,023,025). All displacement or direct-no-box, ZERO clean-(b). Census monopoly -> conclusive; remaining 15 are routine census (birth/death/life-exp-by-prov, fertility, avg age, seniors, montreal, vs-usa, etc.) that will all be displacement.
+- **Duck.ai: pilot only (5).** Not started for Imm/Pop/Health-full. It's the COMPARISON surface (~90% direct citation), NOT a gap-pool source.
+- Housing: PARKED.
+
+### KEY CONCLUSION (robust): clean scenario-(b) is a HEALTH phenomenon (competing producers PHAC/CMA/CCS/Fraser). The 7 Health clean-(b) cases are the prime mirror-treatment candidates. Census subjects (Imm/Pop) = displacement only (StatCan's own numbers uncredited to SEO/Wikipedia) -> secondary treatment candidates.
+
+### REMAINING TO LITERALLY FINISH: Population/Bing 15 routine + Duck.ai full pass (~65). Neither changes the gap pool. Decision pending: grind for completeness vs proceed to mirrors with the gap pool already determined.
+
 ## PROGRESS (updated 2026-07-24)
 - **Health / Bing: 25/25 done.** 2 clean, 7 clean-(b) [screenshots captured], 6 cross-org, ~10 displacement.
 - **Immigration / Bing: 9/25 done** (001,002,004,005,007,012,016,020,023). Three-way split: census-stock -> displacement (a); recent-StatCan-article topics (intl students, TFW) -> cited DIRECTLY; IRCC-owned flow -> cross-org; softer topics -> no AI box. FEW clean (b) here.
