@@ -5,7 +5,7 @@
 **Brain note (goals, backlog, full context):** [statcan_codr.md](file:///H:/My%20Drive/Brain2_backup/Projects/statcan_codr.md)
 **GitHub:** `https://github.com/p3ji/stats`
 **Live site:** `https://p3ji.github.io/stats/`
-**Naming:** public repo/URL is `stats`, public brand is **Open Stats Lab** (renamed 2026-07-19 from `statcan_codr` to avoid any impression of Statistics Canada affiliation). The **local folder** and Brain note stay `statcan_codr`; the planned Python library keeps the `statcan_codr` name. Don't "fix" those to match — the split is intentional.
+**Naming:** repo/URL, public brand, and local folder are all `stats` / **Open Stats Lab** (repo renamed 2026-07-19 from `statcan_codr`; local folder consolidated to `stats` on 2026-07-24 — the old `Projects\statcan_codr` clone is retired). The Brain note file may still be named `statcan_codr.md`, and the planned Python library keeps the `statcan_codr` name; those are fine to leave.
 **Plan of record:** `docs/phaseone.md` · Visibility study: `docs/visibility.md` (query bank: `visibility/queries.yaml`)
 **Stack:** Python (pipeline) + plain HTML/JS + DuckDB-Wasm (site, no build step)
 
