@@ -49,6 +49,14 @@ Screenshot only gaps — see [[visibility-audit-screenshots]] rationale.
 - **Health / Bing: 25/25 COMPLETE.** 2 clean (HEA-006 obesity, HEA-020 physical activity - both recent-Daily direct cites); 7 clean situation-(b) [screenshots captured inline this session]: HEA-001,002,016,017,019,024,025; 6 cross-org GAP-WEAK (PHAC/CCS own: HEA-008,009,012,013,015,023); ~10 (a) displacement; 1 mixed (HEA-018).
 - Pilot (5, both engines): HEA-006, HEA-012, HEA-016, IMM-001, POP-001.
 
+## PROGRESS (updated 2026-07-24)
+- **Health / Bing: 25/25 done.** 2 clean, 7 clean-(b) [screenshots captured], 6 cross-org, ~10 displacement.
+- **Immigration / Bing: 9/25 done** (001,002,004,005,007,012,016,020,023). Three-way split: census-stock -> displacement (a); recent-StatCan-article topics (intl students, TFW) -> cited DIRECTLY; IRCC-owned flow -> cross-org; softer topics -> no AI box. FEW clean (b) here.
+- **Population / Bing: 3/25 done** (001,018,021) — all displacement (a), census monopoly.
+- Duck.ai passes for Imm/Pop: NOT started (expect mostly direct, like Health pilot).
+- Housing subject: PARKED (user decision 2026-07-24 — finish the 3 pre-registered subjects first).
+- Finding so far: clean (b) is a HEALTH phenomenon (competing producers PHAC/CMA/Fraser). Census subjects (Imm/Pop) are displacement; Immigration gets direct citation where StatCan has recent analytical articles.
+
 ## TODO (in order, commit after each subject×engine batch)
 1. [DONE] Health / Bing — all 25 complete.
 2. Health / Duck.ai — remaining 22 (pilot did 006,012,016). Expect far fewer gaps (Duck.ai cites StatCan directly).
